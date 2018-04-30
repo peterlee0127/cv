@@ -3,7 +3,7 @@ module.exports = [{
   output: {
     // This is necessary for webpack to compile
     // But we never use style-bundle.js
-    filename: './assets/bundle.js',
+    filename: './assets/style-bundle.js',
   },
   module: {
     rules: [{
