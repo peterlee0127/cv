@@ -5,9 +5,12 @@
 #layout: default
 ---
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  {% include header.html %}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="assets/css/bundle.css">
-  <script src="/assets/js/bundle.js"></script>
+  <script src="/assets/js/bundle.js" async></script>
   <body class="container">
     sss
   </body>
+  {% include footer.html %}
 </html>

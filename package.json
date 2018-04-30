@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "CV",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@material/toolbar": "^0.35.0"
+  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
