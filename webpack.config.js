@@ -12,7 +12,7 @@ module.exports = [{
         {
           loader: 'file-loader',
           options: {
-            name: 'bundle.css',
+            name: './assets/css/bundle.css',
           },
         },
         { loader: 'extract-loader' },
