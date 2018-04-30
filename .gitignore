@@ -6,3 +6,5 @@ node_modules/
 .gitignore
 assets/css/bundle.css
 assets/js/bundle.js
+assets/style-bundle.js
+.DS_Store

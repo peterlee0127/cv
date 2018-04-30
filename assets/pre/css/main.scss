@@ -1,5 +1,5 @@
 @import "@material/button/mdc-button";
-
+@import "@material/toolbar/mdc-toolbar";
 .foo-button {
   @include mdc-button-ink-color(teal);
   @include mdc-states(teal);
