@@ -17,8 +17,26 @@ module.exports = [{
         },
         { loader: 'extract-loader' },
         { loader: 'css-loader' },
-        { loader: 'sass-loader' },
+        { loader: 'sass-loader',
+          options: {  includePaths: ['./node_modules']}
+        },
       ]
     }]
   },
 }];
+
+module.exports.push({
+  entry: "./assets/pre/js/main.js",
+  output: {
+    filename: "./assets/js/bundle.js"
+  },
+  module: {
+    loaders: [{
+      test: /\.js$/,
+      loader: 'babel-loader',
+      query: {
+        presets: ['es2015']
+      }
+    }]
+  },
+});
