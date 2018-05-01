@@ -1,0 +1,18 @@
+{
+  "img": "./../assets/image/profile.jpg",
+  "name":"Peter Lee",
+  "menus": [
+    {
+      "text": "1",
+      "link": "#"
+    },
+    {
+      "text": "2",
+      "link": "#"
+    },
+    {
+      "text": "3",
+      "link": "#"
+    }
+  ]
+}

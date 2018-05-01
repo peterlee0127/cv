@@ -8,10 +8,11 @@
 
 <ul id="slide-out" class="sidenav sidenav-fixed">
     <div class="profile-image">
-      <img src="./../assets/image/profile.jpg">
-      <p>大神</p>
+      <img src={{ site.data.menu.img }}>
+      <p>{{site.data.menu.name}}</p>
     </div>
-  <li><a href="#!">First Sidebar Link</a></li>
-  <li><a href="#!">Second Sidebar Link</a></li>
+    {% for menu in site.data.menu.menus %}
+          <li><a href="{{menu.link}}">{{menu.text}}</a></li>
+    {% endfor %}
 </ul>
 <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
