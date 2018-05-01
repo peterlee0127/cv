@@ -1,32 +1,24 @@
-<!-- <section id="sidebar">
-  <nav>
-       <div class="inner">
-           <ul>
-             <li><a href="#intro" class="scrolly active active-locked">Welcome</a></li>
-             <li><a href="#one" class="scrolly">Who we are</a></li>
-             <li><a href="#two" class="scrolly">What we do</a></li>
-             <li><a href="#three" class="scrolly">Get in touch</a></li>
-           </ul>
-       </div>
-     </nav>
-</section> -->
+<nav class="nav-extended">
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo center">Peter Lee</a>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      {% for menu in site.data.menu.menus %}
+            <li><a href="{{menu.link}}">{{menu.text}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="nav-content">
+    <ul class="tabs tabs-transparent">
+      {% for menu in site.data.menu.menus %}
+            <li><a href="{{menu.link}}">{{menu.text}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
 
-
-<!--
-  <ul id="slide-out" class="sidenav sidenav-fixed">
-       <li><a href="#!">First Sidebar Link</a></li>
-       <li><a href="#!">Second Sidebar Link</a></li>
-     </ul>
-     <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a> -->
-<!--
-<ul id="slide-out" class="sidenav sidenav-fixed">
-    <div class="profile-image">
-      <img src={{ site.data.menu.img }}>
-      <p>{{site.data.menu.name}}</p>
-    </div>
-    {% for menu in site.data.menu.menus %}
-          <li><a href="{{menu.link}}">{{menu.text}}</a></li>
-    {% endfor %}
+<ul class="sidenav" id="mobile-demo">
+  {% for menu in site.data.menu.menus %}
+        <li><a href="{{menu.link}}">{{menu.text}}</a></li>
+  {% endfor %}
 </ul>
-<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="Medium material-icons">menu</i></a>
--->
