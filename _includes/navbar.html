@@ -1,26 +1,18 @@
 <div class="navbar-fixed">
-<nav class="nav-extended">
+<nav>
   <div class="nav-wrapper">
-    <a href="#" class="brand-logo center">Peter Lee</a>
+    <a href="#!" class="brand-logo"> Peter Lee</a>
     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      {% for menu in site.data.menu.menus %}
-            <li><a href="{{menu.link}}">{{menu.text}}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="nav-content">
-    <ul class="tabs tabs-transparent">
+    <ul class="right hide-on-med-and-down">
       {% for menu in site.data.menu.menus %}
             <li><a href="{{menu.link}}">{{menu.text}}</a></li>
       {% endfor %}
     </ul>
   </div>
 </nav>
-
+</div>
 <ul class="sidenav" id="mobile-demo">
   {% for menu in site.data.menu.menus %}
         <li><a href="{{menu.link}}">{{menu.text}}</a></li>
   {% endfor %}
 </ul>
-</div>
