@@ -1,0 +1,34 @@
+<<<<<<< HEAD
+=======
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+.profile-image {
+  margin-top: 20px;
+  text-align: center;
+  border-bottom: 1px solid #d1d1d1;
+  img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+  }
+}
+
+
+main{
+  p {
+    font-size: 15px;
+  }
+  strong{
+    font-size: 20px;
+  }
+}
+@import "@material/top-app-bar/mdc-top-app-bar";
+>>>>>>> 0e98c51567b78a954d5069dda742abbfedda7c7b
