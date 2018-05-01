@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 header, main, footer {
   padding-left: 300px;
 }
@@ -30,5 +28,3 @@ main{
     font-size: 20px;
   }
 }
-@import "@material/top-app-bar/mdc-top-app-bar";
->>>>>>> 0e98c51567b78a954d5069dda742abbfedda7c7b
