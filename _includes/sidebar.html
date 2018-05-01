@@ -1,0 +1,10 @@
+<ul id="slide-out" class="top-nav sidenav-trigger full hide-on-large-only" width='300px'>
+    <div class="profile-image">
+      <img src={{ site.data.menu.img }}>
+      <p>{{site.data.menu.name}}</p>
+    </div>
+    {% for menu in site.data.menu.menus %}
+          <li><a href="{{menu.link}}">{{menu.text}}</a></li>
+    {% endfor %}
+</ul>
+<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
