@@ -4,11 +4,11 @@
   "menus": [
     {
       "text": "1",
-      "link": "#"
+      "link": "#one"
     },
     {
       "text": "2",
-      "link": "#"
+      "link": "#two"
     },
     {
       "text": "3",
