@@ -30,6 +30,7 @@ module.exports.push({
   output: {
     filename: "./assets/js/bundle.js"
   },
+  devtool:'source-map',
   module: {
     loaders: [{
       test: /\.js$/,

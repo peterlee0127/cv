@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "@material/button": "^0.35.0",
-    "@material/toolbar": "^0.35.0"
+    "@material/toolbar": "^0.35.0",
+    "materialize-css": "^1.0.0-beta",
+    "simpler-sidebar": "^2.2.5"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
