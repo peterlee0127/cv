@@ -3,8 +3,10 @@
 
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-  <link rel="stylesheet" href="/assets/bundle.js">
+  {% include header.html %}
+  {% include navbar.html %}
   <body class="container">
     {{ contain }}
   </body>
+  {% include footer.html %}
 </html>
