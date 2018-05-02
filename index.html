@@ -1,30 +1,13 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-#layout: default
+layout: default
 ---
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-{% include header.html %}
-<body>
-  <!-- <div class="col s12 m8 offset-m1 xl7 offset-xl1"> -->
-    {% include navbar.html %}
-  <div class="container">
-  <!-- <div id="structure" class="section scrollspy"> -->
-      <p class="caption">
-        <div id="one" class="col s12">Test 1</div>
-        <img src="/assets/image/Samples.png" width='100%'>
-        <img src="/assets/image/Samples.png" width='100%'>
-        <div id="two" class="col s12">Test 2</div>
-        <img src="/assets/image/Samples.png" width='100%'>
-        <img src="/assets/image/Samples.png" width='100%'>
-        <div id="three" class="col s12">Test 3</div>
-        <img src="/assets/image/Samples.png" width='100%'>
-        <div id="four" class="col s12">Test 4</div>
-        <img src="/assets/image/Samples.png" width='100%'>
-      </p>
-    <!-- </div> -->
-    </div>
-  </body>
-  {% include footer.html %}
-</html>
+  {% for menu in site.data.menu.menus %}
+  {% if menu.include %}
+        <div id="{{menu.link}}" class="block col s12">
+        <p class="caption">
+        <h2>{{menu.text}}</h2>
+        {% include paragraph/{{menu.include}} %}
+        </p>
+        </div>
+  {% endif %}
+  {% endfor %}

@@ -1,12 +1,14 @@
 ---
 ---
-
-<!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-  {% include header.html %}
-  {% include navbar.html %}
-  <body class="container">
-    {{ contain }}
-  </body>
+{% include header.html %}
+{% include navbar.html %}
+<main>
+<body>
+  <div class="contain">
+  {{ content }}
+  </div>
+</body>
+</main>
   {% include footer.html %}
 </html>

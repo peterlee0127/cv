@@ -1,0 +1,40 @@
+header, main, footer {
+  padding-left: 300px; }
+
+@media only screen and (max-width: 992px) {
+  header, main, footer {
+    padding-left: 0; } }
+
+.profile-image {
+  margin-top: 20px;
+  text-align: center;
+  border-bottom: 1px solid #d1d1d1; }
+  .profile-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%; }
+
+main p {
+  font-size: 15px; }
+
+main strong {
+  font-size: 20px; }
+
+.contain {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 10px; }
+
+.icon-footer {
+  text-align: center;
+  padding-top: 40px; }
+
+.block {
+  padding-top: 80px; }
+
+@media screen and (min-width: 992px) {
+  .navbar-fixed {
+    display: none; }
+  .mobile-side {
+    display: none; } }
