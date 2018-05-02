@@ -21,6 +21,8 @@ header, main, footer {
 
 
 main{
+  margin-left: 40px;
+  margin-top: 40px;
   p {
     font-size: 15px;
   }
@@ -29,6 +31,11 @@ main{
   }
 }
 
+@media screen and (min-width: 992px) {
+    .navbar-fixed {
+        display: none;
+    }
+}
 
 .brand-logo {
   left: 20px;

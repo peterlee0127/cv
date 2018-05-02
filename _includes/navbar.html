@@ -2,7 +2,7 @@
 <nav>
   <div class="nav-wrapper">
     <a href="#!" class="brand-logo"> {{ site.title }}</a>
-    <a href="#" data-target="mobile-view" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <a href="#" data-target="mobile-view"  class="hide-on-large-only sidenav-trigger"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
       {% for menu in site.data.menu.menus %}
             <li><a href="{{menu.link}}">{{menu.text}}</a></li>
