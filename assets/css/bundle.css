@@ -1,0 +1,30 @@
+header, main, footer {
+  padding-left: 300px; }
+
+@media only screen and (max-width: 992px) {
+  header, main, footer {
+    padding-left: 0; } }
+
+.profile-image {
+  margin-top: 20px;
+  text-align: center;
+  border-bottom: 1px solid #d1d1d1; }
+  .profile-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%; }
+
+main {
+  margin-left: 40px;
+  margin-top: 40px; }
+  main p {
+    font-size: 15px; }
+  main strong {
+    font-size: 20px; }
+
+@media screen and (min-width: 992px) {
+  .navbar-fixed {
+    display: none; } }
+
+.brand-logo {
+  left: 20px; }

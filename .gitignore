@@ -3,8 +3,6 @@ _site/
 .jekyll-metadata
 node_modules/
 .vscode/settings.json
-assets/css/bundle.css
-assets/js/bundle.js
 assets/style-bundle.js
 .DS_Store
 assets/js/bundle.js.map
