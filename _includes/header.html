@@ -4,12 +4,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <header>
     <ul id="nav-mobile" class="sidenav sidenav-fixed">
-      <div class="profile-image">
-        <img src={{ site.data.menu.img }}>
-        <p>{{site.data.menu.name}}</p>
-      </div>
-      {% for menu in site.data.menu.menus %}
-            <li><a href="{{menu.link}}">{{menu.text}}</a></li>
-      {% endfor %}
+      {% include sidemenu.html %}
     </ul>
   </header>

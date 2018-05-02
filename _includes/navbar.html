@@ -3,20 +3,9 @@
   <div class="nav-wrapper">
     <a href="#!" class="brand-logo"> {{ site.title }}</a>
     <a href="#" data-target="mobile-view"  class="hide-on-large-only sidenav-trigger"><i class="material-icons">menu</i></a>
-    <ul class="right hide-on-med-and-down">
-      {% for menu in site.data.menu.menus %}
-            <li><a href="{{menu.link}}">{{menu.text}}</a></li>
-      {% endfor %}
-    </ul>
   </div>
 </nav>
 </div>
-<ul class="sidenav" id="mobile-view">
-  <div class="profile-image">
-    <img src={{ site.data.menu.img }}>
-    <p>{{site.data.menu.name}}</p>
-  </div>
-  {% for menu in site.data.menu.menus %}
-        <li><a href="{{menu.link}}">{{menu.text}}</a></li>
-  {% endfor %}
+<ul class="sidenav mobile-side" id="mobile-view">
+  {% include sidemenu.html %}
 </ul>

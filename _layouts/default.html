@@ -3,12 +3,12 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 {% include header.html %}
 {% include navbar.html %}
+<main>
 <body>
-  <main>
-  <div class="container">
+  <div class="contain">
   {{ content }}
   </div>
-  </main>
-  </body>
+</body>
+</main>
   {% include footer.html %}
 </html>

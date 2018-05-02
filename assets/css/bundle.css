@@ -14,17 +14,25 @@ header, main, footer {
     height: auto;
     border-radius: 50%; }
 
-main {
-  margin-left: 40px;
-  margin-top: 40px; }
-  main p {
-    font-size: 15px; }
-  main strong {
-    font-size: 20px; }
+main p {
+  font-size: 15px; }
+
+main strong {
+  font-size: 20px; }
+
+.contain {
+  width: 90%;
+  margin: auto;
+  padding: 10px; }
+
+.block {
+  padding-top: 80px; }
+
+.mobile-side {
+  background-color: red; }
 
 @media screen and (min-width: 992px) {
   .navbar-fixed {
+    display: none; }
+  .mobile-side {
     display: none; } }
-
-.brand-logo {
-  left: 20px; }

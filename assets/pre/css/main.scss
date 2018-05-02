@@ -21,8 +21,7 @@ header, main, footer {
 
 
 main{
-  margin-left: 40px;
-  margin-top: 40px;
+  // margin-top: 40px;
   p {
     font-size: 15px;
   }
@@ -31,12 +30,26 @@ main{
   }
 }
 
+.contain {
+  width:90%;
+  margin: auto;
+    padding: 10px;
+}
+
+.block {
+  // position: relative;
+  padding-top:80px;
+}
+
+.mobile-side {
+    background-color: red;
+}
+
 @media screen and (min-width: 992px) {
     .navbar-fixed {
         display: none;
     }
-}
-
-.brand-logo {
-  left: 20px;
+    .mobile-side {
+        display: none;
+    }
 }
