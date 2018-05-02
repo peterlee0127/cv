@@ -3,6 +3,10 @@ $(document).ready(function(){
 });
 
 
-$(document).ready(function(){
-  $('.parallax').parallax();
+$(".menu-link").click(function(e) {
+    let aid = $(this).attr("href");
+    if(aid.includes("#")){
+      e.preventDefault();
+      $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+    }
 });

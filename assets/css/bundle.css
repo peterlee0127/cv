@@ -21,15 +21,17 @@ main strong {
   font-size: 20px; }
 
 .contain {
+  text-align: center;
   width: 90%;
   margin: auto;
   padding: 10px; }
 
+.icon-footer {
+  text-align: center;
+  padding-top: 40px; }
+
 .block {
   padding-top: 80px; }
-
-.mobile-side {
-  background-color: red; }
 
 @media screen and (min-width: 992px) {
   .navbar-fixed {

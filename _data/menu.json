@@ -1,22 +1,51 @@
 {
-  "img": "./../assets/image/profile.jpg",
+  "img": "/assets/image/profile.jpg",
   "name":"Peter Lee",
   "menus": [
     {
       "text": "About",
-      "link": "#one"
+      "link": "about",
+      "include":"education.html",
+      "icon":"account_circle"
     },
     {
       "text": "Education & Work",
-      "link": "#two"
+      "link": "education",
+      "include":"work.html",
+      "icon":"school"
     },
     {
       "text": "Selected Awards",
-      "link": "#three"
+      "link": "award",
+      "include":"work.html",
+      "icon":"grade"
     },
     {
       "text": "Selected Projects",
-      "link": "#four"
+      "link": "projects",
+      "include":"work.html",
+      "icon":"assignment"
+    },
+    { "divider": "true" },
+    {
+      "text": "Blog",
+      "link": "https://blog.peterlee0127.com",
+      "target": "target='_blank'",
+      "icon":"web"
+    }
+  ],
+  "footer-icons": [
+    {
+      "icon": "fab fa-github",
+      "link": "https://github.com/peterlee0127"
+    },
+    {
+      "icon": "fab fa-twitter",
+      "link": "https://twitter.com/peterlee0127"
+    },
+    {
+      "icon": "far fa-envelope-open",
+      "link": "mailto:peterlee0127@gmail.com"
     }
   ]
 }

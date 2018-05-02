@@ -74,8 +74,12 @@ $(document).ready(function () {
   $('.sidenav').sidenav();
 });
 
-$(document).ready(function () {
-  $('.parallax').parallax();
+$(".menu-link").click(function (e) {
+  var aid = $(this).attr("href");
+  if (aid.includes("#")) {
+    e.preventDefault();
+    $('html,body').animate({ scrollTop: $(aid).offset().top }, 'slow');
+  }
 });
 
 /***/ })
