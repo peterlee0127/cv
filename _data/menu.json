@@ -9,16 +9,16 @@
       "icon":"account_circle"
     },
     {
-      "text": "Education",
-      "link": "education",
-      "include":"education.html",
-      "icon":"school"
-    },
-    {
       "text": "Work",
       "link": "work",
       "include":"work.html",
       "icon":"work"
+    },
+    {
+      "text": "Education",
+      "link": "education",
+      "include":"education.html",
+      "icon":"school"
     },
     {
       "text": "Awards",

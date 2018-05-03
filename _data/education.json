@@ -1,0 +1,19 @@
+[
+  {
+    "name":"University Of Aizu, Fukushima, Japan.",
+    "logo":"/assets/image/UOA_logo.gif",
+    "p":[
+      "2016 March - 2017 March",
+      "Master Degree of Computer Science.",
+      "Double Degree Program."
+    ]
+  },
+  {
+    "name":"Tamkang University, Taipei, Taiwan.",
+    "logo":"/assets/image/tku_logo.gif",
+    "p":[
+      "2014-2017 Master Degree of Computer Science.",
+      "2011-2014 Bachelor of Engineering (B.E.) Computer Science."
+    ]
+  }
+]
