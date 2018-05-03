@@ -10,3 +10,11 @@ $(".menu-link").click(function(e) {
       $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
     }
 });
+
+
+
+ // Or with jQuery
+
+ // $(document).ready(function(){
+ //   $('.scrollspy').scrollSpy();
+ // });
