@@ -88,6 +88,12 @@ $(".menu-link").click(function (e) {
 //   $('.scrollspy').scrollSpy();
 // });
 
+
+document.addEventListener('DOMContentLoaded', function () {
+  var elems = document.querySelectorAll('.parallax');
+  var instances = M.Parallax.init(elems, 400);
+});
+
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map
