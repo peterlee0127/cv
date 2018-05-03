@@ -72,3 +72,9 @@ nav {
     display: none; }
   .mobile-side {
     display: none; } }
+
+.active > i.material-icons {
+  color: #2b92ee !important; }
+
+.active {
+  color: #2b92ee !important; }

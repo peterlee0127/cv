@@ -3,7 +3,7 @@ layout: default
 ---
 {% for menu in site.data.menu.menus %}
 {% if menu.include %}
-      <div id="{{menu.link}}">
+      <div id="{{menu.link}}" class="scrollspy">
       {% include paragraph/{{menu.include}} text=menu.text  %}
       </div>
 {% endif %}
