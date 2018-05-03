@@ -5,28 +5,35 @@
     {
       "text": "About",
       "link": "about",
-      "include":"education.html",
+      "include":"about.html",
       "icon":"account_circle"
     },
     {
-      "text": "Education & Work",
+      "text": "Education",
       "link": "education",
-      "include":"work.html",
+      "include":"education.html",
       "icon":"school"
     },
     {
-      "text": "Selected Awards",
+      "text": "Work",
+      "link": "work",
+      "include":"work.html",
+      "icon":"work"
+    },
+    {
+      "text": "Awards",
       "link": "award",
       "include":"work.html",
       "icon":"grade"
     },
     {
-      "text": "Selected Projects",
+      "text": "Projects",
       "link": "projects",
       "include":"work.html",
       "icon":"assignment"
     },
-    { "divider": "true" },
+    {
+      "divider": "true" },
     {
       "text": "Blog",
       "link": "https://blog.peterlee0127.com",
@@ -42,6 +49,10 @@
     {
       "icon": "fab fa-twitter",
       "link": "https://twitter.com/peterlee0127"
+    },
+    {
+      "icon": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/in/peter-lee-71045879/"
     },
     {
       "icon": "far fa-envelope-open",

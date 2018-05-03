@@ -82,6 +82,12 @@ $(".menu-link").click(function (e) {
   }
 });
 
+// Or with jQuery
+
+// $(document).ready(function(){
+//   $('.scrollspy').scrollSpy();
+// });
+
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map
