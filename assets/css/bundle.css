@@ -1,10 +1,3 @@
-header, main, footer {
-  padding-left: 300px; }
-
-@media only screen and (max-width: 992px) {
-  header, main, footer {
-    padding-left: 0; } }
-
 .profile-image {
   margin-top: 20px;
   text-align: center;
@@ -20,18 +13,44 @@ main p {
 main strong {
   font-size: 20px; }
 
-.contain {
+.container-fixed {
   text-align: center;
   width: 90%;
   margin: auto;
   padding: 10px; }
 
-.icon-footer {
-  text-align: center;
-  padding-top: 40px; }
-
 .block {
-  padding-top: 80px; }
+  padding-top: 100px; }
+
+.parallel {
+  position: relative;
+  background: transparent; }
+  .parallel img {
+    width: 100%; }
+
+.text-on-picture {
+  text-align: center;
+  color: #d8d8d8;
+  background: rgba(0, 0, 0, 0.7);
+  text-shadow: 0px 0px 3px #222;
+  position: absolute;
+  right: 0px;
+  top: 20%; }
+
+header, main, footer {
+  padding-left: 300px; }
+
+@media only screen and (max-width: 992px) {
+  header, main, footer {
+    padding-left: 0; }
+  .text-on-picture {
+    top: 20%;
+    bottom: 20%; } }
+
+@media only screen and (max-width: 600px) {
+  .text-on-picture {
+    top: 0%;
+    bottom: 0%; } }
 
 @media screen and (min-width: 992px) {
   .navbar-fixed {

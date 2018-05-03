@@ -1,13 +1,10 @@
 ---
 layout: default
 ---
-  {% for menu in site.data.menu.menus %}
-  {% if menu.include %}
-        <div id="{{menu.link}}" class="block col s12">
-        <p class="caption">
-        <h2>{{menu.text}}</h2>
-        {% include paragraph/{{menu.include}} %}
-        </p>
-        </div>
-  {% endif %}
-  {% endfor %}
+{% for menu in site.data.menu.menus %}
+{% if menu.include %}
+      <div id="{{menu.link}}">
+      {% include paragraph/{{menu.include}} text=menu.text  %}
+      </div>
+{% endif %}
+{% endfor %}
