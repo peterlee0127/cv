@@ -11,8 +11,6 @@ $(".menu-link").click(function(e) {
     }
 });
 
-
-
  // Or with jQuery
 
  // $(document).ready(function(){
