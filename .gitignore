@@ -7,3 +7,5 @@ assets/style-bundle.js
 .DS_Store
 assets/js/bundle.js.map
 assets/style-bundle.js
+assets/css/bundle.css
+assets/js/bundle.js

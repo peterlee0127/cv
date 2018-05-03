@@ -15,6 +15,9 @@
       "icon":"work"
     },
     {
+      "include":"parallax.html"
+    },
+    {
       "text": "Education",
       "link": "education",
       "include":"education.html",

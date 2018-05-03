@@ -49,6 +49,13 @@ main{
   }
 }
 
+.parallax-container {
+    .parallax {
+
+      // height: 300px;
+    }
+  }
+
 .text-on-picture {
   text-align: center;
   color: #d8d8d8;
@@ -107,4 +114,8 @@ nav {
 
 .active{
   color: #2b92ee !important;
+}
+
+.footer {
+  margin-top: 200px;
 }
