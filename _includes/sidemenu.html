@@ -9,7 +9,7 @@
           <li><a class="menu-link" href="{% if menu.target ==null %}#{% endif %}{{menu.link}}" {{menu.target}}><i class="material-icons">{{menu.icon}}</i>{{menu.text}}</a></li>
       {% endif %}
 {% endfor %}
-<div class="icon-footer container-fixed" style='width=80%'>
+<div class="icon-footer container-fixed">
   {% for icon in site.data.menu.footer-icons %}
     <a href={{icon.link}} target='_blank' style='padding:10px'><i class="{{icon.icon}} fa-2x"></i></a>
   {% endfor %}

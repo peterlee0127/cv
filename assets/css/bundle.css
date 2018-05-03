@@ -19,6 +19,11 @@ main strong {
   margin: auto;
   padding: 10px; }
 
+.icon-footer {
+  text-align: center;
+  padding-bottom: 100px;
+  width: 80%; }
+
 .block {
   padding-top: 40px; }
 
