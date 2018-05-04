@@ -1,18 +1,18 @@
-<div class="block"  style="background-color:white">
-<div class="container-fixed">
-<h2>{{include.text}}</h2>
-<div class="row">
-  {% for education in site.data.education %}
-      <div class="col s6">
-        <div class="center promo">
-          <img src="{{education.logo}}" alt="" class="responsive-img" width="40%">
-          <p class="promo-caption">{{education.name}}</p>
-          {% for p in education.p %}
-            <p class="light center">{{p}}</p>
-          {% endfor %}
+<div class="education block"  style="background-color:yellow">
+  <div class="container-fixed">
+  <h2>{{include.text}}</h2>
+  <div class="row">
+    {% for education in site.data.education %}
+        <div class="col s6">
+          <div class="center promo">
+            <img src="{{education.logo}}" alt="" class="responsive-img" width="40%">
+            <p class="promo-caption">{{education.name}}</p>
+            {% for p in education.p %}
+              <p class="light center">{{p}}</p>
+            {% endfor %}
+          </div>
         </div>
-      </div>
-  {% endfor %}
+    {% endfor %}
+    </div>
   </div>
-</div>
 </div>
