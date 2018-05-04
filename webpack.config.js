@@ -1,9 +1,16 @@
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const path = require('path');
+const webpack = require('webpack');
+
+// const extractSass = new ExtractTextPlugin({
+//     filename: "[name].[contenthash].css",
+//     disable: process.env.NODE_ENV === "development"
+// });
+
 module.exports = [{
-  entry: './assets/pre/css/main.scss',
+  entry: ['./assets/pre/css/main.scss'],
   output: {
-    // This is necessary for webpack to compile
-    // But we never use style-bundle.js
-    filename: './assets/style-bundle.js',
+    filename: './assets/style-bundle.js', // no useful
   },
   module: {
     rules: [{
@@ -18,15 +25,33 @@ module.exports = [{
         { loader: 'extract-loader' },
         { loader: 'css-loader' },
         { loader: 'sass-loader',
-          options: {  includePaths: ['./node_modules']}
+          options: {  includePaths: ['./node_modules', './node_modules/materialize-css/sass'] }
         },
       ]
     }]
   },
+  node: {
+     fs: 'empty',
+     dgram: 'empty',
+     fs: 'empty',
+     net: 'empty',
+     tls: 'empty',
+     child_process: 'empty'
+ },
+  plugins: [
+    new webpack.ProvidePlugin({
+        'window.jQuery'    : 'jquery',
+        'window.$'         : 'jquery',
+        'jQuery'           : 'jquery',
+        '$'                : 'jquery'
+    }),
+    new ExtractTextPlugin("styles.css"),
+  ],
+  devtool: 'source-map'
 }];
 
 module.exports.push({
-  entry: "./assets/pre/js/main.js",
+  entry: ["./assets/pre/js/main.js"],
   output: {
     filename: "./assets/js/bundle.js"
   },

@@ -1,21 +1,23 @@
-<div class="footer">
   <footer class="page-footer">
-  {% if jekyll.environment == 'production' %}
-      {% include google-analytics.html %}
-  {% endif %}
-  <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <script src="../assets/js/bundle.js"></script>
-          <div class="contain">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text center">© Copyright {{ site.time |  date: "%Y" }}  Peter Lee</h5>
-                <p class="grey-text text-lighten-4 center">You can get my source code at <a href={{ site.source_code }}>github</a></p>
-              </div>
-            </div>
+      <div class="container-fixed">
+        <div class="row">
+          <div class="col s12">
+            <h5 class="white-text">© Copyright {{ site.time |  date: "%Y" }} Peter Lee</h5>
+            <p class="text-lighten-4">You can get my source code at
+              <a href={{ site.source_code }} target='_blank' style='padding:10px'><i class="fab fa-github fa-2x" style='color:white'></i></a>
+            </p>
           </div>
+        </div>
+      </div>
  </footer>
-</div>
+
+ {% if jekyll.environment == 'production' %}
+     {% include google-analytics.html %}
+ {% endif %}
+ <!-- include js -->
+ <script
+       src="https://code.jquery.com/jquery-3.3.1.min.js"
+       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+       crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+ <script src="../assets/js/bundle.js"></script>
