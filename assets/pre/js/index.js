@@ -1,5 +1,9 @@
 'use strict'
 
+import 'jquery';
+import 'materialize-css';
+
+
 let menu_link_active_elm;
 
 function activeMenuColor(linkName){

@@ -2,10 +2,10 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const path = require('path');
 const webpack = require('webpack');
 
-// const extractSass = new ExtractTextPlugin({
-//     filename: "[name].[contenthash].css",
-//     disable: process.env.NODE_ENV === "development"
-// });
+
+var extractPlugin = new ExtractTextPlugin({
+   filename: './assets/css/bundle.css' // scss轉css後另存的目標檔名
+});
 
 module.exports = [{
   entry: ['./assets/pre/css/index.scss'],
@@ -13,22 +13,46 @@ module.exports = [{
     filename: './assets/style-bundle.js', // no useful
   },
   module: {
-    rules: [{
-      test: /\.scss$/,
-      use: [
-        {
-          loader: 'file-loader',
-          options: {
-            name: './assets/css/bundle.css',
+      rules: [
+          {
+              test: /\.css$/,
+              use: [
+                  'style-loader',
+                  'css-loader'
+              ]
           },
-        },
-        { loader: 'extract-loader' },
-        { loader: 'css-loader' },
-        { loader: 'sass-loader',
-          options: {  includePaths: ['./node_modules'] }
-        },
+          {
+              test: /\.scss$/,
+              use: extractPlugin.extract({
+                use: [
+                    'css-loader',
+                    'sass-loader'
+                ]
+          })
+        }
       ]
-    }]
+  },
+  plugins: [
+    extractPlugin
+  ],
+}];
+
+module.exports.push({
+  entry: ["./assets/pre/js/index.js"],
+  output: {
+    filename: "./assets/js/bundle.js"
+  },
+  devtool:'source-map',
+  module: {
+        rules: [
+        {
+            test: /\.js$/,
+            loader: 'babel-loader',
+            query: {
+              presets: ['es2015']
+            }
+        }
+    ]
   },
   node: {
      fs: 'empty',
@@ -39,30 +63,14 @@ module.exports = [{
      child_process: 'empty'
  },
   plugins: [
-    new webpack.ProvidePlugin({
-        'window.jQuery'    : 'jquery',
-        'window.$'         : 'jquery',
-        'jQuery'           : 'jquery',
-        '$'                : 'jquery'
-    }),
-    new ExtractTextPlugin("bundle.min.css"),
-  ],
-  devtool: 'source-map'
-}];
-
-module.exports.push({
-  entry: ["./assets/pre/js/main.js"],
-  output: {
-    filename: "./assets/js/bundle.js"
-  },
-  devtool:'source-map',
-  module: {
-    loaders: [{
-      test: /\.js$/,
-      loader: 'babel-loader',
-      query: {
-        presets: ['es2015']
-      }
-    }]
-  },
+    // new webpack.optimize.UglifyJsPlugin(function(){
+    //
+    //  }),
+     new webpack.ProvidePlugin({
+         'window.jQuery'    : 'jquery',
+         'window.$'         : 'jquery',
+         'jQuery'           : 'jquery',
+         '$'                : 'jquery'
+     }),
+  ]
 });
