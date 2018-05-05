@@ -20,33 +20,6 @@
 }
 
 
-//parallax.scss
-.parallax-container{
-  max-height: 400px;
-  .parallax {
-    img {
-      width:100%
-    }
-  }
-  h3 {
-    text-shadow: 5px 5px 10px #2ff082;
-  }
-}
-
-//sidemenu
-.profile-image {
-  margin-top: 20px;
-  text-align: center;
-  border-bottom: 1px solid #d1d1d1;
-  img{
-    width: 50%;
-    height: auto;
-    border-radius: 50%;
-  }
-}
-
-
-
 // work
 .card-image {
   overflow: hidden;

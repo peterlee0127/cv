@@ -8,7 +8,7 @@ const webpack = require('webpack');
 // });
 
 module.exports = [{
-  entry: ['./assets/pre/css/main.scss'],
+  entry: ['./assets/pre/css/index.scss'],
   output: {
     filename: './assets/style-bundle.js', // no useful
   },
@@ -25,7 +25,7 @@ module.exports = [{
         { loader: 'extract-loader' },
         { loader: 'css-loader' },
         { loader: 'sass-loader',
-          options: {  includePaths: ['./node_modules', './node_modules/materialize-css/sass'] }
+          options: {  includePaths: ['./node_modules'] }
         },
       ]
     }]
@@ -45,7 +45,7 @@ module.exports = [{
         'jQuery'           : 'jquery',
         '$'                : 'jquery'
     }),
-    new ExtractTextPlugin("styles.css"),
+    new ExtractTextPlugin("bundle.min.css"),
   ],
   devtool: 'source-map'
 }];
