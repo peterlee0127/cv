@@ -99,11 +99,17 @@ $(document).ready(function () {
   $(".menu-link").click(function (e) {
 
     removeMenuColor();
-    var aid = $(this).attr("href");
+    var sidelink = $(this);
+    var aid = sidelink.attr("href");
     if (aid.includes("#")) {
       e.preventDefault();
       activeMenuColor(aid);
       $('html,body').animate({ scrollTop: $(aid).offset().top }, 'slow');
+    }
+
+    var mobileSidenav = sidelink.parents()[1];
+    if (mobileSidenav.id == 'mobile-view') {
+      M.Sidenav.getInstance(mobileSidenav).close();
     }
   });
 });

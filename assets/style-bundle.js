@@ -72,9 +72,9 @@ module.exports = __webpack_require__(1);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "./assets/css/bundle.css";
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/Users/liushihao/cv/assets/pre/css/main.scss'");
 
 /***/ })
 /******/ ]);

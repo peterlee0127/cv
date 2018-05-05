@@ -20,11 +20,17 @@ $(document).ready(function(){
   $(".menu-link").click(function(e) {
 
     removeMenuColor();
-    let aid = $(this).attr("href");
+    const sidelink = $(this);
+    let aid = sidelink.attr("href");
     if(aid.includes("#")){
       e.preventDefault();
       activeMenuColor(aid);
       $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+    }
+
+    const mobileSidenav = sidelink.parents()[1];
+    if(mobileSidenav.id == 'mobile-view'){
+      M.Sidenav.getInstance(mobileSidenav).close();
     }
   });
 });
