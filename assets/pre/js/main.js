@@ -1,9 +1,30 @@
+let menu_link_active_elm;
+
+function activeMenuColor(linkName){
+  menu_link_active_elm = $(`a[href='${linkName}']`);
+  menu_link_active_elm.each(function(i){
+    $(this).addClass('active');
+  });
+}
+function removeMenuColor(){
+  menu_link_active_elm.each(function(i){
+    $(this).removeClass('active');
+  });   
+}
+
 $(document).ready(function(){
+  const activeKey = $(location).attr('hash') || '#about';
+  activeMenuColor(activeKey);
+
   $('.sidenav').sidenav();
-  var elems = document.querySelectorAll('.scrollspy');
-  var instances = M.ScrollSpy.init(elems, {
-    getActiveElement:function(id){
-      return 'a[href="#' + id + '"]';
+  $(".menu-link").click(function(e) {
+
+    removeMenuColor();
+    let aid = $(this).attr("href");
+    if(aid.includes("#")){
+      e.preventDefault();
+      activeMenuColor(aid);
+      $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
     }
   });
 });

@@ -77,12 +77,33 @@ module.exports = __webpack_require__(1);
 "use strict";
 
 
+var menu_link_active_elm = void 0;
+
+function activeMenuColor(linkName) {
+  menu_link_active_elm = $('a[href=\'' + linkName + '\']');
+  menu_link_active_elm.each(function (i) {
+    $(this).addClass('active');
+  });
+}
+function removeMenuColor() {
+  menu_link_active_elm.each(function (i) {
+    $(this).removeClass('active');
+  });
+}
+
 $(document).ready(function () {
+  var activeKey = $(location).attr('hash') || '#about';
+  activeMenuColor(activeKey);
+
   $('.sidenav').sidenav();
-  var elems = document.querySelectorAll('.scrollspy');
-  var instances = M.ScrollSpy.init(elems, {
-    getActiveElement: function getActiveElement(id) {
-      return 'a[href="#' + id + '"]';
+  $(".menu-link").click(function (e) {
+
+    removeMenuColor();
+    var aid = $(this).attr("href");
+    if (aid.includes("#")) {
+      e.preventDefault();
+      activeMenuColor(aid);
+      $('html,body').animate({ scrollTop: $(aid).offset().top }, 'slow');
     }
   });
 });
