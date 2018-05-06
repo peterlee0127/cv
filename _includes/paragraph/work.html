@@ -6,16 +6,16 @@
        <div class="card-panel grey lighten-5 z-depth-1">
          <div class="row valign-wrapper s12 l6">
            <div class="col s4">
-             <img src="{{work.image}}" alt="" class="responsive-img" style='max-width:150px;border-radius:10px;'>
+             <img src="{{work.image}}" alt="" class="responsive-img" style='max-width:100px;border-radius:10px;over-flow:hidden;position:relative'>
              <p class="promo-caption flow-text">{{work.title}}</p>
              <p class="promo-caption"> {{work.position}}</p>
-             <p class="promo-caption"> {{work.time}}</p>
+             <p class="promo-caption" font-color='red'> {{work.time}}</p>
              <p class="promo-caption"> {{work.location}}</p>
            </div>
            <div class="col s8">
              <span class="black-text flow-text">
                {% for p in work.p %}
-                 <p>{{p}}</p>
+                 <p  style='font-size:0.8em;line-height:2em'>{{p}}</p>
                {% endfor %}
              </span>
            </div>
