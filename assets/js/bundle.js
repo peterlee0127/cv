@@ -22385,11 +22385,11 @@ function setMenuLinkClick() {
         e.preventDefault();
         removeMenuColor();
         var sidelink = $(this);
-        var aid = sidelink.attr("href");
-        if (aid.includes("#")) {
-            activeMenuColor(aid);
-            // $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
-        }
+        // let aid = sidelink.attr("href");
+        // if(aid.includes("#")){
+        //     activeMenuColor(aid);
+        //     $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+        // }
 
         var mobileSidenav = sidelink.parents()[1];
         if (mobileSidenav.id == 'mobile-view') {

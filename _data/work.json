@@ -1,12 +1,12 @@
 [
   {
-    "title":"PDIS",
+    "title":"PDIS (Public Digital Innovation Space)",
     "image":"./assets/image/pdis.png",
     "location":"Taipei, Taiwan",
-    "time":"2017 August -> 2018 August",
-    "position":"Engineer(Alternative Military service)",
+    "time":"2017 Sep -> 2018 Aug",
+    "position":"Software Engineer in (Alternative Military service)",
     "p":[
-        "PDIS(Public Digital Innovation Space) is a goveronment origanization in Taiwan, it also has another name: Executive Yuan - Ministry of Digital Audrey Tang's Office"
+        "PDIS is a goveronment origanization in Taiwan, it also has another name: Executive Yuan - Ministry of Digital Audrey Tang's Office"
     ],
     "more":""
   },
@@ -14,23 +14,12 @@
     "title":"91app(Nexdoor)",
     "image":"./assets/image/91app.jpg",
     "location":"Taipei, Taiwan",
-    "time":"2017 August -> 2018 August",
+    "time":"2013 Jul -> 2014 Sep",
     "position":"iOS Engineer (Intern)",
     "p":[
         "I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.",
         "I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.",
         "I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively."
-    ],
-    "more":""
-  },
-  {
-    "title":"PDIS",
-    "image":"./assets/image/pdis.png",
-    "position":"",
-    "p":[
-      "I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.",
-      "I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.",
-      "I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively."
     ],
     "more":""
   }

@@ -14,11 +14,11 @@ export function setMenuLinkClick(){
         e.preventDefault();
         removeMenuColor();
         const sidelink = $(this);
-        let aid = sidelink.attr("href");
-        if(aid.includes("#")){
-            activeMenuColor(aid);
-            // $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
-        }
+        // let aid = sidelink.attr("href");
+        // if(aid.includes("#")){
+        //     activeMenuColor(aid);
+        //     $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+        // }
 
         const mobileSidenav = sidelink.parents()[1];
         if(mobileSidenav.id == 'mobile-view'){
