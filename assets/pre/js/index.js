@@ -19,6 +19,8 @@ function removeMenuColor(){
 }
 
 $(document).ready(function(){
+     $('.materialboxed').materialbox();
+
   const activeKey = $(location).attr('hash') || '#about';
   activeMenuColor(activeKey);
 
