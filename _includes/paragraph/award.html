@@ -7,13 +7,14 @@
        <div class="card">
          <div class="card-image">
           {% if award.materialboxed %}
-           <img class="materialboxed" data-caption="{{award.p[0]}}" src="{{award.image}}"width="200px">
+           <img class="materialboxed" data-caption="{{award.p[0]}}" src="{{award.image}}" style="max-width:200px">
           {% else %}
-            <img data-caption="{{award.p[0]}}" src="{{award.image}}" width="200px" style="padding:10px;position:relative">
+            <img data-caption="{{award.p[0]}}" src="{{award.image}}" style="max-width:200px">
           {% endif %}
          </div>
          <div class="card-content">
            <span class="card-title">{{award.title}}</span>
+           <br>
            {% for p in award.p %}
              <p class="light center">{{p}}</p>
            {% endfor %}
