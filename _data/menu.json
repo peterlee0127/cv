@@ -23,13 +23,13 @@
     {
       "text": "Awards",
       "link": "award",
-      "include":"work.html",
+      "include":"award.html",
       "icon":"grade"
     },
     {
       "text": "Projects",
       "link": "projects",
-      "include":"work.html",
+      "include":"project.html",
       "icon":"assignment"
     },
     {

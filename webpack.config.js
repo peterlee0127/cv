@@ -63,9 +63,8 @@ module.exports.push({
      child_process: 'empty'
  },
   plugins: [
-    // new webpack.optimize.UglifyJsPlugin(function(){
-    //
-    //  }),
+    new webpack.optimize.UglifyJsPlugin(function(){
+     }),
      new webpack.ProvidePlugin({
          'window.jQuery'    : 'jquery',
          'window.$'         : 'jquery',

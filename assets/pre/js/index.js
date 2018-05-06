@@ -5,8 +5,8 @@ import 'materialize-css';
 import * as sidenav from './sidenav';
 
 $(document).ready(function(){
-  const activeKey = $(location).attr('hash') || '#about';
-  sidenav.activeMenuColor(activeKey);
+  $('.materialboxed').materialbox();
+
   sidenav.setMenuLinkClick();  
   sidenav.setScrollspy();
 });

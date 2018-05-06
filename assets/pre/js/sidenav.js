@@ -1,4 +1,4 @@
-import ScrollSpy from './scrollspy.js';
+// import ScrollSpy from './scrollspy.js';
 
 let menu_link_active_elm;
 export function activeMenuColor(linkName){
@@ -11,13 +11,13 @@ export function activeMenuColor(linkName){
 export function setMenuLinkClick(){
     $('.sidenav').sidenav();
     $(".menu-link").click(function(e) {
+        e.preventDefault();
         removeMenuColor();
         const sidelink = $(this);
         let aid = sidelink.attr("href");
         if(aid.includes("#")){
-        e.preventDefault();
-        activeMenuColor(aid);
-        $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+            activeMenuColor(aid);
+            // $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
         }
 
         const mobileSidenav = sidelink.parents()[1];
@@ -41,8 +41,7 @@ export function setScrollspy(){
         $(this).removeClass('active');
     });
     $('.scrollspy').scrollSpy();
-    // removeMenuColor();
 
-    const activeKey = $(location).attr('hash') || '#about';
-    activeMenuColor(activeKey);
+    // const activeKey = $(location).attr('hash') || '#about';
+    // activeMenuColor(activeKey);
 }

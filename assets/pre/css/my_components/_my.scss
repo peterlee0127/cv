@@ -8,6 +8,14 @@
   }
 }
 
+.award{
+  position: relative;
+	background: transparent;
+  img {
+    width: 100%;
+  }
+}
+
 
 .text-on-picture {
   text-align: center;
@@ -45,7 +53,6 @@ main{
 .container-fixed {
   text-align: center;
   width:100%;
-  margin: auto;
   padding: 10px;
 }
 

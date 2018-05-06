@@ -6517,6 +6517,12 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   .about img {
     width: 100%; }
 
+.award {
+  position: relative;
+  background: transparent; }
+  .award img {
+    width: 100%; }
+
 .text-on-picture {
   text-align: center;
   font-size: 18px;
@@ -6541,7 +6547,6 @@ main strong {
 .container-fixed {
   text-align: center;
   width: 100%;
-  margin: auto;
   padding: 10px; }
 
 header, main, footer {
