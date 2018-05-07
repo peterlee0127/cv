@@ -1,27 +1,25 @@
-{% comment %}
-
-<!-- <div class="block">
+<div class="block">
 <div class="container-fixed">
   <h2>{{include.text}}</h2>
-  <div class="row">
-    {% for work in site.data.work %}
-         <div class="s12 m6 l6">
-           <img class="materialboxed" data-caption="{{work.title}}" src="{{work.image}}">
-        <span class="card-title">{{work.title}}</span>
+    {% for project in site.data.project %}
+    <div class="row valign-wrapper">
+          <div class="col s12 l4">
+              {% if project.materialboxed %}
+               <img class="materialboxed" data-caption="{{project.p[0]}}" src="{{project.image}}" style="max-height:300px">
+              {% else %}
+                <img data-caption="{{award.p[0]}}" src="{{project.image}}" style="max-height:300px">
+              {% endif %}
+              <span class="title center">{{project.title}}</span>
          </div>
-         <div class="content s12 m6 l6">
-           <p>{{work.position}}</p>
-           {% for p in work.p %}
+         <div class="col s12 l8">
+           {% for p in project.p %}
              <p class="light center">{{p}}</p>
            {% endfor %}
+           <div>
+             <a href="#">This is a link</a>
+           </div>
          </div>
-      <div class="action">
-           <a href="#">This is a link</a>
-         </div> 
+       </div>
       {% endfor %}
-   </div>
-   {% include parallax.html title='' image='/assets/image/code.png' %}
-
+ </div>
 </div>
-</div> -->
-{% endcomment %}

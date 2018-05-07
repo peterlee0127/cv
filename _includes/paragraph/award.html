@@ -3,13 +3,13 @@
   <h2>{{include.text}}</h2>
   <div class="row">
     {% for award in site.data.award %}
-     <div class="col s6 m4 l4">
+     <div class="col s6 m4 l3">
        <div class="card">
          <div class="card-image">
           {% if award.materialboxed %}
-           <img class="materialboxed" data-caption="{{award.p[0]}}" src="{{award.image}}" style="max-width:200px">
+           <img class="materialboxed" data-caption="{{award.p[0]}}" src="{{award.image}}" style="max-width:300px">
           {% else %}
-            <img data-caption="{{award.p[0]}}" src="{{award.image}}" style="max-width:200px">
+            <img data-caption="{{award.p[0]}}" src="{{award.image}}" style="max-width:300px">
           {% endif %}
          </div>
          <div class="card-content">
