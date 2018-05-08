@@ -16,3 +16,23 @@
     </div>
   </div>
 </div>
+
+
+<div class="education block">
+  <div class="container-fixed">
+  <h2>Publications</h2>
+  <div class="row">
+    {% for education in site.data.education %}
+        <div class="col s6">
+          <div class="center promo">
+            <img src="{{education.logo}}" alt="" class="responsive-img" style='max-width:200px'>
+            <p class="promo-caption">{{education.name}}</p>
+            {% for p in education.p %}
+              <p class="light center">{{p}}</p>
+            {% endfor %}
+          </div>
+        </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>

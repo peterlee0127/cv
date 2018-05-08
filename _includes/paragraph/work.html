@@ -1,6 +1,68 @@
+<div class="container-fixed row">
+    <h2>Skills</h2>
+    <div class="col s12 m4 l3">
+     <div class="card horizontal">
+       <div class="card-image">
+         <img src="{{work.image}}"/>
+       </div>
+       <div class="card-stacked">
+         <div class="card-content">
+             <p>xxx</p>
+         </div>
+         <div class="card-action">
+           <a href="#">This is a link</a>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="col s12 m4 l3">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="{{work.image}}"/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+            <p>xxx</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m4 l3">
+   <div class="card horizontal">
+     <div class="card-image">
+       <img src="{{work.image}}"/>
+     </div>
+     <div class="card-stacked">
+       <div class="card-content">
+           <p>xxx</p>
+       </div>
+       <div class="card-action">
+         <a href="#">This is a link</a>
+       </div>
+     </div>
+   </div>
+ </div>  <div class="col s12 m4 l3">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="{{work.image}}"/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+            <p>xxx</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="work block">
   <div class="container-fixed">
-    <h2>{{include.text}}</h2>
+    <h2>Work</h2>
     <div class="container-fixed col s12 l12">
         {% for work in site.data.work %}
        <div class="card-panel grey lighten-5 z-depth-1">
@@ -26,28 +88,3 @@
 {% include parallax.html title='Line Dev Day 2016.  Shibuya, Tokyo.' image='/assets/image/line.jpg' %}
 </div>
 </div>
-<!--
-<div class="container-fixed row">
-    {% for work in site.data.work %}
-    <div class="col s12 m6 l6">
-     <h2 class="header">{{work.title}}</h2>
-     <span>{{work.position}}</span>
-     <div class="card horizontal">
-       <div class="card-image">
-         <img src="{{work.image}}"/>
-       </div>
-       <div class="card-stacked">
-         <div class="card-content">
-           {% for p in work.p %}
-             <p>{{p}}</p>
-           {% endfor %}
-         </div>
-         <div class="card-action">
-           <a href="#">This is a link</a>
-         </div>
-       </div>
-     </div>
-   </div>
-     {% endfor %}
-</div>
--->

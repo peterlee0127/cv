@@ -9,13 +9,13 @@
       "icon":"account_circle"
     },
     {
-      "text": "Work",
+      "text": "Skills & Work",
       "link": "work",
       "include":"work.html",
       "icon":"work"
     },
     {
-      "text": "Education",
+      "text": "Education & Publications",
       "link": "education",
       "include":"education.html",
       "icon":"school"
