@@ -26,7 +26,11 @@ let ScrollSpy = function()
     function handleScroll()
     {
         var currentViewPosition = document.documentElement.scrollTop ? document.documentElement.scrollTop: document.body.scrollTop;
-        currentViewPosition +=50;
+        var mobileMode = window.matchMedia("(max-width : 600px)")
+        if(!mobileMode.matches){
+            currentViewPosition +=50;
+        }
+        
         for (var i in elements) {
             var element = elements[i];
             var elementPosition = getPositionOfElement(element.domElement);
