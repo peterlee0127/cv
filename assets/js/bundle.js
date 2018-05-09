@@ -22468,11 +22468,6 @@ var ScrollSpy = function ScrollSpy() {
     var navHeight = document.querySelector('.navbar-fixed').clientHeight;
     function handleScroll() {
         var currentViewPosition = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop;
-        var mobileMode = window.matchMedia("(max-width : 600px)");
-        if (mobileMode.matches) {
-            currentViewPosition += navHeight;
-        }
-
         for (var i in elements) {
             var element = elements[i];
             var elementPosition = getPositionOfElement(element.domElement);
