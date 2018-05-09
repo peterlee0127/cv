@@ -3,7 +3,7 @@
    <div class="col s6 m4 l4">
      <div class="card">
        <div class="card-content">
-         <h4>{{skill.title}}</h4>
+         <h5>{{skill.title}}</h5>
          <hr><br>
          {% for p in skill.p %}
            <p class="flow-text">{{p}}</p>
@@ -14,9 +14,9 @@
     {% endfor %}
  </div>
 
-<div class="work block">
-  <div class="container-fixed">
-    <h2>Work</h2>
+<div class="block container-fixed">
+    <br>
+    <h3>Work</h3>
     <div class="container-fixed col s12 l12">
         {% for work in site.data.work.work %}
        <div class="card-panel grey lighten-5 z-depth-1">
@@ -40,5 +40,4 @@
       {% endfor %}
    </div>
 {% include parallax.html title='Line Dev Day 2016.  Shibuya, Tokyo.' image='/assets/image/line.jpg' %}
-</div>
 </div>
