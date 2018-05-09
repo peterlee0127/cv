@@ -50,11 +50,12 @@ export function setScrollspy(){
     Array.from(el).forEach(e=>{
         scrollSpy.spyOn(e);
     });
-    scrollSpy.handleScroll();
     document.addEventListener('ScrollSpyBackInSight', function (e) {
         activeMenuColor('#'+e.data.id);
     });
     document.addEventListener('ScrollSpyOutOfSight', function (e) {
         inactiveMenuColor('#'+e.data.id);
     });
+    scrollSpy.handleScroll();
+
 }

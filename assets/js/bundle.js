@@ -22427,13 +22427,13 @@ function setScrollspy() {
     Array.from(el).forEach(function (e) {
         scrollSpy.spyOn(e);
     });
-    scrollSpy.handleScroll();
     document.addEventListener('ScrollSpyBackInSight', function (e) {
         activeMenuColor('#' + e.data.id);
     });
     document.addEventListener('ScrollSpyOutOfSight', function (e) {
         inactiveMenuColor('#' + e.data.id);
     });
+    scrollSpy.handleScroll();
 }
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
@@ -22465,19 +22465,19 @@ var ScrollSpy = function ScrollSpy() {
         element['isInViewPort'] = true;
         elements[domElement.id] = element;
     }
-
+    var navHeight = document.querySelector('.navbar-fixed').clientHeight;
     function handleScroll() {
         var currentViewPosition = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop;
         var mobileMode = window.matchMedia("(max-width : 600px)");
-        if (!mobileMode.matches) {
-            currentViewPosition += 50;
+        if (mobileMode.matches) {
+            currentViewPosition += navHeight;
         }
 
         for (var i in elements) {
             var element = elements[i];
             var elementPosition = getPositionOfElement(element.domElement);
 
-            if (currentViewPosition > elementPosition && elementPosition + element.domElement.clientHeight > currentViewPosition) {
+            if (currentViewPosition >= elementPosition && elementPosition + element.domElement.clientHeight > currentViewPosition) {
                 fireBackInSightEvent(element.domElement);
             } else {
                 fireOutOfSightEvent(element.domElement);

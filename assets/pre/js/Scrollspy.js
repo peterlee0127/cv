@@ -22,20 +22,20 @@ let ScrollSpy = function()
         element['isInViewPort'] = true;
         elements[domElement.id] = element;
     }
-
+    const navHeight = document.querySelector('.navbar-fixed').clientHeight;
     function handleScroll()
     {
         var currentViewPosition = document.documentElement.scrollTop ? document.documentElement.scrollTop: document.body.scrollTop;
         var mobileMode = window.matchMedia("(max-width : 600px)")
-        if(!mobileMode.matches){
-            currentViewPosition +=50;
+        if(mobileMode.matches){
+            currentViewPosition +=navHeight;
         }
         
         for (var i in elements) {
             var element = elements[i];
             var elementPosition = getPositionOfElement(element.domElement);
 
-            if( currentViewPosition > elementPosition && elementPosition+ element.domElement.clientHeight > currentViewPosition){
+            if( currentViewPosition >= elementPosition && elementPosition+ element.domElement.clientHeight > currentViewPosition){
                 fireBackInSightEvent(element.domElement);
             }else{
                 fireOutOfSightEvent(element.domElement);
