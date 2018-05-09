@@ -1,28 +1,50 @@
-[
-  {
-    "title":"PDIS (Public Digital Innovation Space)",
-    "image":"./assets/image/pdis.png",
-    "location":"Taipei, Taiwan",
-    "time":"2017 Sep -> 2018 Aug",
-    "position":"Software Engineer in (Alternative Military Service)",
-    "p":[
-        "PDIS is a goveronment origanization in Taiwan, it also has another name: Executive Yuan - Ministry of Digital Audrey Tang's Office.
-        We use new technology to improve public participation and open government. We set up a video streaming in government meeting, so people can post their comment in any where.
-        I am a member of <a href='https://github.com/pdis/' target='_blank'><i class='fab fa-github'> code team</i></a> and <a href='https://www.youtube.com/channel/UCExDf4hkbSU-pmJcyT_sDtg/videos' target='_blank'><i class='fab fa-youtube'>video team.</i></a>
-         In this year, I also serve for Alternative Military Service. I learned a lot skills and how to collaborate with different people."
-    ],
-    "more":""
-  },
-  {
-    "title":"91app(Nexdoor)",
-    "image":"./assets/image/91app.jpg",
-    "location":"Taipei, Taiwan",
-    "time":"2013 Jul -> 2014 Sep",
-    "position":"iOS Engineer (Intern)",
-    "p":[
-        "Nexdoor is a famous App company in 2013, we build iOS/Android/Web for customer. In 2014, most of employee join new company 91 app.
-        I was a iOS Engineer Intern when I was a 3th year student in 2013."
-    ],
-    "more":""
-  }
-]
+{
+  "skills": [
+    {
+      "title":"Data/DevOps",
+      "p":["Spark","Mesos","Elasticsearch","Hadoop","Kafka","Python2","Jenkins","Docker","TensorFlow"]
+    },
+    {
+      "title":"Backend/Web",
+      "p":["Node.js","Mongodb","JavaScript","webpack"]
+    },
+    {
+      "title":"Others",
+      "p":["iOS(Objective-C and Swift)","Linux","Embeded System","Shell","Arduino"]
+    }
+
+  ]
+  ,"work":[
+    {
+      "title":"PDIS (Public Digital Innovation Space)",
+      "image":"./assets/image/pdis.png",
+      "location":"Taipei, Taiwan",
+      "time":"2017 Sep -> 2018 Aug",
+      "position":"Software Engineer in (Alternative Military Service)",
+      "p":[
+          "PDIS is a goveronment origanization in Taiwan, it also has another name: Executive Yuan - Ministry of Digital Audrey Tang's Office.
+          We use new technology to improve public participation and open government.
+          We want to increase citizen participation, so we set up a video streaming during meeting.
+          Citizen can join meeting and share their experiment anywhrere.
+          They only need to submit a question to sli.do(a real-time comment system).<a target='_blank' href='https://youtu.be/VbwKBK24T_g?t=4842'><i class='fab fa-youtube'></i></a>.
+          ","I am a member of <a href='https://github.com/pdis/' target='_blank'><i class='fab fa-github'> code team</i></a> and
+          <a href='https://www.youtube.com/channel/UCExDf4hkbSU-pmJcyT_sDtg/videos' target='_blank'><i class='fab fa-youtube'>video team.</i></a>
+           In this year, I also serve for Alternative Military Service. I learned a lot skills and how to collaborate with different people."
+      ],
+      "more":""
+    },
+    {
+      "title":"91app(Nexdoor)",
+      "image":"./assets/image/91app.jpg",
+      "location":"Taipei, Taiwan",
+      "time":"2013 Jul -> 2014 Sep",
+      "position":"iOS Engineer (Intern)",
+      "p":[
+          "Nexdoor is a famous App company in 2013, we build iOS/Android/Web for customer. In 2014, most of employee join new company 91 app.
+          I was a iOS Engineer Intern when I was a 3th year student in 2013."
+      ],
+      "more":""
+    }
+  ]
+
+}
