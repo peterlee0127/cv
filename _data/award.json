@@ -13,7 +13,7 @@
     "image": "/assets/image/tensorflow.png",
     "p": [
       "Porting TensorFlow to Nvidia Jetson",
-      "Repository <a href='https://github.com/peterlee0127/tensorflow-nvJetson'>peterlee0127-tensorflow-nvJetson</a>",
+      "Repository <a href='https://github.com/peterlee0127/tensorflow-nvJetson'>tensorflow-nvJetson</a>",
       "<a href='https://github.com/tensorflow/tensorflow/pull/19075'>#19075</a>, <a href='https://github.com/tensorflow/tensorflow/pull/17394'>#17394</a>",
     ]
   },
