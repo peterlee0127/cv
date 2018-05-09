@@ -22358,10 +22358,171 @@ module.exports = g;
 
 /***/ }),
 /* 6 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-throw new Error("Module build failed: SyntaxError: Unexpected token (37:0)\n\n\u001b[0m \u001b[90m 35 | \u001b[39m\n \u001b[90m 36 | \u001b[39m\u001b[36mexport\u001b[39m \u001b[36mfunction\u001b[39m setScrollspy(){\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 37 | \u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m \u001b[33mHEAD\u001b[39m\n \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 38 | \u001b[39m    let scrollSpy \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mScrollSpy\u001b[39m()\u001b[33m;\u001b[39m\n \u001b[90m 39 | \u001b[39m    scrollSpy\u001b[33m.\u001b[39minit()\u001b[33m;\u001b[39m\n \u001b[90m 40 | \u001b[39m\u001b[0m\n");
+/* WEBPACK VAR INJECTION */(function($) {
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.activeMenuColor = activeMenuColor;
+exports.inactiveMenuColor = inactiveMenuColor;
+exports.setMenuLinkClick = setMenuLinkClick;
+exports.setScrollspy = setScrollspy;
+
+var _scrollspy = __webpack_require__(7);
+
+var _scrollspy2 = _interopRequireDefault(_scrollspy);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var menu_link_active_elm = void 0;
+function activeMenuColor(linkName) {
+    menu_link_active_elm = $('a[href=\'' + linkName + '\']');
+    menu_link_active_elm.each(function (i) {
+        $(this).addClass('active');
+    });
+}
+
+function inactiveMenuColor(linkName) {
+    menu_link_active_elm = $('a[href=\'' + linkName + '\']');
+    menu_link_active_elm.each(function (i) {
+        $(this).removeClass('active');
+    });
+}
+
+function setMenuLinkClick() {
+    $('.sidenav').sidenav();
+    $(".menu-link").click(function (e) {
+        var sidelink = $(this);
+        var aid = sidelink.attr("href");
+        if (aid.includes("#")) {
+            e.preventDefault();
+            removeMenuColor();
+
+            activeMenuColor(aid);
+            $('html,body').animate({ scrollTop: $(aid).offset().top }, 'slow');
+        }
+
+        var mobileSidenav = sidelink.parents()[1];
+        if (mobileSidenav.id == 'mobile-view') {
+            M.Sidenav.getInstance(mobileSidenav).close();
+        }
+    });
+}
+
+function removeMenuColor() {
+    $('.menu-link').each(function (i) {
+        $(this).removeClass('active');
+    });
+}
+
+function setScrollspy() {
+    var scrollSpy = new _scrollspy2.default();
+    scrollSpy.init();
+
+    var el = document.querySelectorAll('.scrollspy');
+
+    Array.from(el).forEach(function (e) {
+        scrollSpy.spyOn(e);
+    });
+    document.addEventListener('ScrollSpyBackInSight', function (e) {
+        activeMenuColor('#' + e.data.id);
+    });
+    document.addEventListener('ScrollSpyOutOfSight', function (e) {
+        inactiveMenuColor('#' + e.data.id);
+    });
+    scrollSpy.handleScroll();
+}
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var ScrollSpy = function ScrollSpy() {
+    var elements = {};
+
+    function init() {
+        if (document.addEventListener) {
+            document.addEventListener("touchmove", handleScroll, false);
+            document.addEventListener("scroll", handleScroll, false);
+        } else if (window.attachEvent) {
+            window.attachEvent("onscroll", handleScroll);
+        }
+    }
+
+    function spyOn(domElement) {
+        var element = {};
+        element['domElement'] = domElement;
+        element['isInViewPort'] = true;
+        elements[domElement.id] = element;
+    }
+    var navHeight = document.querySelector('.navbar-fixed').clientHeight;
+    function handleScroll() {
+        var currentViewPosition = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop;
+        var mobileMode = window.matchMedia("(max-width : 600px)");
+        if (mobileMode.matches) {
+            currentViewPosition += navHeight;
+        }
+
+        for (var i in elements) {
+            var element = elements[i];
+            var elementPosition = getPositionOfElement(element.domElement);
+
+            if (currentViewPosition >= elementPosition && elementPosition + element.domElement.clientHeight > currentViewPosition) {
+                fireBackInSightEvent(element.domElement);
+            } else {
+                fireOutOfSightEvent(element.domElement);
+            }
+        };
+    }
+
+    function fireOutOfSightEvent(domElement) {
+        fireEvent('ScrollSpyOutOfSight', domElement);
+    }
+
+    function fireBackInSightEvent(domElement) {
+        fireEvent('ScrollSpyBackInSight', domElement);
+    }
+
+    function fireEvent(eventName, domElement) {
+        if (document.createEvent) {
+            var event = document.createEvent('HTMLEvents');
+            event.initEvent(eventName, true, true);
+            event.data = domElement;
+            document.dispatchEvent(event);
+        } else if (document.createEventObject) {
+            var event = document.createEventObject();
+            event.data = domElement;
+            event.expando = eventName;
+            document.fireEvent('onpropertychange', event);
+        }
+    }
+
+    function getPositionOfElement(domElement) {
+        var pos = 0;
+        while (domElement != null) {
+            pos += domElement.offsetTop;
+            domElement = domElement.offsetParent;
+        }
+        return pos;
+    }
+
+    return {
+        init: init,
+        spyOn: spyOn,
+        handleScroll: handleScroll
+    };
+};
+exports.default = ScrollSpy;
 
 /***/ })
 /******/ ]);
