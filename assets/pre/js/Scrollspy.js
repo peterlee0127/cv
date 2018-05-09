@@ -1,4 +1,4 @@
-let ScrollSpy = (function()
+let ScrollSpy = function()
  {
     var elements = {};
 
@@ -26,26 +26,15 @@ let ScrollSpy = (function()
     function handleScroll()
     {
         var currentViewPosition = document.documentElement.scrollTop ? document.documentElement.scrollTop: document.body.scrollTop;
-
+        currentViewPosition +=50;
         for (var i in elements) {
             var element = elements[i];
             var elementPosition = getPositionOfElement(element.domElement);
 
-            var usableViewPosition = currentViewPosition;
-            if (element.isInViewPort == false)
-            {
-                usableViewPosition -= element.domElement.clientHeight;
-            }
-
-            if (usableViewPosition > elementPosition)
-            {
-                fireOutOfSightEvent(element.domElement);
-                element.isInViewPort = false;
-            }
-            else if (element.isInViewPort == false)
-            {
+            if( currentViewPosition > elementPosition && elementPosition+ element.domElement.clientHeight > currentViewPosition){
                 fireBackInSightEvent(element.domElement);
-                element.isInViewPort = true;
+            }else{
+                fireOutOfSightEvent(element.domElement);
             }
         };
     }
@@ -90,8 +79,9 @@ let ScrollSpy = (function()
     }
 
     return {
-        init: init,
-        spyOn: spyOn
+        init,
+        spyOn,
+        handleScroll
     };
-})();
+};
 export default ScrollSpy;
