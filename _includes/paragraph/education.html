@@ -2,7 +2,7 @@
   <div class="container-fixed">
   <h2>Education</h2>
   <div class="row">
-    {% for education in site.data.education %}
+    {% for education in site.data.education.education %}
         <div class="col s6">
           <div class="center promo">
             <img src="{{education.logo}}" alt="" class="responsive-img" style='max-width:150px'>
@@ -22,14 +22,16 @@
   <div class="container-fixed">
   <h2>Publications</h2>
   <div class="row">
-    {% for education in site.data.education %}
-        <div class="col s6">
+    {% for publication in site.data.education.publications %}
+        <div class="col s12 m6 l6">
           <div class="center promo">
-            <img src="{{education.logo}}" alt="" class="responsive-img" style='max-width:150px'>
-            <p class="promo-caption">{{education.name}}</p>
-            {% for p in education.p %}
+            <p class="promo-caption">{{publication.title}}</p>
+            {% for p in publication.p %}
               <p class="light center">{{p}}</p>
             {% endfor %}
+            <div class="card-action">
+              <a target='_blank' href="{{publication.link}}">Link</a>
+            </div>
           </div>
         </div>
     {% endfor %}
