@@ -24,5 +24,57 @@
       "Rocket.Chat for Sandstorm Contributor"
 
     ]
+  },
+  {
+    "title": "tensorflow-nvJetson",
+    "image": "/assets/image/jetson.jpg",
+    "materialboxed":true,
+    "p": [
+      "Porting TensorFlow to Nvidia Jetson",
+      "<a href='https://devtalk.nvidia.com/default/topic/1032843/announcements/recognition-for-outstanding-jetson-developer-community-contributions/'>Nvidia Developer Forum</a>"
+    ]
+  },
+  {
+    "title": "TensorFlow Contributor",
+    "image": "/assets/image/tensorflow.png",
+    "p": [
+      "Porting TensorFlow to Nvidia Jetson",
+      "Repository <a href='https://github.com/peterlee0127/tensorflow-nvJetson'>peterlee0127-tensorflow-nvJetson</a>",
+      "<a href='https://github.com/tensorflow/tensorflow/pull/19075'>#19075</a>, <a href='https://github.com/tensorflow/tensorflow/pull/17394'>#17394</a>",
+    ]
+  },
+  {
+    "title": "Rocket.Chat Contributor",
+    "image": "/assets/image/rocketchat.png",
+    "p": [
+      "Rocket.Chat for Sandstorm Contributor"
+
+    ]
+  },
+  {
+    "title": "tensorflow-nvJetson",
+    "image": "/assets/image/jetson.jpg",
+    "materialboxed":true,
+    "p": [
+      "Porting TensorFlow to Nvidia Jetson",
+      "<a href='https://devtalk.nvidia.com/default/topic/1032843/announcements/recognition-for-outstanding-jetson-developer-community-contributions/'>Nvidia Developer Forum</a>"
+    ]
+  },
+  {
+    "title": "TensorFlow Contributor",
+    "image": "/assets/image/tensorflow.png",
+    "p": [
+      "Porting TensorFlow to Nvidia Jetson",
+      "Repository <a href='https://github.com/peterlee0127/tensorflow-nvJetson'>peterlee0127-tensorflow-nvJetson</a>",
+      "<a href='https://github.com/tensorflow/tensorflow/pull/19075'>#19075</a>, <a href='https://github.com/tensorflow/tensorflow/pull/17394'>#17394</a>",
+    ]
+  },
+  {
+    "title": "Rocket.Chat Contributor",
+    "image": "/assets/image/rocketchat.png",
+    "p": [
+      "Rocket.Chat for Sandstorm Contributor"
+
+    ]
   }
 ]
