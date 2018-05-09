@@ -1,70 +1,24 @@
-<div class="container-fixed row">
-    <h2>Skills</h2>
-    <div class="col s12 m4 l3">
-     <div class="card horizontal">
-       <div class="card-image">
-         <img src="{{work.image}}"/>
-       </div>
-       <div class="card-stacked">
-         <div class="card-content">
-             <p>xxx</p>
-         </div>
-         <div class="card-action">
-           <a href="#">This is a link</a>
-         </div>
-       </div>
-     </div>
-   </div>
-   <div class="col s12 m4 l3">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="{{work.image}}"/>
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-            <p>xxx</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col s12 m4 l3">
-   <div class="card horizontal">
-     <div class="card-image">
-       <img src="{{work.image}}"/>
-     </div>
-     <div class="card-stacked">
+<div class="container-fixed  row">
+  {% for skill in site.data.work.skills %}
+   <div class="col s6 m4 l4">
+     <div class="card">
        <div class="card-content">
-           <p>xxx</p>
-       </div>
-       <div class="card-action">
-         <a href="#">This is a link</a>
+         <h4>{{skill.title}}</h4>
+         <hr><br>
+         {% for p in skill.p %}
+           <p class="flow-text">{{p}}</p>
+         {% endfor %}
        </div>
      </div>
    </div>
- </div>  <div class="col s12 m4 l3">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="{{work.image}}"/>
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-            <p>xxx</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+    {% endfor %}
+ </div>
+
 <div class="work block">
   <div class="container-fixed">
     <h2>Work</h2>
     <div class="container-fixed col s12 l12">
-        {% for work in site.data.work %}
+        {% for work in site.data.work.work %}
        <div class="card-panel grey lighten-5 z-depth-1">
          <div class="row valign-wrapper s12 l6">
            <div class="col s4">
