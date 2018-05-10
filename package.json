@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "jquery": "^3.3.1",
-    "materialize-css": "^1.0.0-beta",
+    "materialize-css": "^1.0.0-rc.1",
     "typed.js": "^2.0.6"
   },
   "devDependencies": {
