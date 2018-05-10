@@ -7,21 +7,24 @@ $(document).ready(function(){
   $('.materialboxed').materialbox();
   $('.sidenav').sidenav();
   $('.modal').modal();
+
+  $('.scrollspy').scrollSpy();
+
   // sidenav.setMenuLinkClick();
   // sidenav.setScrollspy();
-  $("li a").click(function(e) {
-    var anchor = $(this).attr("href");
-    if(!anchor.includes("#")){
-      return;
-    }
-    if($(this).attr("class").includes("menu-link")){
-      console.log(anchor);
-      e.preventDefault();
-
-     $('html,body').animate({scrollTop: $(anchor).offset().top},'slow');
-    }
-
-  });
+  // $("li a").click(function(e) {
+  //   var anchor = $(this).attr("href");
+  //   if(!anchor.includes("#")){
+  //     return;
+  //   }
+  //   if($(this).attr("class").includes("menu-link")){
+  //     console.log(anchor);
+  //     e.preventDefault();
+  //
+  //    $('html,body').animate({scrollTop: $(anchor).offset().top},'slow');
+  //   }
+  //
+  // });
 
 });
 

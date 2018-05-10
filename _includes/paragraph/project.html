@@ -1,16 +1,12 @@
 <div class="container-fixed">
  <hr>
  <h3>Projects</h3>
-   {% for project in site.data.project %}
-   {% assign loopindex = forloop.index | modulo: 4 %}
-   {% if loopindex == 1 %}
    <div class="row">
-  {% endif %}
-  <div class="col s12 m6 l3">
-
-      <div class="fixcard card">
+   {% for project in site.data.project %}
+     <div class="col s12 m4 l3">
+      <div class="card">
         <div class="card-image">
-          <img class="" data-caption="{{project.title}}" src="{{project.image}}">
+          <img data-caption="{{project.title}}" src="{{project.image}}">
         </div>
         <div class="card-content">
           <span class="card-title">{{project.title}}</span>
@@ -23,10 +19,8 @@
         </div>
       </div>
   </div>
-  {% if loopindex == 0 or forloop.last %}
+  {% endfor %}
   </div>
-  {% endif %}
-     {% endfor %}
 
 
   {% for project in site.data.project %}
@@ -36,7 +30,6 @@
        {% for p in project.p %}
          <p class="light center">{{p}}</p>
        {% endfor %}
-
      </div>
      <div class="modal-footer">
        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>

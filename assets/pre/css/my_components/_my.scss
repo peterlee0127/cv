@@ -12,10 +12,24 @@
   position: relative;
 	background: transparent;
   img {
-    width: 100%;
+    // width: 100%;
+    object-fit: none; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  width: 100%;
+  max-height: 250px;
+  margin-bottom: 1rem;
   }
 }
 
+.publication-image{
+  img{
+      // object-fit: none; /* Do not scale the image */
+      object-position: center; /* Center the image within the element */
+      width: 100%;
+      max-height: 550px;
+      margin-bottom: 1rem;
+  }
+}
 
 .text-on-picture {
   text-align: center;
@@ -113,34 +127,34 @@ nav {
     }
 }
 
-
-.fixcard{
-  padding-top: 120%;
-  position: relative;
-  .card-image{
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    top: 0;
-
-    img{
-      width: auto;
-      height: 100%;
-    }
-  }
-
-  .card-content{
-    position: absolute;
-    width: 100%;
-    height: 30%;
-    top: 50%;
-  }
-
-  .card-action{
-    position: absolute;
-    bottom: 0;
-    height: 60px;
-    width: 100%;
-    text-align: center;
-  }
-}
+//
+// .fixcard{
+//   padding-top: 120%;
+//   position: relative;
+//   .card-image{
+//     position: absolute;
+//     width: 100%;
+//     height: 50%;
+//     top: 0;
+//
+//     img{
+//       width: auto;
+//       height: 100%;
+//     }
+//   }
+//
+//   .card-content{
+//     position: absolute;
+//     width: 100%;
+//     height: 30%;
+//     top: 50%;
+//   }
+//
+//   .card-action{
+//     position: absolute;
+//     bottom: 0;
+//     height: 60px;
+//     width: 100%;
+//     text-align: center;
+//   }
+// }
