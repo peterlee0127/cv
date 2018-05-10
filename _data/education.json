@@ -3,23 +3,33 @@
     {
       "title":"Implementation of Lambda Architecture: A Restaurant Recommender System over Apache Mesos",
       "p":[
-        "Advanced Information Networking and Applications (AINA), 2017 IEEE 31st International Conference"
+        "Advanced Information Networking and Applications (AINA)",
+        "2017 IEEE 31st International Conference",
+        "A Lambda Architecture at DC/OS, using Spark Streaming, Kafka, Hadoop HDFS."
       ],
-      "link":"http://ieeexplore.ieee.org/abstract/document/7921013/"
+      "link":"http://ieeexplore.ieee.org/abstract/document/7921013/",
+      "file":"icast.pdf",
+      "image":"./assets/image/aina.png"
     },
     {
       "title":"Stock market analysis from Twitter and news based on streaming big data infrastructure",
       "p":[
-        "Awareness Science and Technology (iCAST), 2017 IEEE 8th International Conference"
+        "Awareness Science and Technology (iCAST)",
+        "2017 IEEE 8th International Conference",
+        "Real-time trend analysis by twitter, using Spark Streaming, Kafka, and Visualize on Web."
       ],
-      "link":"http://ieeexplore.ieee.org/document/8256469/"
+      "link":"http://ieeexplore.ieee.org/document/8256469/",
+      "file":"icast.pdf",
+      "image":"./assets/image/icast.png"
     },
     {
       "title":"Real-time Trend Analysis of Streaming Twitter and News Based on Big Data Infrastructure",
       "p":[
         "電子情報通信学会-講演論文"
       ],
-      "link":"http://www.ieice.org/ken/paper/201708253bw6/"
+      "link":"http://www.ieice.org/ken/paper/201708253bw6/",
+      "file":"icast.pdf",
+      "image":"./assets/image/twitter.png"
     }
   ]
   ,"education":[

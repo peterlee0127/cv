@@ -10013,6 +10013,7 @@ __webpack_require__(4);
 $(document).ready(function () {
   $('.materialboxed').materialbox();
   $('.sidenav').sidenav();
+  $('.modal').modal();
   // sidenav.setMenuLinkClick();
   // sidenav.setScrollspy();
   $("li a").click(function (e) {

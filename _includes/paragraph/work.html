@@ -1,7 +1,8 @@
-<div class="container-fixed  row">
+<div class="container-fixed row">
   <br>
+  <h3>Skills</h3>
   {% for skill in site.data.work.skills %}
-   <div class="col s6 m4 l4">
+   <div class="col s6 m4 l3">
      <div class="card">
        <div class="card-content">
          <h5>{{skill.title}}</h5>
@@ -15,7 +16,7 @@
     {% endfor %}
  </div>
 
-<div class="block container-fixed">
+<div class="container-fixed">
     <h3>Work</h3>
     <div class="container-fixed col s12 l12">
         {% for work in site.data.work.work %}

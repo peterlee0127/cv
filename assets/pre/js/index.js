@@ -6,6 +6,7 @@ import 'materialize-css';
 $(document).ready(function(){
   $('.materialboxed').materialbox();
   $('.sidenav').sidenav();
+  $('.modal').modal();
   // sidenav.setMenuLinkClick();
   // sidenav.setScrollspy();
   $("li a").click(function(e) {

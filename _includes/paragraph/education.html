@@ -1,11 +1,11 @@
-<div class="block container-fixed">
+<div class="container-fixed">
   <br>
   <h3>Education</h3>
   <div class="row">
     {% for education in site.data.education.education %}
-        <div class="col s6">
+        <div class="col s6 m4 l2 offset-l3 offset-m2">
           <div class="center promo">
-            <img src="{{education.logo}}" alt="" class="responsive-img" style='max-width:150px'>
+            <img src="{{education.logo}}" alt="" class="responsive-img">
             <p class="promo-caption">{{education.name}}</p>
             {% for p in education.p %}
               <p class="light center">{{p}}</p>
@@ -16,20 +16,41 @@
     </div>
 
 
-  <h3>Publications</h3>
-  <div class="row">
-    {% for publication in site.data.education.publications %}
-        <div class="col s12 m6 l6">
-          <div class="center promo">
-            <p class="promo-caption">{{publication.title}}</p>
-            {% for p in publication.p %}
-              <p class="light center">{{p}}</p>
-            {% endfor %}
-            <div class="card-action">
-              <a target='_blank' href="{{publication.link}}">Link</a>
-            </div>
-          </div>
+    <h3>Publications</h3>
+    <div class="row">
+      {% for publication in site.data.education.publications %}
+       <div class="col s12 m6 l6">
+         <div class="card">
+           <div class="card-image">
+             <img class="materialboxed" data-caption="{{publication.title}}" src="{{publication.image}}" style='max-height:300px;width:60%'>
+           </div>
+           <div class="card-content">
+             <span class="card-title">{{publication.title}}</span>
+
+             {% for p in publication.p %}
+               <p class="light center">{{p}}</p>
+             {% endfor %}
+           </div>
+           <div class="card-action">
+             <a class='waves-effect waves-light btn modal-trigger' target='_blank' href="{{publication.link}}">Fulltext</a>
+             <a class="waves-effect waves-light btn modal-trigger" href="#publication-{{forloop.index}}">pewview</a>
+           </div>
+         </div>
+       </div>
+        {% endfor %}
+     </div>
+     {% for publication in site.data.education.publications %}
+      <div id="publication-{{forloop.index}}" class="modal">
+        <div class="modal-content">
+          <h4>{{publication.title}}</h4>
+          {% for p in publication.p %}
+            <p class="light center">{{p}}</p>
+          {% endfor %}
+
         </div>
-    {% endfor %}
-    </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+     {% endfor %}
 </div>

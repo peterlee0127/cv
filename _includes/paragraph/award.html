@@ -1,15 +1,15 @@
-<div class="container-fixed block">
+<div class="container-fixed">
   <br>
   <h3>{{include.text}}</h3>
   <div class="row">
     {% for award in site.data.award %}
-     <div class="col s6 m4 l3">
+     <div class="col s6 m4 l2">
        <div class="card">
          <div class="card-image">
           {% if award.materialboxed %}
-           <img class="materialboxed" data-caption="{{award.p[0]}}" src="{{award.image}}" style="max-width:300px">
+           <img class="materialboxed responsive-img" data-caption="{{award.p[0]}}" src="{{award.image}}">
           {% else %}
-            <img data-caption="{{award.p[0]}}" src="{{award.image}}" style="max-width:300px">
+            <img data-caption="{{award.p[0]}}" class="responsive-img" src="{{award.image}}">
           {% endif %}
          </div>
          <div class="card-content">
