@@ -1,24 +1,38 @@
 <div class="container-fixed">
-  <br>
-  <h3>{{include.text}}</h3>
-    {% for project in site.data.project %}
-    <div class="row valign-wrapper">
-          <div class="col s12 l4">
-              {% if project.materialboxed %}
-               <img class="materialboxed" data-caption="{{project.p[0]}}" src="{{project.image}}" style="max-width:150px">
-              {% else %}
-                <img data-caption="{{award.p[0]}}" src="{{project.image}}" style="max-width:150px">
-              {% endif %}
-              <span class="title center">{{project.title}}</span>
-         </div>
-         <div class="col s12 l8">
-           {% for p in project.p %}
-             <p class="light center">{{p}}</p>
-           {% endfor %}
-           <div>
-             <a href="#">This is a link</a>
-           </div>
-         </div>
-       </div>
-      {% endfor %}
- </div>
+ <hr>
+ <h3>Projects</h3>
+ <div class="row">
+   {% for project in site.data.project %}
+    <div class="col s12 m6 l3">
+      <div class="card">
+        <div class="card-image">
+          <img class="" data-caption="{{project.title}}" src="{{project.image}}" style='height:400px;width:60%'>
+        </div>
+        <div class="card-content">
+          <span class="card-title">{{project.title}}</span>
+          {% for p in project.p %}
+            <p class="light center">{{p}}</p>
+          {% endfor %}
+        </div>
+        <div class="card-action">
+          <a class="waves-effect waves-light modal-trigger" href="#publication-{{forloop.index}}">preview</a>
+        </div>
+      </div>
+    </div>
+     {% endfor %}
+  </div>
+  {% for project in site.data.project %}
+   <div id="publication-{{forloop.index}}" class="modal">
+     <div class="modal-content">
+       <h4>{{project.title}}</h4>
+       {% for p in project.p %}
+         <p class="light center">{{p}}</p>
+       {% endfor %}
+
+     </div>
+     <div class="modal-footer">
+       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+     </div>
+   </div>
+  {% endfor %}
+</div>
