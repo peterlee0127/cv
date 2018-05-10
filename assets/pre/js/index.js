@@ -2,14 +2,29 @@
 
 import 'jquery';
 import 'materialize-css';
-import * as sidenav from './sidenav';
 
 $(document).ready(function(){
   $('.materialboxed').materialbox();
+  $('.sidenav').sidenav();
+  // sidenav.setMenuLinkClick();
+  // sidenav.setScrollspy();
+  $("li a").click(function(e) {
+    var anchor = $(this).attr("href");
+    if(!anchor.includes("#")){
+      return;
+    }
+    if($(this).attr("class").includes("menu-link")){
+      console.log(anchor);
+      e.preventDefault();
 
-  sidenav.setMenuLinkClick();  
-  sidenav.setScrollspy();
+     $('html,body').animate({scrollTop: $(anchor).offset().top},'slow');
+    }
+
+  });
+
 });
+
+
 
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.parallax');
