@@ -8,32 +8,8 @@
   }
 }
 
-.award{
-  position: relative;
-	background: transparent;
-  img {
-    // width: 100%;
-    object-fit: none; /* Do not scale the image */
-  object-position: center; /* Center the image within the element */
-  width: 100%;
-  max-height: 250px;
-  margin-bottom: 1rem;
-  }
-}
-
-.publication-image{
-  img{
-      // object-fit: none; /* Do not scale the image */
-      object-position: center; /* Center the image within the element */
-      width: 100%;
-      max-height: 550px;
-      margin-bottom: 1rem;
-  }
-}
-
 .text-on-picture {
   text-align: center;
-  // color: #d8d8d8;
   font-size: 18px;
   background: rgba(0, 0, 0, .7);
   position: absolute;
@@ -41,19 +17,33 @@
   top: 10%;
 }
 
-// work
-.card-image {
-  overflow: hidden;
+
+.award{
   position: relative;
-  img{
-    height: auto;
-    margin: 0 auto;
+	background: transparent;
+  img {
+    width: 100%;
+    width: 100%;
+    max-height: 250px;
+    margin-bottom: 1rem;
   }
 }
 
-.fixcard{
-  padding-top: 75%;
-}
+//
+// .card-image {
+//   overflow: hidden;
+//   position: relative;
+//   img{
+//     display: block;
+//     object-fit: contain;
+//      max-width: 100%;
+//      max-height: 100%;
+//      width: auto;
+//      height: auto;
+//   }
+// }
+
+
 
 // main
 main{
@@ -86,8 +76,8 @@ nav {
 }
 // main end
 
-
-// scrollspy
+//
+// // scrollspy
 .active > i.material-icons{
   color: #2b92ee !important;
 }
@@ -95,7 +85,6 @@ nav {
 .active{
   color: #2b92ee !important;
 }
-
 
 // Setting
 @media only screen and (max-width : 992px) {
@@ -105,7 +94,7 @@ nav {
   .text-on-picture {
       top: 10%;
       bottom: 0%;
-      background: rgba(0, 0, 0, .7);
+      background: rgba(0, 0, 0, .9);
   }
 }
 
@@ -127,8 +116,21 @@ nav {
     }
 }
 
-//
+
+.card-content {
+  p{
+    word-wrap: break-word;
+    position: relative;
+    overflow:  hidden;
+    align-items: center;
+  }
+}
 // .fixcard{
+//   padding-top: 75%;
+// }
+
+//
+// .card{
 //   padding-top: 120%;
 //   position: relative;
 //   .card-image{

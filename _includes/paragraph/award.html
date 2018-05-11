@@ -7,12 +7,16 @@
        <div class="card">
          <div class="card-image">
           {% if award.materialboxed %}
-           <img class="materialboxed responsive-img" data-caption="{{award.p[0]}}" src="{{award.image}}">
+           <!-- <img class="materialboxed responsive-img" data-caption="{{award.p[0]}}" src="{{award.image}}"> -->
+            <div class="materialboxed" data-caption="{{award.p[0]}}" style="height:300px;background-image: url({{award.image}}); background-size: contain; background-position: center center; background-repeat: no-repeat no-repeat;">
+            </div>
           {% else %}
-            <img data-caption="{{award.p[0]}}" class="responsive-img" src="{{award.image}}">
+            <!-- <img data-caption="{{award.p[0]}}" class="responsive-img" src="{{award.image}}"> -->
+            <div data-caption="{{award.p[0]}}" style="height:300px;background-image: url({{award.image}}); background-size: contain; background-position: center center; background-repeat: no-repeat no-repeat;">
+            </div>
           {% endif %}
          </div>
-         <div class="card-content">
+         <div class="card-content" style='height:250px'>
            <span class="card-title">{{award.title}}</span>
            <br>
            {% for p in award.p %}

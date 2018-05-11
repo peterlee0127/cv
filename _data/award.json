@@ -4,7 +4,7 @@
     "image": "/assets/image/jetson.jpg",
     "materialboxed":true,
     "p": [
-      "2018 April - Thank for Nvidia support a free Nvidia GTX 1080Ti for me.",
+      "2018 April -  Porting TensorFlow for Nvidia Jetson. Thank for Nvidia send a free Nvidia GTX 1080Ti for me.",
       "<a href='https://devtalk.nvidia.com/default/topic/1032843/announcements/recognition-for-outstanding-jetson-developer-community-contributions/'>Nvidia Developer Forum</a>"
     ]
   },

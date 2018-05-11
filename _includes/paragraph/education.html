@@ -19,10 +19,9 @@
     <h3>Publications</h3>
     <div class="row">
       {% for publication in site.data.education.publications %}
-       <div class="col s12 m6 l6">
+       <div class="col s12 m12 l12">
          <div class="card">
-           <div class="card-image">
-             <img class="materialboxed responsive-img" data-caption="{{publication.title}}" src="{{publication.image}}" style='max-height:300px;width:60%'>
+           <div class="card-image" style="height:600px;background-image: url({{publication.image}}); background-size: contain; background-position: center center; background-repeat: no-repeat no-repeat;">
            </div>
            <div class="card-content">
              <span class="card-title">{{publication.title}}</span>

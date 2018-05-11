@@ -1,15 +1,18 @@
 <div class="container-fixed">
- <hr>
+ <br>
  <h3>Projects</h3>
    <div class="row">
    {% for project in site.data.project %}
-     <div class="col s12 m4 l3">
-      <div class="card">
-        <div class="card-image">
-          <img data-caption="{{project.title}}" src="{{project.image}}">
+     <div class="col s6 m4 l3">
+      <div class="card" style='height:auto;'>
+        <div class="card-image-container" style='height:300px'>
+        <div class="card-image" style="height:300px;background-image: url({{project.image}}); background-size: contain; background-position: center center; background-repeat: no-repeat no-repeat;">
+          <!-- <div class="card__media__background" style="background-image: url(https://vuetifyjs.com/static/doc-images/cards/desert.jpg); background-size: cover; background-position: center center; background-repeat: no-repeat no-repeat;"></div> -->
+          <!-- <img data-caption="{{project.title}}" src="{{project.image}}"> -->
         </div>
-        <div class="card-content">
-          <span class="card-title">{{project.title}}</span>
+      </div>
+        <div class="card-content" style='height:150px;'>
+          <!-- <span class="card-title">{{project.title}}</span> -->
           {% for p in project.p %}
             <p class="light center">{{p}}</p>
           {% endfor %}
@@ -21,6 +24,28 @@
   </div>
   {% endfor %}
   </div>
+
+  <!-- <div class="flex xs12 sm6 offset-sm3">
+    <div class="card" style="height: auto;">
+      <div class="card__media" style="height: 200px;">
+        <div class="card__media__background" style="background-image: url(https://vuetifyjs.com/static/doc-images/cards/desert.jpg); background-size: cover; background-position: center center; background-repeat: no-repeat no-repeat;">
+        </div>
+        <div class="card__media__content"></div>
+      </div>
+        <div class="card__title card__title--primary">
+          <div><h3 class="headline mb-0">Kangaroo Valley Safari</h3>
+            <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
+          </div>
+        </div>
+      <div class="card__actions">
+        <button type="button" class="btn btn--flat orange--text">
+          <div class="btn__content">Share</div>
+        </button><button type="button" class="btn btn--flat orange--text">
+          <div class="btn__content">Explore</div>
+        </button>
+      </div>
+    </div>
+  </div> -->
 
 
   {% for project in site.data.project %}

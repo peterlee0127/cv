@@ -9,7 +9,7 @@
       ],
       "link":"http://ieeexplore.ieee.org/abstract/document/7921013/",
       "file":"icast.pdf",
-      "image":"./assets/image/aina.png"
+      "image":"./assets/image/education/aina.png"
     },
     {
       "title":"Stock market analysis from Twitter and news based on streaming big data infrastructure",
@@ -20,7 +20,7 @@
       ],
       "link":"http://ieeexplore.ieee.org/document/8256469/",
       "file":"icast.pdf",
-      "image":"./assets/image/icast.png"
+      "image":"./assets/image/education/icast.png"
     },
     {
       "title":"Real-time Trend Analysis of Streaming Twitter and News Based on Big Data Infrastructure",
@@ -29,13 +29,13 @@
       ],
       "link":"http://www.ieice.org/ken/paper/201708253bw6/",
       "file":"icast.pdf",
-      "image":"./assets/image/twitter.png"
+      "image":"./assets/image/education/twitter.png"
     }
   ]
   ,"education":[
     {
       "name":"University Of Aizu, Fukushima, Japan.",
-      "logo":"/assets/image/UOA_logo.gif",
+      "logo":"/assets/image/education/UOA_logo.gif",
       "p":[
         "2016 March - 2017 March",
         "Master Degree of Computer Science.",
@@ -44,7 +44,7 @@
     },
     {
       "name":"Tamkang University, Taipei, Taiwan.",
-      "logo":"/assets/image/tku_logo.gif",
+      "logo":"/assets/image/education/tku_logo.gif",
       "p":[
         "2011-2014 Bachelor of Engineering (B.E.) Computer Science.",
         "2014-2017 Master Degree of Computer Science."
