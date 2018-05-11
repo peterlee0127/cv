@@ -1,7 +1,7 @@
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const path = require('path');
 const webpack = require('webpack');
-
+const nodeModulesPath = path.resolve(__dirname, 'node_modules');
 
 var extractPlugin = new ExtractTextPlugin({
    filename: './assets/css/bundle.css' // scss轉css後另存的目標檔名
@@ -50,7 +50,8 @@ module.exports.push({
             loader: 'babel-loader',
             query: {
               presets: ['es2015']
-            }
+            },
+            exclude: [nodeModulesPath],
         }
     ]
   },
