@@ -14,14 +14,16 @@
     "p": [
       "Porting TensorFlow to Nvidia Jetson",
       "Repository <a href='https://github.com/peterlee0127/tensorflow-nvJetson'>peterlee0127-tensorflow-nvJetson</a>",
-      "<a href='https://github.com/tensorflow/tensorflow/pull/19075'>#19075</a>, <a href='https://github.com/tensorflow/tensorflow/pull/17394'>#17394</a>"
+      "#19075, #17394"
     ]
   },
   {
     "title": "Rocket.Chat Contributor",
     "image": "/assets/image/rocketchat.png",
     "p": [
-      "Rocket.Chat for Sandstorm Contributor"
+      "Rocket.Chat for Sandstorm Contributor",
+      "<a href='https://github.com/peterlee0127/RocketChat-for-Sandstorm'>RocketChat-for-Sandstorm</a>",
+      "<a href='https://github.com/RocketChat/Rocket.Chat/pull/9062'>#9062</a>"
 
     ]
   },
