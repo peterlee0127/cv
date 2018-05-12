@@ -3,14 +3,13 @@
    <div class="row">
    {% for project in site.data.project %}
      <div class="col s6 m4 l3">
-      <div class="card" style='height:auto;'>
-        <div class="card-image-container" style='height:300px'>
-        <div class="card-image" style="height:300px;background-image: url({{project.image}}); background-size: contain; background-position: center center; background-repeat: no-repeat no-repeat;">
-          <!-- <div class="card__media__background" style="background-image: url(https://vuetifyjs.com/static/doc-images/cards/desert.jpg); background-size: cover; background-position: center center; background-repeat: no-repeat no-repeat;"></div> -->
-          <!-- <img data-caption="{{project.title}}" src="{{project.image}}"> -->
+      <div class="card project">
+        <div class="card-image" style="background-image: url({{project.image}}); background-size: contain; background-position: center; background-repeat: no-repeat;">
         </div>
-      </div>
-        <div class="card-content" style='height:150px;'>
+        <!-- <div class="card-image"> -->
+          <!-- <img src='{{project.image}}' valign="middle"></img> -->
+        <!-- </div> -->
+        <div class="card-content">
           <!-- <span class="card-title">{{project.title}}</span> -->
           {% for p in project.p %}
             <p class="light center">{{p}}</p>

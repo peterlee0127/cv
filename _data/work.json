@@ -2,7 +2,7 @@
   "skills": [
     {
       "title":"Data/DevOps",
-      "p":["Spark","Mesos","Elasticsearch","Hadoop","Kafka","Python2","TensorFlow","Jenkins","Docker"]
+      "p":["Spark","Mesos","Elasticsearch","Hadoop","Kafka","Python2","Scala","TensorFlow","Jenkins","Docker"]
     },
     {
       "title":"Backend/Web",
@@ -10,7 +10,7 @@
     },
     {
       "title":"Others",
-      "p":["Git","Linux","Shell Script","iOS(Objective-C and Swift)"]
+      "p":["Vim","Git","Linux","Shell Script","iOS(Objective-C and Swift)"]
     }
 
   ]

@@ -29,6 +29,13 @@
   }
 }
 
+.card-image  {
+  height:300px;
+}
+
+.card-content {
+  // height: 150px;
+}
 //
 // .card-image {
 //   overflow: hidden;
@@ -41,6 +48,12 @@
 //      width: auto;
 //      height: auto;
 //   }
+// }
+
+// .card {
+//   display: flex;
+//  display: -webkit-flex;
+//  flex-wrap: wrap;
 // }
 
 
@@ -117,18 +130,17 @@ nav {
 }
 
 
-.card-content {
-  p{
-    word-wrap: break-word;
-    position: relative;
-    overflow:  hidden;
-    align-items: center;
-  }
-}
+// .card-content {
+//   p{
+//     word-wrap: break-word;
+//     position: relative;
+//     overflow:  hidden;
+//     align-items: center;
+//   }
+// }
 // .fixcard{
 //   padding-top: 75%;
 // }
-
 //
 // .card{
 //   padding-top: 120%;

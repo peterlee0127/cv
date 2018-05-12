@@ -3,12 +3,33 @@
 import 'jquery';
 import 'materialize-css';
 
+$( window ).resize(function() {
+  $(".award .card-content").height('auto');
+  // $(".project .card-content").heigt('auto');
+  rwd();
+});
+
+function rwd() {
+  var contentHeights = $(".award .card-content").map(function() {
+         return $(this).height();
+     }).get(),
+  contentMaxHeight = Math.max.apply(null, contentHeights);
+ $(".award .card-content").height(contentMaxHeight);
+ 
+ var contentHeightsx = $(".project .card-content").map(function() {
+        return $(this).height();
+    }).get(),
+ contentMaxHeightx = Math.max.apply(null, contentHeightsx);
+$(".project .card-content").height(contentMaxHeightx);
+}
 $(document).ready(function(){
   $('.materialboxed').materialbox();
   $('.sidenav').sidenav();
   $('.modal').modal();
 
   $('.scrollspy').scrollSpy();
+
+  rwd();
 
   // sidenav.setMenuLinkClick();
   // sidenav.setScrollspy();

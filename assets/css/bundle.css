@@ -6546,6 +6546,9 @@ input[type=range]::-ms-thumb {
     max-height: 250px;
     margin-bottom: 1rem; }
 
+.card-image {
+  height: 300px; }
+
 main p {
   font-size: 15px; }
 
@@ -6592,12 +6595,6 @@ nav {
     display: none; }
   .mobile-side {
     display: none; } }
-
-.card-content p {
-  word-wrap: break-word;
-  position: relative;
-  overflow: hidden;
-  align-items: center; }
 
 .parallax-container {
   max-height: 400px; }
