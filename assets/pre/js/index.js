@@ -5,8 +5,9 @@ import 'materialize-css';
 
 $( window ).resize(function() {
   $(".award .card-content").height('auto');
-  // $(".project .card-content").heigt('auto');
+  $(".project .card-content").height('auto');
   rwd();
+
 });
 
 function rwd() {
@@ -15,7 +16,7 @@ function rwd() {
      }).get(),
   contentMaxHeight = Math.max.apply(null, contentHeights);
  $(".award .card-content").height(contentMaxHeight);
- 
+
  var contentHeightsx = $(".project .card-content").map(function() {
         return $(this).height();
     }).get(),
@@ -23,13 +24,15 @@ function rwd() {
 $(".project .card-content").height(contentMaxHeightx);
 }
 $(document).ready(function(){
+  rwd();
+
   $('.materialboxed').materialbox();
   $('.sidenav').sidenav();
   $('.modal').modal();
 
   $('.scrollspy').scrollSpy();
 
-  rwd();
+
 
   // sidenav.setMenuLinkClick();
   // sidenav.setScrollspy();

@@ -2,8 +2,8 @@
   <h3>{{include.text}}</h3>
   <div class="row">
     {% for award in site.data.award %}
-     <div class="col s6 m4 l3">
-       <div class="card award">
+     <div class="col s6 m4 l4">
+       <div class="award card">
           {% if award.materialboxed %}
             <div class="materialboxed card-image" data-caption="{{award.p[0]}}" style="background-image: url({{award.image}}); background-size: contain; background-position: center center; background-repeat: no-repeat no-repeat;">
             </div>

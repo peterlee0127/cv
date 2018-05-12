@@ -10454,7 +10454,7 @@ __webpack_require__(3);
 
 $(window).resize(function () {
   $(".award .card-content").height('auto');
-  // $(".project .card-content").heigt('auto');
+  $(".project .card-content").height('auto');
   rwd();
 });
 
@@ -10472,13 +10472,13 @@ function rwd() {
   $(".project .card-content").height(contentMaxHeightx);
 }
 $(document).ready(function () {
+  rwd();
+
   $('.materialboxed').materialbox();
   $('.sidenav').sidenav();
   $('.modal').modal();
 
   $('.scrollspy').scrollSpy();
-
-  rwd();
 
   // sidenav.setMenuLinkClick();
   // sidenav.setScrollspy();

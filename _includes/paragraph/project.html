@@ -2,8 +2,8 @@
  <h3>Projects</h3>
    <div class="row">
    {% for project in site.data.project %}
-     <div class="col s6 m4 l3">
-      <div class="card project">
+     <div class="col s6 m4 l4">
+      <div class="project card">
         <div class="card-image" style="background-image: url({{project.image}}); background-size: contain; background-position: center; background-repeat: no-repeat;">
         </div>
         <!-- <div class="card-image"> -->
@@ -15,9 +15,9 @@
             <p class="light center">{{p}}</p>
           {% endfor %}
         </div>
-        <div class="card-action">
+        <!-- <div class="card-action">
           <a class="waves-effect waves-light modal-trigger" href="#publication-{{forloop.index}}">preview</a>
-        </div>
+        </div> -->
       </div>
   </div>
   {% endfor %}
