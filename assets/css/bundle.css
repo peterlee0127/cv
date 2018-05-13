@@ -6546,9 +6546,6 @@ input[type=range]::-ms-thumb {
     max-height: 250px;
     margin-bottom: 1rem; }
 
-.card-image {
-  height: 300px; }
-
 main p {
   font-size: 15px; }
 
@@ -6568,12 +6565,6 @@ nav {
 
 .page-footer {
   background-color: #2b92ee; }
-
-.active > i.material-icons {
-  color: #2b92ee !important; }
-
-.active {
-  color: #2b92ee !important; }
 
 @media only screen and (max-width: 992px) {
   header, main, footer {
@@ -6609,3 +6600,12 @@ nav {
     width: 50%;
     height: auto;
     border-radius: 50%; }
+
+.active > i.material-icons {
+  color: #2b92ee !important; }
+
+.active {
+  color: #2b92ee !important; }
+
+.card-image {
+  height: 300px; }

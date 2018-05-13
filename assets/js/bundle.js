@@ -10459,18 +10459,19 @@ $(window).resize(function () {
 });
 
 function rwd() {
-  var contentHeights = $(".award .card-content").map(function () {
+  setHeight('.award .card-content');
+  setHeight('.project .card-content');
+  setHeight('.publication .card-content');
+}
+
+function setHeight(element) {
+  var contentHeights = $(element).map(function () {
     return $(this).height();
   }).get(),
       contentMaxHeight = Math.max.apply(null, contentHeights);
-  $(".award .card-content").height(contentMaxHeight);
-
-  var contentHeightsx = $(".project .card-content").map(function () {
-    return $(this).height();
-  }).get(),
-      contentMaxHeightx = Math.max.apply(null, contentHeightsx);
-  $(".project .card-content").height(contentMaxHeightx);
+  $(element).height(contentMaxHeight);
 }
+
 $(document).ready(function () {
   rwd();
 

@@ -29,32 +29,6 @@
   }
 }
 
-.card-image  {
-  height:300px;
-}
-
-.card-content {
-  // height: 150px;
-}
-//
-// .card-image {
-//   overflow: hidden;
-//   position: relative;
-//   img{
-//     display: block;
-//     object-fit: contain;
-//      max-width: 100%;
-//      max-height: 100%;
-//      width: auto;
-//      height: auto;
-//   }
-// }
-
-// .card {
-//   display: flex;
-//  display: -webkit-flex;
-//  flex-wrap: wrap;
-// }
 
 
 
@@ -87,17 +61,7 @@ nav {
 .page-footer {
   background-color: #2b92ee;
 }
-// main end
 
-//
-// // scrollspy
-.active > i.material-icons{
-  color: #2b92ee !important;
-}
-
-.active{
-  color: #2b92ee !important;
-}
 
 // Setting
 @media only screen and (max-width : 992px) {
@@ -128,47 +92,3 @@ nav {
         display: none;
     }
 }
-
-
-// .card-content {
-//   p{
-//     word-wrap: break-word;
-//     position: relative;
-//     overflow:  hidden;
-//     align-items: center;
-//   }
-// }
-// .fixcard{
-//   padding-top: 75%;
-// }
-//
-// .card{
-//   padding-top: 120%;
-//   position: relative;
-//   .card-image{
-//     position: absolute;
-//     width: 100%;
-//     height: 50%;
-//     top: 0;
-//
-//     img{
-//       width: auto;
-//       height: 100%;
-//     }
-//   }
-//
-//   .card-content{
-//     position: absolute;
-//     width: 100%;
-//     height: 30%;
-//     top: 50%;
-//   }
-//
-//   .card-action{
-//     position: absolute;
-//     bottom: 0;
-//     height: 60px;
-//     width: 100%;
-//     text-align: center;
-//   }
-// }
