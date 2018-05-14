@@ -8,14 +8,12 @@ $( window ).resize(function() {
   $(".award .card-content").height('auto');
   $(".project .card-content").height('auto');
   rwd();
-
 });
 
 function rwd() {
   setHeight('.award .card-content');
   setHeight('.project .card-content');
   setHeight('.publication .card-content');
-
 }
 
 function setHeight(element) {
@@ -32,7 +30,7 @@ $(document).ready(function(){
   $('.materialboxed').materialbox();
   $('.sidenav').sidenav();
   $('.modal').modal();
-  fadeCard();
+  // fadeCard();
 
   $('.scrollspy').scrollSpy();
 
@@ -61,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.parallax');
   var instances = M.Parallax.init(elems, 400);
 });
-
+/*
 function fadeCard(){
   const cards = Array.from(document.querySelectorAll('.card')).map(x=>{
     return {
@@ -69,7 +67,7 @@ function fadeCard(){
       faded: false
     }
   });
-  checkFade(cards); 
+  checkFade(cards);
   $(window).scroll( function(){
     checkFade(cards);
   });
@@ -113,3 +111,4 @@ function fadeIn(el){
     }
   })();
 }
+*/
