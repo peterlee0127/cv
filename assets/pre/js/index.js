@@ -2,6 +2,7 @@
 
 import 'jquery';
 import 'materialize-css';
+import * as LivePhotosKit from 'livephotoskit';
 
 $( window ).resize(function() {
   $(".award .card-content").height('auto');

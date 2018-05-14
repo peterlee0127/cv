@@ -19,8 +19,8 @@
       {% for publication in site.data.education.publications %}
        <div class="col s12 m12 l6">
          <div class="publication card">
-            <div class="card-image materialboxed" data-caption="{{publication.p[0]}}" style="background-image: url({{publication.image}}); background-size: contain; background-position: center; background-repeat: no-repeat;">
-            </div>
+           <div class="materialboxed card-image" data-caption="{{award.p[0]}}" style="background-image: url({{publication.image}}); background-size: contain; background-position: center center; background-repeat: no-repeat no-repeat;">
+           </div>
            <div class="card-content">
              <span class="card-title">{{publication.title}}</span>
              {% for p in publication.p %}

@@ -6529,6 +6529,41 @@ input[type=range]::-ms-thumb {
   .about img {
     width: 100%; }
 
+.skills .background-image {
+  background-image: url("/../../assets/image/code.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1; }
+
+.skills .card {
+  background-color: inherit;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+
+.skills hr {
+  color: inherit; }
+
+.skills h3 {
+  color: white; }
+
+.skills h5 {
+  color: white; }
+
+.skills p {
+  color: white; }
+
 .text-on-picture {
   text-align: center;
   font-size: 18px;

@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "jquery": "^3.3.1",
+    "livephotoskit": "^1.5.4",
     "materialize-css": "^1.0.0-rc.1",
     "typed.js": "^2.0.6"
   },
