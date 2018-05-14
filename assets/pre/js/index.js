@@ -32,9 +32,9 @@ $(document).ready(function(){
   $('.materialboxed').materialbox();
   $('.sidenav').sidenav();
   $('.modal').modal();
+  fadeCard();
 
   $('.scrollspy').scrollSpy();
-
 
 
   // sidenav.setMenuLinkClick();
@@ -61,3 +61,55 @@ document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.parallax');
   var instances = M.Parallax.init(elems, 400);
 });
+
+function fadeCard(){
+  const cards = Array.from(document.querySelectorAll('.card')).map(x=>{
+    return {
+      el:x,
+      faded: false
+    }
+  });
+  checkFade(cards); 
+  $(window).scroll( function(){
+    checkFade(cards);
+  });
+}
+
+function checkFade(cards){
+  var currentViewPosition = document.documentElement.scrollTop ? document.documentElement.scrollTop: document.body.scrollTop;
+  let faded =[];
+      for (var i in cards) {
+          const element = cards[i].el;
+          if(cards[i].faded) continue;
+
+          var elementPosition = getPositionOfElement(element);
+          if( currentViewPosition+window.innerHeight >= elementPosition){
+            fadeIn(element);
+            cards[i].faded = true;
+          }
+      }
+}
+
+function getPositionOfElement(domElement)
+{
+    var pos = 0;
+    while (domElement != null)
+    {
+        pos += domElement.offsetTop;
+        domElement = domElement.offsetParent;
+    }
+    return pos;
+}
+
+function fadeIn(el){
+  el.style.opacity = 0;
+
+  (function fade() {
+    var val = parseFloat(el.style.opacity);
+    if(val < 1){
+      val+=0.01;
+      el.style.opacity = val;
+      requestAnimationFrame(fade);
+    }
+  })();
+}
