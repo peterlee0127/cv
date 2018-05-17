@@ -11,6 +11,7 @@
   {
     "title": "TensorFlow Contributor",
     "image": "/assets/image/tensorflow.png",
+    "github":"https://github.com/peterlee0127/tensorflow-nvJetson",
     "p": [
       "Porting TensorFlow to Nvidia Jetson",
       "Repository <a href='https://github.com/peterlee0127/tensorflow-nvJetson'>peterlee0127-tensorflow-nvJetson</a>",
@@ -20,6 +21,7 @@
   {
     "title": "Rocket.Chat Contributor",
     "image": "/assets/image/rocketchat.png",
+    "github":"https://github.com/peterlee0127/RocketChat-for-Sandstorm",
     "p": [
       "Rocket.Chat for Sandstorm Contributor",
       "<a href='https://github.com/peterlee0127/RocketChat-for-Sandstorm'>RocketChat-for-Sandstorm</a>",

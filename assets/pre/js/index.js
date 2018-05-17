@@ -2,7 +2,7 @@
 
 import 'jquery';
 import 'materialize-css';
-import * as LivePhotosKit from 'livephotoskit';
+// import * as LivePhotosKit from 'livephotoskit';
 
 $( window ).resize(function() {
   $(".award .card-content").height('auto');
@@ -15,6 +15,10 @@ function rwd() {
   setHeight('.project .card-content');
   setHeight('.publication .card-content');
 }
+
+import Typed from 'typed.js';
+
+
 
 function setHeight(element) {
   var contentHeights = $(element).map(function() {
@@ -33,6 +37,26 @@ $(document).ready(function(){
   // fadeCard();
 
   $('.scrollspy').scrollSpy();
+
+
+var options = {
+  strings: ["Data Engineer","DevOps Engineer"],
+  typeSpeed: 60,
+  loop:true,
+  showCursor:false,
+  fadeOut: true,
+}
+var typed = new Typed(".typed-about", options);
+
+  Array.from(document.querySelectorAll('.skills .card p')).map(x=>{
+
+    // var options = {
+    //   strings: [x],
+    //   typeSpeed: 40
+    // }
+    // var typed = new Typed(".element", options);
+  });
+
 
 
   // sidenav.setMenuLinkClick();

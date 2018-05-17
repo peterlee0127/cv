@@ -1,16 +1,10 @@
 {
   "skills": [
     {
-      "title":"Data/DevOps",
       "p":["Spark","Mesos","Elasticsearch","Hadoop","Kafka","Python2","Scala","TensorFlow","Jenkins","Docker"]
     },
     {
-      "title":"Backend/Web",
-      "p":["Node.js","Mongodb","JavaScript","webpack","html","css"]
-    },
-    {
-      "title":"Others",
-      "p":["Vim","Git","Linux","Shell Script","iOS(Objective-C and Swift)"]
+      "p":["Node.js","Mongodb","JavaScript","iOS(Objective-C and Swift)"]
     }
 
   ]

@@ -15,22 +15,28 @@
       "icon":"work"
     },
     {
-      "text": "Education & Publications",
-      "link": "education",
-      "include":"education.html",
-      "icon":"school"
-    },
-    {
       "text": "Awards",
       "link": "award",
       "include":"award.html",
       "icon":"grade"
     },
     {
+      "text": "Publications",
+      "link": "publications",
+      "include":"publications.html",
+      "icon":"school"
+    },
+    {
       "text": "Projects",
       "link": "projects",
       "include":"project.html",
       "icon":"assignment"
+    },
+    {
+      "text": "Education",
+      "link": "education",
+      "include":"education.html",
+      "icon":"school"
     },
     {
       "divider": "true" },
