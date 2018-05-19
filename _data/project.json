@@ -15,7 +15,6 @@
   {
     "title": "EWS-Calendar",
     "image": "/assets/image/project/ews.png",
-    "github":"",
     "p": [
       "EWS-Calendar sync Microsoft Exchange Data to Google. It also generated api server for our <a target='_blank' href='https://au.pdis.tw'>Reservation system</a> and <a target='_blank' href='http://silofficehour.pdis.tw'>Calendar</a>",
     ],
@@ -26,14 +25,11 @@
     ]
   },
   {
-    "title": "Rocket.Chat Contributor",
-    "image": "/assets/image/rocketchat.png",
-    "github":"https://github.com/peterlee0127/RocketChat-for-Sandstorm",
+    "title": "RealTimeSubtitle",
+    "image": "/assets/image/project/subtitle1.jpg",
+    "github":"https://github.com/peterlee0127/RealTimeSubtitle",
     "p": [
-      "Rocket.Chat for Sandstorm Contributor",
-      "<a href='https://github.com/peterlee0127/RocketChat-for-Sandstorm'>RocketChat-for-Sandstorm</a>",
-      "<a href='https://github.com/RocketChat/Rocket.Chat/pull/9062'>#9062</a>"
-
+      "A open-source plug-in to display subtitle on OBS Studio",
     ]
   },
   {

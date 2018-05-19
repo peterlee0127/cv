@@ -9,18 +9,6 @@
       "icon":"account_circle"
     },
     {
-      "text": "Skills & Work",
-      "link": "work",
-      "include":"work.html",
-      "icon":"work"
-    },
-    {
-      "text": "Awards",
-      "link": "award",
-      "include":"award.html",
-      "icon":"grade"
-    },
-    {
       "text": "Publications",
       "link": "publications",
       "include":"publications.html",
@@ -31,6 +19,18 @@
       "link": "projects",
       "include":"project.html",
       "icon":"assignment"
+    },
+    {
+      "text": "Skills & Work",
+      "link": "work",
+      "include":"work.html",
+      "icon":"work"
+    },
+    {
+      "text": "Awards",
+      "link": "award",
+      "include":"award.html",
+      "icon":"grade"
     },
     {
       "text": "Education",

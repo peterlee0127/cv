@@ -13,7 +13,11 @@
           {% endfor %}
         </div>
         <div class="card-action">
-          <a class="waves-effect waves-light modal-trigger" href="#project-{{forloop.index}}">More</a>
+          {% if project.github %}
+            <a class="waves-effect waves-light" target='_blank' href="{{project.github}}">Github</a>
+          {% else %}
+            <a class="waves-effect waves-light modal-trigger" href="#project-{{forloop.index}}">More</a>
+          {% endif %}
         </div>
       </div>
   </div>
