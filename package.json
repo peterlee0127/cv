@@ -4,8 +4,6 @@
   "description": "CV",
   "main": "index.js",
   "dependencies": {
-    "@fortawesome/fontawesome-free-brands": "^5.0.13",
-    "@fortawesome/fontawesome-free-regular": "^5.0.13",
     "jquery": "^3.3.1",
     "livephotoskit": "^1.5.4",
     "materialize-css": "^1.0.0-rc.1",
