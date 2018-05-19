@@ -27,7 +27,7 @@
       "icon":"school"
     },
     {
-      "text": "Projects",
+      "text": "Selected Projects",
       "link": "projects",
       "include":"project.html",
       "icon":"assignment"

@@ -1,11 +1,16 @@
 [
   {
-    "title": "tensorflow-nvJetson",
-    "image": "/assets/image/jetson.jpg",
+    "title": "PDIS Line Bot",
+    "image": "/assets/image/project/pdis-bot.png",
     "materialboxed":true,
     "p": [
-      "Porting TensorFlow to Nvidia Jetson",
-      "<a href='https://devtalk.nvidia.com/default/topic/1032843/announcements/recognition-for-outstanding-jetson-developer-community-contributions/'>Nvidia Developer Forum</a>"
+      "PDIS Line Bot provides Audrey Tang's Calendar to PDIS member. It also sends push message from our other services. Bot also linked with Line Beacon, it will send greeting message to us when we entering PDIS office."
+    ],
+    "detail":[
+      "PDIS Line Bot provides Audrey Tang's Calendar to PDIS member. We can type 'au cal today', chat bot will return Tang's schedule. Bot also support other format. Like 'yesterday, next Monday, 5/20'",
+      "Bot can send push notification, it sends message from other services. Like a reservation system send appointment information to PDIS staff.",
+      "<img src='/assets/image/project/beacon.jpg' width='80%'></a>",
+      "This bot also linked with Line Beacon(I got this in Line Dev Day 2016). Bot will send greeting message to us when we entering PDIS office."
     ]
   },
   {

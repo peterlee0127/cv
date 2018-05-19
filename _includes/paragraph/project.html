@@ -1,5 +1,5 @@
 <div class="container-fixed">
- <h3>Projects</h3>
+ <h3>Selected Projects</h3>
    <div class="row">
    {% for project in site.data.project %}
      <div class="col s6 m4 l4">
@@ -15,19 +15,19 @@
             <p class="light center">{{p}}</p>
           {% endfor %}
         </div>
-        <!-- <div class="card-action">
-          <a class="waves-effect waves-light modal-trigger" href="#publication-{{forloop.index}}">preview</a>
-        </div> -->
+        <div class="card-action">
+          <a class="waves-effect waves-light modal-trigger" href="#project-{{forloop.index}}">More</a>
+        </div>
       </div>
   </div>
   {% endfor %}
   </div>
 
   {% for project in site.data.project %}
-   <div id="publication-{{forloop.index}}" class="modal">
+   <div id="project-{{forloop.index}}" class="modal">
      <div class="modal-content">
        <h4>{{project.title}}</h4>
-       {% for p in project.p %}
+       {% for p in project.detail %}
          <p class="light center">{{p}}</p>
        {% endfor %}
      </div>
