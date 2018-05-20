@@ -6529,6 +6529,11 @@ input[type=range]::-ms-thumb {
   .about img {
     width: 100%; }
 
+.modal {
+  width: 80%;
+  height: 90%;
+  max-height: 90%; }
+
 .skills {
   background-size: cover;
   background-position: center;
