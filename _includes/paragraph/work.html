@@ -1,21 +1,3 @@
-<div class="skills container-fixed row" style="position: relative">
-  <div style="filter: blur(10px); opacity: 0.8;position: absolute;width: 100%;height: 100%;background-color: black;">
-      {% include PETER.svg %}
-  </div>
-  <h3>Skills</h3>
-  {% for skill in site.data.work.skills %}
-   <div class="col s6 m4 l4">
-     <div class="card">
-       <div class="card-content">
-         {% for p in skill.p %}
-           <p class="flow-text">{{p}}</p>
-         {% endfor %}
-       </div>
-     </div>
-   </div>
-    {% endfor %}
-</div>
-
 <div class="container-fixed">
     <h3>Work</h3>
     <div class="container-fixed col s12 l12">
