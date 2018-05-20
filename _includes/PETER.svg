@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewbox="0 0 1186 300">
+	<defs>
+        <g id="Blue-Block">
+            <path id="Path-17-Copy-3" fill="#2093C3" fill-rule="evenodd" d="M0,48L21,36L21,12Z" transform="translate(10.5,30) scale(-1,1) translate(-10.5,-30)"/>
+            <path id="Path-17" fill="#24A8DE" fill-rule="evenodd" d="M21,48L21,24L0,12L1,15L19,45Z"/>
+            <path id="Path-17-2" fill="#2ABCF8" fill-rule="evenodd" d="M1,35L19,45L19,25L1,15Z"/>
+            <path id="Path-17-Copy-2" fill="#291F00" fill-rule="evenodd" d="M42.1527,47.9101L41.8382,23.7254L20.8473,12.0899L22.9577,15.1494L40.4984,44.7064Z" transform="translate(31.5,30) rotate(61) translate(-31.5,-30)"/>
+            <path id="Path-17-3" fill="#17698A" fill-rule="evenodd" d="M21,36L42,48L42,24L21,12Z" transform="translate(31.5,30) scale(-1,1) translate(-31.5,-30)"/>
+            <path id="Path-17-Copy" fill="#2393C1" fill-rule="evenodd" d="M42,48L42,24L21,12L22,15L40,45Z" transform="translate(31.5,30) scale(-1,1) translate(-31.5,-30)"/>
+            <path id="Path-17-4" fill="#1E83AD" fill-rule="evenodd" d="M23,35L41,45L41,25L23,15Z" transform="translate(32,30) scale(-1,1) translate(-32,-30)"/>
+            <path id="Path-26" d="M0,12L21,0L42,12L21,24Z"/>
+            <path id="Path-26-Copy" fill="#239BCD" fill-rule="evenodd" d="M21,0L42,12L21,24Z"/>
+            <path id="Path-26-Copy-2" fill="#2ABCF8" fill-rule="evenodd" d="M0,0L21,12L0,24Z" transform="translate(10.5,12) rotate(-180) translate(-10.5,-12)"/>
+            <path id="Path-26-2" fill="url(#Gradient-0)" fill-rule="evenodd" d="M3,12L21,2L39,12L21,22Z"/>
+        </g>
+        <linearGradient id="Gradient-0" x1="0.871673" y1="0.473891" x2="0.199035" y2="0.440915">
+            <stop offset="0" stop-color="#2bace2"/>
+            <stop offset="1" stop-color="#21b5f3"/>
+        </linearGradient>
+
+        <linearGradient x1="88.5340865%" y1="47.4561081%" x2="19.9034756%" y2="44.0915419%" id="linearGradient-1">
+            <stop stop-color="#F9E11B" offset="0%"></stop>
+            <stop stop-color="#FFE93A" offset="100%"></stop>
+        </linearGradient>
+
+        <g id="Yellow-Block-">
+                <polygon id="Path-17" fill="#F8D102" points="0 36 21 48 21 24 0 12"></polygon>
+                <polygon id="Path-17-Copy-3" fill="#EDC800" transform="translate(10.500000, 30.000000) scale(-1, 1) translate(-10.500000, -30.000000) " points="-3.55271368e-15 48 21 36 21 12"></polygon>
+                <polygon id="Path-17" fill="#F8D102" points="21 48 21 24 0 12 1 15 19 45"></polygon>
+                <polygon id="Path-17" fill="#FFE249" points="1 35 19 45 19 25 1 15"></polygon>
+                <polygon id="Path-17-Copy-2" fill="#291F00" transform="translate(31.500000, 30.000000) rotate(61.000000) translate(-31.500000, -30.000000) " points="42.1526537 47.9100801 41.8382193 23.7253508 20.8473463 12.0899199 22.9577335 15.1493937 40.4984138 44.7064118"></polygon>
+                <polygon id="Path-17" fill="#9C7500" transform="translate(31.500000, 30.000000) scale(-1, 1) translate(-31.500000, -30.000000) " points="21 36 42 48 42 24 21 12"></polygon>
+                <polygon id="Path-17-Copy" fill="#E0A900" transform="translate(31.500000, 30.000000) scale(-1, 1) translate(-31.500000, -30.000000) " points="42 48 42 24 21 12 22 15 40 45"></polygon>
+                <polygon id="Path-17" fill="#C99804" transform="translate(32.000000, 30.000000) scale(-1, 1) translate(-32.000000, -30.000000) " points="23 35 41 45 41 25 23 15"></polygon>
+                <polygon id="Path-26" fill="#F9E11B" points="0 12 21 0 42 12 21 24"></polygon>
+                <polygon id="Path-26-Copy" fill="#F1B500" points="21 0 42 12 21 24"></polygon>
+                <polygon id="Path-26-Copy-2" fill="#FFF391" transform="translate(10.500000, 12.000000) rotate(-180.000000) translate(-10.500000, -12.000000) " points="0 -4.26325641e-14 21 12 0 24"></polygon>
+                <polygon id="Path-26" fill="url(#linearGradient-1)" points="3 12 21 2 39 12 21 22"></polygon>
+        </g>
+
+        <linearGradient x1="87.1673009%" y1="47.3891025%" x2="19.9034756%" y2="44.0915419%" id="linearGradient-2">
+            <stop stop-color="#4DB747" offset="0%"></stop>
+            <stop stop-color="#4FB949" offset="100%"></stop>
+        </linearGradient>
+
+        <g id="Green-Block">
+            <polygon id="Path-17" points="0 36 21 48 21 24 0 12"></polygon>
+            <polygon id="Path-17-Copy-3" fill="#48AA43" fill-rule="evenodd" transform="translate(10.500000, 30.000000) scale(-1, 1) translate(-10.500000, -30.000000) " points="-3.55271368e-15 48 21 36 21 12"></polygon>
+            <polygon id="Path-17" fill="#4EBA48" fill-rule="evenodd" points="21 48 21 24 0 12 1 15 19 45"></polygon>
+            <polygon id="Path-17" fill="#58D152" fill-rule="evenodd" points="1 35 19 45 19 25 1 15"></polygon>
+            <polygon id="Path-17-Copy-2" fill="#291F00" fill-rule="evenodd" transform="translate(31.500000, 30.000000) rotate(61.000000) translate(-31.500000, -30.000000) " points="42.1526537 47.9100801 41.8382193 23.7253508 20.8473463 12.0899199 22.9577335 15.1493937 40.4984138 44.7064118"></polygon>
+            <polygon id="Path-17" fill="#34822F" fill-rule="evenodd" transform="translate(31.500000, 30.000000) scale(-1, 1) translate(-31.500000, -30.000000) " points="21 36 42 48 42 24 21 12"></polygon>
+            <polygon id="Path-17-Copy" fill="#44A03E" fill-rule="evenodd" transform="translate(31.500000, 30.000000) scale(-1, 1) translate(-31.500000, -30.000000) " points="42 48 42 24 21 12 22 15 40 45"></polygon>
+            <polygon id="Path-17" fill="#3E9539" fill-rule="evenodd" transform="translate(32.000000, 30.000000) scale(-1, 1) translate(-32.000000, -30.000000) " points="23 35 41 45 41 25 23 15"></polygon>
+            <polygon id="Path-26" points="0 12 21 0 42 12 21 24"></polygon>
+            <polygon id="Path-26-Copy" fill="#46A841" fill-rule="evenodd" points="21 0 42 12 21 24"></polygon>
+            <polygon id="Path-26-Copy-2" fill="#5CD754" fill-rule="evenodd" transform="translate(10.500000, 12.000000) rotate(-180.000000) translate(-10.500000, -12.000000) " points="0 -4.26325641e-14 21 12 0 24"></polygon>
+            <polygon id="Path-26" fill="url(#linearGradient-2)" fill-rule="evenodd" points="3 12 21 2 39 12 21 22"></polygon>
+        </g>
+        <linearGradient x1="87.1673009%" y1="47.3891025%" x2="19.9034756%" y2="44.0915419%" id="linearGradient-3">
+            <stop stop-color="#EF2733" offset="0%"></stop>
+            <stop stop-color="#ED3742" offset="100%"></stop>
+        </linearGradient>
+        <g id="Red-Block">
+                <polygon id="Path-17" points="0 36 21 48 21 24 0 12"></polygon>
+                <polygon id="Path-17-Copy-3" fill="#A8464C" fill-rule="evenodd" transform="translate(10.500000, 30.000000) scale(-1, 1) translate(-10.500000, -30.000000) " points="-3.55271368e-15 48 21 36 21 12"></polygon>
+                <polygon id="Path-17" fill="#CE575E" fill-rule="evenodd" points="21 48 21 24 0 12 1 15 19 45"></polygon>
+                <polygon id="Path-17" fill="#E56068" fill-rule="evenodd" points="1 35 19 45 19 25 1 15"></polygon>
+                <polygon id="Path-17-Copy-2" fill="#291F00" fill-rule="evenodd" transform="translate(31.500000, 30.000000) rotate(61.000000) translate(-31.500000, -30.000000) " points="42.1526537 47.9100801 41.8382193 23.7253508 20.8473463 12.0899199 22.9577335 15.1493937 40.4984138 44.7064118"></polygon>
+                <polygon id="Path-17" fill="#9E1B23" fill-rule="evenodd" transform="translate(31.500000, 30.000000) scale(-1, 1) translate(-31.500000, -30.000000) " points="21 36 42 48 42 24 21 12"></polygon>
+                <polygon id="Path-17-Copy" fill="#DD1E2A" fill-rule="evenodd" transform="translate(31.500000, 30.000000) scale(-1, 1) translate(-31.500000, -30.000000) " points="42 48 42 24 21 12 22 15 40 45"></polygon>
+                <polygon id="Path-17" fill="#C41F29" fill-rule="evenodd" transform="translate(32.000000, 30.000000) scale(-1, 1) translate(-32.000000, -30.000000) " points="23 35 41 45 41 25 23 15"></polygon>
+                <polygon id="Path-26" points="0 12 21 0 42 12 21 24"></polygon>
+                <polygon id="Path-26-Copy" fill="#CD232D" fill-rule="evenodd" points="21 0 42 12 21 24"></polygon>
+                <polygon id="Path-26-Copy-2" fill="#EC868C" fill-rule="evenodd" transform="translate(10.500000, 12.000000) rotate(-180.000000) translate(-10.500000, -12.000000) " points="0 -4.26325641e-14 21 12 0 24"></polygon>
+                <polygon id="Path-26" fill="url(#linearGradient-3)" fill-rule="evenodd" points="3 12 21 2 39 12 21 22"></polygon>
+            </g>
+
+               <linearGradient x1="19.9034756%" y1="44.0915419%" x2="88.5340865%" y2="47.4561081%" id="linearGradient-4">
+            <stop stop-color="#AA33A3" offset="0%"></stop>
+            <stop stop-color="#922B8C" offset="100%"></stop>
+        </linearGradient>
+        <g id="Purple-Block">
+                <polygon id="Path-17" points="0 36 21 48 21 24 0 12"></polygon>
+                <polygon id="Path-17-Copy-3" fill="#892684" fill-rule="evenodd" transform="translate(10.500000, 30.000000) scale(-1, 1) translate(-10.500000, -30.000000) " points="-3.55271368e-15 48 21 36 21 12"></polygon>
+                <polygon id="Path-17" fill="#9F3099" fill-rule="evenodd" points="21 48 21 24 0 12 1 15 19 45"></polygon>
+                <polygon id="Path-17" fill="#B737B0" fill-rule="evenodd" points="1 35 19 45 19 25 1 15"></polygon>
+                <polygon id="Path-17-Copy-2" fill="#291F00" fill-rule="evenodd" transform="translate(31.500000, 30.000000) rotate(61.000000) translate(-31.500000, -30.000000) " points="42.1526537 47.9100801 41.8382193 23.7253508 20.8473463 12.0899199 22.9577335 15.1493937 40.4984138 44.7064118"></polygon>
+                <polygon id="Path-17" fill="#50124C" fill-rule="evenodd" transform="translate(31.500000, 30.000000) scale(-1, 1) translate(-31.500000, -30.000000) " points="21 36 42 48 42 24 21 12"></polygon>
+                <polygon id="Path-17-Copy" fill="#862A80" fill-rule="evenodd" transform="translate(31.500000, 30.000000) scale(-1, 1) translate(-31.500000, -30.000000) " points="42 48 42 24 21 12 22 15 40 45"></polygon>
+                <polygon id="Path-17" fill="#6D2068" fill-rule="evenodd" transform="translate(32.000000, 30.000000) scale(-1, 1) translate(-32.000000, -30.000000) " points="23 35 41 45 41 25 23 15"></polygon>
+                <polygon id="Path-26" points="0 12 21 0 42 12 21 24"></polygon>
+                <polygon id="Path-26-Copy" fill="#811F73" fill-rule="evenodd" points="21 0 42 12 21 24"></polygon>
+                <polygon id="Path-26-Copy-2" fill="#C258AD" fill-rule="evenodd" transform="translate(10.500000, 12.000000) rotate(-180.000000) translate(-10.500000, -12.000000) " points="0 -4.26325641e-14 21 12 0 24"></polygon>
+                <polygon id="Path-26" fill="url(#linearGradient-4)" fill-rule="evenodd" points="3 12 21 2 39 12 21 22"></polygon>
+            </g>
+    </defs>
+    <style type="text/css">
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+    </style>
+    <g id="P" transform="translate(60.000000, 68.000000)">
+	    <use id="b1" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,131)" />
+	    <use id="b2" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,107)"/>
+	    <use id="b10" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(62,48)"/>
+	    <use id="b9" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(62,24)"/>
+	    <use id="b8" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(62,0)"/>
+	    <use id="b7" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(42,11)"/>
+	    <use id="b6" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(21,23)"/>
+	    <use id="b11" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(42,59)"/>
+	    <use id="b12" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(21,71)"/>
+	    <use id="b3" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,83)"/>
+	    <use id="b4" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,59)"/>
+	    <use id="b5" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,35)"/>
+	</g>
+	<g id="E" transform="translate(188.000000, 76.000000)">
+        <use xlink:href="#Yellow-Block-" transform="translate(42.000000, 95.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 107.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 119.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 96.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 60.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 72.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 48.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(42.000000, 0.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 12.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 24.000000)"/>
+    </g>
+	<g id="T" transform="translate(295.000000, 68.000000)">
+        <use xlink:href="#Green-Block" transform="translate(84.000000, 0.000000)"/>
+        <use xlink:href="#Green-Block" transform="translate(63.000000, 12.000000)"/>
+        <use xlink:href="#Green-Block" transform="translate(42.000000, 120.000000)"/>
+        <use xlink:href="#Green-Block" transform="translate(42.000000, 96.000000)"/>
+        <use xlink:href="#Green-Block" transform="translate(42.000000, 72.000000)"/>
+        <use xlink:href="#Green-Block" transform="translate(42.000000, 48.000000)"/>
+        <use xlink:href="#Green-Block" transform="translate(42.000000, 24.000000)"/>
+        <use xlink:href="#Green-Block" transform="translate(21.000000, 36.000000)"/>
+        <use xlink:href="#Green-Block" transform="translate(0.000000, 48.000000)"/>
+    </g>
+    <g id="E2" transform="translate(435.000000, 76.000000)">
+        <use xlink:href="#Yellow-Block-" transform="translate(42.000000, 95.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 107.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 119.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 96.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 60.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 72.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 48.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(42.000000, 0.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 12.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 24.000000)"/>
+    </g>
+	
+    <g id="R" transform="translate(550.000000, 68.000000)">
+            <use xlink:href="#Red-Block" transform="translate(0.000000, 120.000000)"/>
+            <use xlink:href="#Red-Block" transform="translate(48.000000, 108.000000)"/>
+            <use xlink:href="#Red-Block" transform="translate(27.000000, 89.000000)"/>
+            <use xlink:href="#Red-Block" transform="translate(0.000000, 96.000000)"/>
+            <use xlink:href="#Red-Block" transform="translate(42.000000, 48.000000)"/>
+            <use xlink:href="#Red-Block" transform="translate(21.000000, 60.000000)"/>
+            <use xlink:href="#Red-Block" transform="translate(0.000000, 72.000000)"/>
+            <use xlink:href="#Red-Block" transform="translate(0.000000, 48.000000)"/>
+            <use xlink:href="#Red-Block" transform="translate(42.000000, 24.000000)"/>
+            <use xlink:href="#Red-Block" transform="translate(42.000000, 0.000000)"/>
+            <use xlink:href="#Red-Block" transform="translate(21.000000, 12.000000)"/>
+            <use xlink:href="#Red-Block" transform="translate(0.000000, 24.000000)"/>
+        </g>
+    <g id="L" transform="translate(750.000000, 76.000000)">
+		<use xlink:href="#Purple-Block" transform="translate(60.000000, 78.000000)"/>
+		<use xlink:href="#Purple-Block" transform="translate(40.000000, 89.000000)"/>
+		<use xlink:href="#Purple-Block" transform="translate(20.000000, 101.000000)"/>
+        <use xlink:href="#Purple-Block" transform="translate(0.000000, 113.000000)"/>
+        <use xlink:href="#Purple-Block" transform="translate(0.000000, 90.000000)"/>
+        <use xlink:href="#Purple-Block" transform="translate(0.000000, 66.000000)"/>
+        <use xlink:href="#Purple-Block" transform="translate(0.000000, 42.000000)"/>
+        <use xlink:href="#Purple-Block" transform="translate(0.000000, 18.000000)"/>
+        <use xlink:href="#Purple-Block"/>
+    </g>
+    <g id="E3" transform="translate(880.000000, 68.000000)">
+        <use xlink:href="#Blue-Block" transform="translate(42.000000, 95.000000)"/>
+        <use xlink:href="#Blue-Block" transform="translate(21.000000, 107.000000)"/>
+        <use xlink:href="#Blue-Block" transform="translate(0.000000, 119.000000)"/>
+        <use xlink:href="#Blue-Block" transform="translate(0.000000, 96.000000)"/>
+        <use xlink:href="#Blue-Block" transform="translate(21.000000, 60.000000)"/>
+        <use xlink:href="#Blue-Block" transform="translate(0.000000, 72.000000)"/>
+        <use xlink:href="#Blue-Block" transform="translate(0.000000, 48.000000)"/>
+        <use xlink:href="#Blue-Block" transform="translate(42.000000, 0.000000)"/>
+        <use xlink:href="#Blue-Block" transform="translate(21.000000, 12.000000)"/>
+        <use xlink:href="#Blue-Block" transform="translate(0.000000, 24.000000)"/>
+    </g>
+    <g id="E4" transform="translate(1000.000000, 68.000000)">
+        <use xlink:href="#Yellow-Block-" transform="translate(42.000000, 95.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 107.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 119.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 96.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 60.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 72.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 48.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(42.000000, 0.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 12.000000)"/>
+        <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 24.000000)"/>
+    </g>
+    <script type="text/javascript"><![CDATA[
+        const max_cube = 12;
+
+        const text = ['P','E','T','E2','R','L','E3','E4'];
+        for(let i=0;i<text.length;i++){
+	        let group = Array.from(document.getElementById(text[i]).children);
+	        if(text[i] == 'E3') group.reverse();
+	        let s = 0;
+	        group.forEach(u=>{
+	            u.style = `animation: 0.2s example ${s}s linear both;`;
+	            s+=0.3;
+	        });
+        }
+    ]]></script>
+
+</svg>
