@@ -6529,27 +6529,6 @@ input[type=range]::-ms-thumb {
   .about img {
     width: 100%; }
 
-.modal {
-  width: 80%;
-  height: 90%;
-  max-height: 90%; }
-
-.skills {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
-  .skills .card {
-    background-color: inherit;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none; }
-  .skills hr {
-    color: inherit; }
-  .skills h5 {
-    color: white; }
-  .skills p {
-    color: white; }
-
 .text-on-picture {
   text-align: center;
   font-size: 18px;
@@ -6606,7 +6585,11 @@ nav {
   .navbar-fixed {
     display: none; }
   .mobile-side {
-    display: none; } }
+    display: none; }
+  .modal {
+    width: 80%;
+    height: 80%;
+    max-height: 80%; } }
 
 .parallax-container {
   max-height: 400px; }
