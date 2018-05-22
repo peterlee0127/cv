@@ -37,7 +37,7 @@ $(document).ready(function(){
   // fadeCard();
 
   $('.scrollspy').scrollSpy();
-
+   $('.collapsible').collapsible();
 
 var options = {
   strings: ["Data Engineer","DevOps Engineer"],

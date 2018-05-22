@@ -5,10 +5,10 @@
 @import "components/color-classes";
 
 // Variables;
-// @import "components/variables";
+@import "components/variables";
 
 // Reset
-// @import "components/normalize";
+@import "components/normalize";
 
 // components
 @import "components/global";
@@ -29,8 +29,8 @@
 @import "components/collapsible";
 //@import "components/chips";
 @import "components/materialbox";
-//@import "components/forms/forms";
-//@import "components/table_of_contents";
+// @import "components/forms/forms";
+// @import "components/table_of_contents";
 @import "components/sidenav";
 // @import "components/preloader";
 @import "components/slider";

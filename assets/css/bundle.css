@@ -6529,6 +6529,9 @@ input[type=range]::-ms-thumb {
   .about img {
     width: 100%; }
 
+li .active {
+  color: none; }
+
 .text-on-picture {
   text-align: center;
   font-size: 18px;
