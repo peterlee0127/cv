@@ -5,7 +5,7 @@ node_modules/
 .vscode/settings.json
 assets/style-bundle.js
 .DS_Store
-assets/js/bundle.js.map
+#assets/js/bundle.js.map
 assets/style-bundle.js
 assets/css/bundle.css
 assets/css/bundle.css.map
