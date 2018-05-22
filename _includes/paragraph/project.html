@@ -13,14 +13,15 @@
         </p>
       </div>
       <div class="col s6 m8 l9">
-          {{project.p}}<br>
-          <button class="waves-effect waves-light btn">View More</button>
+          {{project.p}}
+          <div class="row"></div>
+          <button class="waves-effect waves-light btn" style="font-size: 10px">View More</button>
       </div>
     </div>
     <div class="collapsible-body">
       <p class="light center flow-text">
       {% for p in project.detail %}
-      {{p}}
+      <p>{{p}}</p>
       {% endfor %}
       </p>
    </div>

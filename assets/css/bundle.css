@@ -6532,6 +6532,23 @@ input[type=range]::-ms-thumb {
 li .active {
   color: none; }
 
+.skills {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .skills .card {
+    background-color: inherit;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+  .skills hr {
+    color: inherit; }
+  .skills h5 {
+    color: white; }
+  .skills p {
+    color: white;
+    font-size: 20px; }
+
 .text-on-picture {
   text-align: center;
   font-size: 18px;

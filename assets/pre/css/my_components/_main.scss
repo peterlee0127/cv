@@ -14,38 +14,29 @@ li{
   }
 }
 
-// .skills {
-//
-//   background-size: cover;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   // -webkit-filter: blur(5px);
-//   // -moz-filter: blur(5px);
-//   // -o-filter: blur(5px);
-//   // -ms-filter: blur(5px);
-//   // filter: blur(5px);
-//   // position: fixed;
-//   // left: 0;
-//   // right: 0;
-//   // z-index: 1;
-//
-//
-//     .card {
-//       background-color: inherit;
-//       -webkit-box-shadow: none;
-//   	-moz-box-shadow: none;
-//   	box-shadow: none;
-//     }
-//     hr {
-//       color:inherit;
-//     }
-//     h5 {
-//       color: white;
-//     }
-//     p {
-//       color: white;
-//     }
-// }
+.skills {
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+    .card {
+      background-color: inherit;
+      -webkit-box-shadow: none;
+  	-moz-box-shadow: none;
+  	box-shadow: none;
+    }
+    hr {
+      color:inherit;
+    }
+    h5 {
+      color: white;
+    }
+    p {
+      color: white;
+      font-size: 20px;
+    }
+}
 
 
 
