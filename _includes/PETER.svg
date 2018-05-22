@@ -97,22 +97,7 @@
                 <polygon id="Path-26" fill="url(#linearGradient-4)" fill-rule="evenodd" points="3 12 21 2 39 12 21 22"></polygon>
             </g>
     </defs>
-    <style type="text/css">
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-   from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-/* Standard syntax */
-@keyframes example {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-
-    </style>
+    
     <g id="P" transform="translate(60.000000, 68.000000)">
 	    <use id="b1" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,131)" />
 	    <use id="b2" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,107)"/>
@@ -127,7 +112,7 @@
 	    <use id="b4" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,59)"/>
 	    <use id="b5" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,35)"/>
 	</g>
-	<g id="E" transform="translate(188.000000, 76.000000)">
+	<g id="E" transform="translate(178.000000, 76.000000)">
         <use xlink:href="#Yellow-Block-" transform="translate(42.000000, 95.000000)"/>
         <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 107.000000)"/>
         <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 119.000000)"/>
@@ -212,18 +197,39 @@
         <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 12.000000)"/>
         <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 24.000000)"/>
     </g>
+    <style id="svgcss" type="text/css"></style>
     <script type="text/javascript"><![CDATA[
-        const max_cube = 12;
+        const max_cube = Math.max.apply(Math, ['P','E','T','E2','R','L','E3','E4'].map(x=>document.getElementById(x).children.length));
+        const total_time = 0.3*(max_cube+3);
 
+        let style = '';
         const text = ['P','E','T','E2','R','L','E3','E4'];
         for(let i=0;i<text.length;i++){
-	        let group = Array.from(document.getElementById(text[i]).children);
+            const id = text[i];
+	        let group = Array.from(document.getElementById(id).children);
 	        if(text[i] == 'E3') group.reverse();
 	        let s = 0;
-	        group.forEach(u=>{
-	            u.style = `animation: 0.2s example ${s}s linear both;`;
+            
+	        group.forEach((u, index)=>{
+                const animateId = `animate-${id}-${index}`;
+	            u.style = `animation: ${total_time}s ${animateId} linear infinite backwards;`;
 	            s+=0.3;
+                style += makeKeyFrame(animateId, index);
 	        });
+
+        }
+        document.getElementById('svgcss').appendChild(document.createTextNode(style));
+
+        function makeKeyFrame(id, index){
+            let keyframe = 
+`@keyframes ${id} {
+    0% {opacity: 0;}
+    ${(0.3*index*100/total_time).toFixed(2)}% {opacity: 0;}
+    ${(0.3*(index+1)*100/total_time).toFixed(2)}% {opacity: 1;}
+    ${(0.3*(max_cube)*100/total_time).toFixed(2)}% {opacity: 1;}
+    100%   {opacity: 1;}
+}`;
+            return keyframe;
         }
     ]]></script>
 
