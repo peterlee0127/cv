@@ -31,6 +31,10 @@
     //   font-size: 20px;
     // }
 }
+.modal {
+  width:100%;
+  max-width:700px;
+}
 
 .modal-content {
   p{
@@ -38,6 +42,7 @@
       width:100%;
       max-width:400px;
     }
+
   }
 }
 
