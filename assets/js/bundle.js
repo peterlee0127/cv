@@ -10524,6 +10524,11 @@ $(document).ready(function () {
   //   }
   //
   // });
+  // Capture scroll events
+  checkAnimation();
+  $(window).scroll(function () {
+    checkAnimation();
+  });
 });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -10583,6 +10588,36 @@ function fadeIn(el){
   })();
 }
 */
+
+function isElementInViewport(elem) {
+  var $elem = $(elem);
+
+  // Get the scroll position of the page.
+  var scrollElem = navigator.userAgent.toLowerCase().indexOf('webkit') != -1 ? 'body' : 'html';
+  var viewportTop = $(scrollElem).scrollTop();
+  var viewportBottom = viewportTop + $(window).height();
+
+  // Get the position of the element on the page.
+  var elemTop = Math.round($elem.offset().top);
+  var elemBottom = elemTop + $elem.height();
+
+  return elemTop < viewportBottom && elemBottom > viewportTop;
+}
+
+// Check if it's time to start the animation.
+function checkAnimation() {
+  var $elem = $('#PETERLEE_SVG');
+
+  // If the animation has already been started
+
+  if (isElementInViewport($elem)) {
+    // Start the animation
+    if ($elem.hasClass('start')) return;
+    $elem.addClass('start');
+  } else {
+    if ($elem.hasClass('start')) $elem.removeClass('start');
+  }
+}
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),

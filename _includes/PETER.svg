@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Keyshape -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewbox="0 0 1186 300">
-	<defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewbox="0 0 1186 300" id="PETERLEE_SVG">
+    <defs>
         <g id="Blue-Block">
             <path id="Path-17-Copy-3" fill="#2093C3" fill-rule="evenodd" d="M0,48L21,36L21,12Z" transform="translate(10.5,30) scale(-1,1) translate(-10.5,-30)"/>
             <path id="Path-17" fill="#24A8DE" fill-rule="evenodd" d="M21,48L21,24L0,12L1,15L19,45Z"/>
@@ -99,20 +99,20 @@
     </defs>
     
     <g id="P" transform="translate(60.000000, 68.000000)">
-	    <use id="b1" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,131)" />
-	    <use id="b2" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,107)"/>
-	    <use id="b10" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(62,48)"/>
-	    <use id="b9" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(62,24)"/>
-	    <use id="b8" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(62,0)"/>
-	    <use id="b7" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(42,11)"/>
-	    <use id="b6" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(21,23)"/>
-	    <use id="b11" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(42,59)"/>
-	    <use id="b12" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(21,71)"/>
-	    <use id="b3" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,83)"/>
-	    <use id="b4" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,59)"/>
-	    <use id="b5" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,35)"/>
-	</g>
-	<g id="E" transform="translate(178.000000, 76.000000)">
+        <use id="b1" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,131)" />
+        <use id="b2" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,107)"/>
+        <use id="b10" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(62,48)"/>
+        <use id="b9" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(62,24)"/>
+        <use id="b8" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(62,0)"/>
+        <use id="b7" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(42,11)"/>
+        <use id="b6" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(21,23)"/>
+        <use id="b11" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(42,59)"/>
+        <use id="b12" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(21,71)"/>
+        <use id="b3" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,83)"/>
+        <use id="b4" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,59)"/>
+        <use id="b5" xlink:href="#Blue-Block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0,35)"/>
+    </g>
+    <g id="E" transform="translate(178.000000, 76.000000)">
         <use xlink:href="#Yellow-Block-" transform="translate(42.000000, 95.000000)"/>
         <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 107.000000)"/>
         <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 119.000000)"/>
@@ -124,7 +124,7 @@
         <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 12.000000)"/>
         <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 24.000000)"/>
     </g>
-	<g id="T" transform="translate(295.000000, 68.000000)">
+    <g id="T" transform="translate(295.000000, 68.000000)">
         <use xlink:href="#Green-Block" transform="translate(84.000000, 0.000000)"/>
         <use xlink:href="#Green-Block" transform="translate(63.000000, 12.000000)"/>
         <use xlink:href="#Green-Block" transform="translate(42.000000, 120.000000)"/>
@@ -147,7 +147,7 @@
         <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 12.000000)"/>
         <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 24.000000)"/>
     </g>
-	
+    
     <g id="R" transform="translate(550.000000, 68.000000)">
             <use xlink:href="#Red-Block" transform="translate(0.000000, 120.000000)"/>
             <use xlink:href="#Red-Block" transform="translate(48.000000, 108.000000)"/>
@@ -163,9 +163,9 @@
             <use xlink:href="#Red-Block" transform="translate(0.000000, 24.000000)"/>
         </g>
     <g id="L" transform="translate(750.000000, 76.000000)">
-		<use xlink:href="#Purple-Block" transform="translate(60.000000, 78.000000)"/>
-		<use xlink:href="#Purple-Block" transform="translate(40.000000, 89.000000)"/>
-		<use xlink:href="#Purple-Block" transform="translate(20.000000, 101.000000)"/>
+        <use xlink:href="#Purple-Block" transform="translate(60.000000, 78.000000)"/>
+        <use xlink:href="#Purple-Block" transform="translate(40.000000, 89.000000)"/>
+        <use xlink:href="#Purple-Block" transform="translate(20.000000, 101.000000)"/>
         <use xlink:href="#Purple-Block" transform="translate(0.000000, 113.000000)"/>
         <use xlink:href="#Purple-Block" transform="translate(0.000000, 90.000000)"/>
         <use xlink:href="#Purple-Block" transform="translate(0.000000, 66.000000)"/>
@@ -197,7 +197,11 @@
         <use xlink:href="#Yellow-Block-" transform="translate(21.000000, 12.000000)"/>
         <use xlink:href="#Yellow-Block-" transform="translate(0.000000, 24.000000)"/>
     </g>
-    <style id="svgcss" type="text/css"></style>
+    <style id="svgcss" type="text/css">
+        use {
+            will-change: opacity;
+        }
+    </style>
     <script type="text/javascript"><![CDATA[
         const max_cube = Math.max.apply(Math, ['P','E','T','E2','R','L','E3','E4'].map(x=>document.getElementById(x).children.length));
         const total_time = 0.3*(max_cube+3);
@@ -206,16 +210,18 @@
         const text = ['P','E','T','E2','R','L','E3','E4'];
         for(let i=0;i<text.length;i++){
             const id = text[i];
-	        let group = Array.from(document.getElementById(id).children);
-	        if(text[i] == 'E3') group.reverse();
-	        let s = 0;
+            let group = Array.from(document.getElementById(id).children);
+            if(text[i] == 'E3') group.reverse();
+            let s = 0;
             
-	        group.forEach((u, index)=>{
+            group.forEach((u, index)=>{
                 const animateId = `animate-${id}-${index}`;
-	            u.style = `animation: ${total_time}s ${animateId} linear infinite backwards;`;
-	            s+=0.3;
+                u.id = animateId + '-use';
+                u.setAttribute("opacity","0");
+                style += `.start #${u.id}{animation: ${total_time}s ${animateId} linear forwards;} `;
+                s+=0.3;
                 style += makeKeyFrame(animateId, index);
-	        });
+            });
 
         }
         document.getElementById('svgcss').appendChild(document.createTextNode(style));
@@ -226,7 +232,6 @@
     0% {opacity: 0;}
     ${(0.3*index*100/total_time).toFixed(2)}% {opacity: 0;}
     ${(0.3*(index+1)*100/total_time).toFixed(2)}% {opacity: 1;}
-    ${(0.3*(max_cube)*100/total_time).toFixed(2)}% {opacity: 1;}
     100%   {opacity: 1;}
 }`;
             return keyframe;
