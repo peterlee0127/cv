@@ -2,21 +2,23 @@
 
 import 'jquery';
 import 'materialize-css';
+import Typed from 'typed.js';
 // import * as LivePhotosKit from 'livephotoskit';
 
+const rwdClass = [".award .card-content",".project .card-content",".publication .card-content"];
+
 $( window ).resize(function() {
-  $(".award .card-content").height('auto');
-  $(".project .card-content").height('auto');
+  rwdClass.forEach(item => {
+      $(item).height('auto');
+  });
   rwd();
 });
 
 function rwd() {
-  setHeight('.award .card-content');
-  setHeight('.project .card-content');
-  setHeight('.publication .card-content');
+  rwdClass.forEach(item => {
+      setHeight(item);
+  });
 }
-
-import Typed from 'typed.js';
 
 
 
@@ -25,9 +27,12 @@ function setHeight(element) {
          return $(this).height();
      }).get(),
   contentMaxHeight = Math.max.apply(null, contentHeights);
- $(element).height(contentMaxHeight);
+  if(element=='.publication .card-content'){
+    $(element).height(contentMaxHeight);
+  }else {
+    $(element).height(contentMaxHeight);
+  }
 }
-
 $(document).ready(function(){
   rwd();
 

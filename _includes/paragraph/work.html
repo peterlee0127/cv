@@ -24,3 +24,21 @@
    </div>
 {% include parallax.html title='Line Dev Day 2016.  Shibuya, Tokyo.' image='/assets/image/line.jpg' %}
 </div>
+
+<div class="skills container-fixed row">
+  <h3>Skills</h3>
+  <div class="container-fixed row" style="position: relative;">
+
+      {% for skill in site.data.work.skills %}
+        <div class="col s6 m4 l4">
+          <div class="card">
+            <div class="card-content">
+              {% for p in skill.p %}
+                <p class="flow-text">{{p}}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+  </div>
+</div>

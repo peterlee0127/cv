@@ -12,7 +12,7 @@
       "text": "Publications",
       "link": "publications",
       "include":"publications.html",
-      "icon":"school"
+      "icon":"book"
     },
     {
       "text": "Selected Projects",
@@ -21,7 +21,7 @@
       "icon":"assignment"
     },
     {
-      "text": "Skills & Work",
+      "text": "Work & Skills",
       "link": "work",
       "include":"work.html",
       "icon":"work"

@@ -10460,16 +10460,19 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // import * as LivePhotosKit from 'livephotoskit';
 
+var rwdClass = [".award .card-content", ".project .card-content", ".publication .card-content"];
+
 $(window).resize(function () {
-  $(".award .card-content").height('auto');
-  $(".project .card-content").height('auto');
+  rwdClass.forEach(function (item) {
+    $(item).height('auto');
+  });
   rwd();
 });
 
 function rwd() {
-  setHeight('.award .card-content');
-  setHeight('.project .card-content');
-  setHeight('.publication .card-content');
+  rwdClass.forEach(function (item) {
+    setHeight(item);
+  });
 }
 
 function setHeight(element) {
@@ -10477,9 +10480,12 @@ function setHeight(element) {
     return $(this).height();
   }).get(),
       contentMaxHeight = Math.max.apply(null, contentHeights);
-  $(element).height(contentMaxHeight);
+  if (element == '.publication .card-content') {
+    $(element).height(contentMaxHeight);
+  } else {
+    $(element).height(contentMaxHeight);
+  }
 }
-
 $(document).ready(function () {
   rwd();
 
