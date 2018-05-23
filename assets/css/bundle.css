@@ -6529,9 +6529,6 @@ input[type=range]::-ms-thumb {
   .about img {
     width: 100%; }
 
-li .active {
-  color: none; }
-
 .skills {
   background-size: cover;
   background-position: center;
@@ -6543,11 +6540,6 @@ li .active {
     box-shadow: none; }
   .skills hr {
     color: inherit; }
-  .skills h5 {
-    color: white; }
-  .skills p {
-    color: white;
-    font-size: 20px; }
 
 .text-on-picture {
   text-align: center;

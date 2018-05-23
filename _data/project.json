@@ -6,7 +6,7 @@
       "PDIS Line Bot provides Audrey Tang's Calendar to PDIS member, it also sends push message from our other services. Bot also linked with Line Beacon, it send greeting message to us when we entering PDIS office."
     ],
     "detail":[
-      "<img src='/assets/image/project/bot.png' width='30%'>",
+      "<img src='/assets/image/project/bot.png' style='width:30%'>",
       "PDIS Line Bot provides Audrey Tang's Calendar to PDIS member. We can type 'au cal today', chat bot will return Tang's schedule. Bot also support other format. Like 'yesterday, next Monday, 5/20'",
       "Bot can send push notification, it sends message from other services. Like a reservation system send appointment information to PDIS staff.",
       "<img  src='/assets/image/project/beacon.jpg' width='40%'>",

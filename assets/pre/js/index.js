@@ -7,6 +7,7 @@ import 'materialize-css';
 $( window ).resize(function() {
   $(".award .card-content").height('auto');
   $(".project .card-content").height('auto');
+  $(".publication .card-content").height('auto');
   rwd();
 });
 
@@ -19,15 +20,17 @@ function rwd() {
 import Typed from 'typed.js';
 
 
-
 function setHeight(element) {
   var contentHeights = $(element).map(function() {
          return $(this).height();
      }).get(),
   contentMaxHeight = Math.max.apply(null, contentHeights);
- $(element).height(contentMaxHeight);
+  if(element=='.publication .card-content'){
+    $(element).height(contentMaxHeight);
+  }else {
+    $(element).height(contentMaxHeight);
+  }
 }
-
 $(document).ready(function(){
   rwd();
 

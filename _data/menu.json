@@ -33,6 +33,12 @@
       "icon":"grade"
     },
     {
+      "text": "Skills",
+      "link": "skill",
+      "include":"skill.html",
+      "icon":"grade"
+    },
+    {
       "text": "Education",
       "link": "education",
       "include":"education.html",
