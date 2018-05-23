@@ -21,7 +21,7 @@
         {% endfor %}
      </div>
      {% for publication in site.data.education.publications %}
-      <div id="publication-{{forloop.index}}" class="modal">
+      <div id="publication-{{forloop.index}}" class="modal modal-fixed-footer">
         <div class="modal-content">
           <h4>{{publication.title}}</h4>
           {% for p in publication.p %}
