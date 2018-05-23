@@ -6541,6 +6541,10 @@ input[type=range]::-ms-thumb {
   .skills hr {
     color: inherit; }
 
+.modal {
+  width: 100%;
+  max-width: 700px; }
+
 .modal-content p img {
   width: 100%;
   max-width: 400px; }

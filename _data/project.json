@@ -9,7 +9,7 @@
       "<img src='/assets/image/project/bot.png'>",
       "PDIS Line Bot provides Audrey Tang's Calendar to PDIS member. We can type 'au cal today', chat bot will return Tang's schedule. Bot also support other format. Like 'yesterday, next Monday, 5/20'",
       "Bot can send push notification, it sends message from other services. Like a reservation system send appointment information to PDIS staff.",
-      "<img  src='/assets/image/project/beacon.jpg' style='width:100%;max-width:400px'>",
+      "<img  src='/assets/image/project/beacon.jpg'>",
       "This bot also linked with Line Beacon(I got this in Line Dev Day 2016). Bot will send greeting message to us when we entering PDIS office."
     ]
   },
@@ -34,7 +34,7 @@
       "A open-source plug-in to display subtitle on OBS Studio",
     ],
     "detail":[
-      "<img src='/assets/image/project/ews1.png'  style='width:100%;max-width:500px'></img><img src='/assets/image/project/ews2.png'  style='width:100%;max-width:500px'></img>",
+      "<img src='/assets/image/project/ews1.png'></img><img src='/assets/image/project/ews2.png'></img>",
       "EWS-Calendar sync our Microsoft Exchange Server Calendar to Google Calendar. For <a target='_blank' href='https://au.pdis.tw'>Reservation system</a> and <a target='_blank' href='http://silofficehour.pdis.tw'>Calendar</a>, we need to get real time Calendar data.
       It extracted recent Events in Outlook Calendar to two json files. Public one generated for other api. Private one only provide PDIS Line Bot to access."
     ]
@@ -47,7 +47,7 @@
       "Serverless, using ELK to store and Visualize data."
     ],
     "detail":[
-      "<img src='/assets/image/project/airbox2.png' width='100%'>",
+      "<img src='/assets/image/project/airbox2.png'>",
     ]
   }
 
