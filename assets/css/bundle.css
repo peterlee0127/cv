@@ -6541,6 +6541,10 @@ input[type=range]::-ms-thumb {
   .skills hr {
     color: inherit; }
 
+.modal-content p img {
+  width: 100%;
+  max-width: 400px; }
+
 .text-on-picture {
   text-align: center;
   font-size: 18px;
@@ -6584,7 +6588,11 @@ nav {
   .text-on-picture {
     top: 10%;
     bottom: 0%;
-    background: rgba(0, 0, 0, 0.9); } }
+    background: rgba(0, 0, 0, 0.9); }
+  .modal {
+    width: 90%;
+    height: 80%;
+    max-height: 80%; } }
 
 @media only screen and (max-width: 600px) {
   .text-on-picture {
@@ -6599,9 +6607,9 @@ nav {
   .mobile-side {
     display: none; }
   .modal {
-    width: 80%;
-    height: 80%;
-    max-height: 80%; } }
+    width: 90%;
+    height: 90%;
+    max-height: 90%; } }
 
 .parallax-container {
   max-height: 400px; }

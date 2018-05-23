@@ -32,6 +32,14 @@
     // }
 }
 
+.modal-content {
+  p{
+    img{
+      width:100%;
+      max-width:400px;
+    }
+  }
+}
 
 
 .text-on-picture {
@@ -99,6 +107,11 @@ nav {
       bottom: 0%;
       background: rgba(0, 0, 0, .9);
   }
+  .modal {
+    width: 90%;
+    height: 80%;
+    max-height: 80%;
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -118,8 +131,8 @@ nav {
         display: none;
     }
     .modal {
-      width: 80%;
-      height: 80%;
-      max-height: 80%;
+      width: 90%;
+      height: 90%;
+      max-height: 90%;
     }
 }
