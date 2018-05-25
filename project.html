@@ -1,0 +1,15 @@
+---
+---
+  {% for project in site.data.project %}
+  <div id="project-{{forloop.index}}">
+  <div class="modal-content">
+    <h4>{{project.title}}</h4>
+    {% for p in project.detail %}
+      <p class="light center flow-text">{{p}}</p>
+    {% endfor %}
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+  </div>
+</div>
+  {% endfor %}

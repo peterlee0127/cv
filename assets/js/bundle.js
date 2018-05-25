@@ -10483,8 +10483,16 @@ function setHeight(element) {
   $(element).height(contentMaxHeight);
 }
 $(document).ready(function () {
-  rwd();
 
+  $('.modal-trigger').click(function (e) {
+    var url = $(this).attr("data-source");
+    var id = $(this).attr("id");
+    id = id.replace("modal-", "");
+    url = url + " #" + id;
+    $("#" + id).load(url);
+  });
+
+  rwd();
   $('.materialboxed').materialbox();
   $('.sidenav').sidenav();
   $('.modal').modal();
@@ -10616,10 +10624,8 @@ function checkAnimation() {
     // Start the animation
     if ($elem.hasClass('start')) return;
     $elem.addClass('start');
-    console.log("show");
   } else {
     if ($elem.hasClass('start')) $elem.removeClass('start');
-    console.log("remove");
   }
 }
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))

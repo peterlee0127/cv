@@ -40,14 +40,14 @@
         <div class="card-content">
           <span class="card-title">{{project.title}}</span>
           {% for p in project.p %}
-            <p class="light center">{{p}}</p>
+            <p class="light" style='text-align:left;'>{{p}}</p>
           {% endfor %}
         </div>
         <div class="card-action">
           {% if project.github %}
             <a class="waves-effect waves-light" target='_blank' href="{{project.github}}">Github</a>
           {% else %}
-            <a class="waves-effect waves-light modal-trigger" href="#project-{{forloop.index}}">More</a>
+            <a class="waves-effect waves-light modal-trigger" id="modal-project-{{forloop.index}}" data-source="/project" href="#project-{{forloop.index}}">More</a>
           {% endif %}
         </div>
       </div>
@@ -56,16 +56,19 @@
   </div>
 
   {% for project in site.data.project %}
-   <div id="project-{{forloop.index}}" class="modal modal-fixed-footer">
-     <div class="modal-content">
-       <h4>{{project.title}}</h4>
-       {% for p in project.detail %}
-         <p class="light center flow-text">{{p}}</p>
-       {% endfor %}
-     </div>
-     <div class="modal-footer">
-       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
-     </div>
-   </div>
+    <div id="project-{{forloop.index}}" class="modal modal-fixed-footer">
+    </div>
   {% endfor %}
 </div>
+
+<!--
+<div class="modal-content">
+  <h4>{{project.title}}</h4>
+  {% for p in project.detail %}
+    <p class="light center flow-text">{{p}}</p>
+  {% endfor %}
+</div>
+<div class="modal-footer">
+  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+</div>
+-->

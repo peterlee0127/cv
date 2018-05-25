@@ -6529,6 +6529,9 @@ input[type=range]::-ms-thumb {
   .about img {
     width: 100%; }
 
+.card-panel .s8 p {
+  text-align: left; }
+
 .skills {
   background-size: cover;
   background-position: center;
@@ -6637,3 +6640,6 @@ nav {
 
 .card-image {
   height: 300px; }
+
+.card-content p {
+  text-align: left; }
