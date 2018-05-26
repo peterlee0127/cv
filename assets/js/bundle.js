@@ -10609,7 +10609,8 @@ function isElementInViewport(elem) {
   var $elem = $(elem);
 
   // Get the scroll position of the page.
-  var scrollElem = navigator.userAgent.toLowerCase().indexOf('webkit') == -1 ? 'body' : 'html';
+  // var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
+  var scrollElem = 'body';
   var viewportTop = $(scrollElem).scrollTop();
   var viewportBottom = viewportTop + window.innerHeight;
 
