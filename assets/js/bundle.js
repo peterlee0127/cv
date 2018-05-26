@@ -10485,11 +10485,17 @@ function setHeight(element) {
 $(document).ready(function () {
 
   $('.modal-trigger').click(function (e) {
+    var trigger = $(this);
     var url = $(this).attr("data-source");
     var id = $(this).attr("id");
     id = id.replace("modal-", "");
     url = url + " #" + id;
-    $("#" + id).load(url);
+    if (!trigger.attr('loaded')) {
+
+      $("#" + id).delay(300).load(url, function () {
+        trigger.attr('loaded', true);
+      }).fadeIn('slow');
+    }
   });
 
   rwd();
@@ -10603,7 +10609,7 @@ function isElementInViewport(elem) {
   var $elem = $(elem);
 
   // Get the scroll position of the page.
-  var scrollElem = navigator.userAgent.toLowerCase().indexOf('webkit') != -1 ? 'body' : 'html';
+  var scrollElem = navigator.userAgent.toLowerCase().indexOf('webkit') == -1 ? 'body' : 'html';
   var viewportTop = $(scrollElem).scrollTop();
   var viewportBottom = viewportTop + window.innerHeight;
 
