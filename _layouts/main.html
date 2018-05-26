@@ -2,6 +2,7 @@
 ---
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 {% include header.html %}
+{% include navbar.html %}
 <main>
 <body>
   {{ content }}
@@ -9,9 +10,3 @@
 </main>
   {% include footer.html %}
 </html>
-
-<style>
-  header, main,body, footer {
-  padding-left: 0px;
-}
- </style>
