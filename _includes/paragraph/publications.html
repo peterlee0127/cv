@@ -14,7 +14,7 @@
            </div>
            <div class="card-action">
            <a class='waves-effect waves-light btn modal-trigger' target='_blank' href="{{publication.link}}">Fulltext</a>
-             <a class="waves-effect waves-light btn modal-trigger" href="#publication-{{forloop.index}}">preview</a>
+             <a class="waves-effect waves-light btn modal-trigger" id="modal-publication-{{forloop.index}}" data-source="/publication_detail"  href="#publication-{{forloop.index}}">preview</a>
            </div>
          </div>
        </div>
@@ -22,16 +22,7 @@
      </div>
      {% for publication in site.data.education.publications %}
       <div id="publication-{{forloop.index}}" class="modal modal-fixed-footer">
-        <div class="modal-content">
-          <h4>{{publication.title}}</h4>
-          {% for p in publication.p %}
-            <p class="light center">{{p}}</p>
-          {% endfor %}
-
-        </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
-        </div>
+        <div class="loader inner-center"></div>
       </div>
      {% endfor %}
 
