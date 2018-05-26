@@ -14,7 +14,9 @@
            </div>
            <div class="card-action">
            <a class='waves-effect waves-light btn modal-trigger' target='_blank' href="{{publication.link}}">Fulltext</a>
+              {% if publication.detail %}
              <a class="waves-effect waves-light btn modal-trigger" id="modal-publication-{{forloop.index}}" data-source="/publication_detail"  href="#publication-{{forloop.index}}">preview</a>
+             {% endif %}
            </div>
          </div>
        </div>
@@ -26,4 +28,5 @@
       </div>
      {% endfor %}
 
+{% include parallax.html title='Line Dev Day 2016.  Shibuya, Tokyo' image='/assets/image/line.jpg' %}
 </div>
