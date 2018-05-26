@@ -1,14 +1,11 @@
 {
   "skills": [
     {
-      "title":"",
       "p":["Spark","Mesos","Elasticsearch","Hadoop","Kafka","Python2","Scala","TensorFlow","Jenkins","Docker"]
     },
     {
-      "title":"",
       "p":["Node.js","Mongodb","JavaScript","iOS(Objective-C and Swift)"]
     }
-
   ]
   ,"work":[
     {

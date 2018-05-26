@@ -6532,25 +6532,13 @@ input[type=range]::-ms-thumb {
 .card-panel .s8 p {
   text-align: left; }
 
-.skills {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
-  .skills .card {
-    background-color: inherit;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none; }
-  .skills hr {
-    color: inherit; }
-
 .modal {
   width: 100%;
-  max-width: 700px; }
+  max-width: 900px; }
 
 .modal-content p img {
   width: 100%;
-  max-width: 400px; }
+  max-width: 500px; }
 
 .text-on-picture {
   text-align: center;

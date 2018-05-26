@@ -7,8 +7,13 @@
         "2017 IEEE 31st International Conference",
         "A Lambda Architecture at DC/OS, using Spark Streaming, Kafka, Hadoop HDFS."
       ],
+      "detail":[
+          
+      "<img  src='/assets/image/publication/aina01.jpg'>",
+      "<img  src='/assets/image/publication/aina02.jpg'>",
+      "<img  src='/assets/image/publication/aina03.jpg'>",
+      ],
       "link":"http://ieeexplore.ieee.org/abstract/document/7921013/",
-      "file":"icast.pdf",
       "image":"./assets/image/education/aina.png"
     },
     {
@@ -19,7 +24,6 @@
         "Real-time trend analysis by twitter, using Spark Streaming, Kafka, and Visualize on Web."
       ],
       "link":"http://ieeexplore.ieee.org/document/8256469/",
-      "file":"icast.pdf",
       "image":"./assets/image/education/icast.png"
     },
     {
@@ -30,7 +34,6 @@
         "SC2017-13 2017-08-18 (SWIM, SC)"
       ],
       "link":"http://www.ieice.org/ken/paper/201708253bw6/",
-      "file":"icast.pdf",
       "image":"./assets/image/education/twitter.png"
     }
   ]
