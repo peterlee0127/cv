@@ -41,8 +41,13 @@ $(document).ready(function(){
       
       $("#"+id).delay( 300 ).load(url, ()=>{
         trigger.attr('loaded', true);
+        const p = document.getElementById(id).querySelector('a');
+        p.addEventListener('click', function(){document.body.style.removeProperty('position')});
       }).fadeIn('slow');
-    }  
+    }
+    
+    $('body').css('position', 'fixed');
+    
   });
 
   rwd();

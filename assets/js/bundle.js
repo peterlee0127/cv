@@ -10494,8 +10494,14 @@ $(document).ready(function () {
 
       $("#" + id).delay(300).load(url, function () {
         trigger.attr('loaded', true);
+        var p = document.getElementById(id).querySelector('a');
+        p.addEventListener('click', function () {
+          document.body.style.removeProperty('position');
+        });
       }).fadeIn('slow');
     }
+
+    $('body').css('position', 'fixed');
   });
 
   rwd();
