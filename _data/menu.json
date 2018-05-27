@@ -49,19 +49,19 @@
   ],
   "footer-icons": [
     {
-      "icon": "fab fa-github",
+      "icon": "github",
       "link": "https://github.com/peterlee0127"
     },
     {
-      "icon": "fab fa-twitter",
+      "icon": "twitter",
       "link": "https://twitter.com/peterlee0127"
     },
     {
-      "icon": "fab fa-linkedin",
+      "icon": "linkedin",
       "link": "https://www.linkedin.com/in/peter-lee-71045879/"
     },
     {
-      "icon": "far fa-envelope-open",
+      "icon": "envelope-open",
       "link": "mailto:peterlee0127@gmail.com"
     }
   ]
