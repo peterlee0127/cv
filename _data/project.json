@@ -58,7 +58,7 @@
       "Binding with Node.js Homekit"
     ],
     "detail":[
-      "<iframe frameborder='0' allow='autoplay; encrypted-media' title='YouTube video player' width='640' height='400' src='https://www.youtube.com/embed/4USDlJZbe20'></iframe>"
+      "<iframe frameborder='0' allow='autoplay; encrypted-media' title='YouTube video player' width='100%' height='400' src='https://www.youtube.com/embed/4USDlJZbe20'></iframe>"
     ]
   }
 
