@@ -6540,6 +6540,10 @@ input[type=range]::-ms-thumb {
   width: 100%;
   max-width: 500px; }
 
+.modal-content p iframe {
+  width: 100%;
+  max-width: 800px; }
+
 .text-on-picture {
   text-align: center;
   font-size: 18px;

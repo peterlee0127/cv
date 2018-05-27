@@ -1,12 +1,12 @@
 [
   {
     "title": "PDIS Line Bot",
-    "image": "/assets/image/project/pdis-bot.png",
+    "image": "/assets/image/project/pdis-bot.jpg",
     "p": [
       "PDIS Line Bot provides Audrey Tang's Calendar to PDIS member, it also sends push message from our other services. Bot also linked with Line Beacon, it send greeting message to us when we entering PDIS office."
     ],
     "detail":[
-      "<img src='/assets/image/project/bot.png'>",
+      "<img src='/assets/image/project/bot.jpg'>",
       "PDIS Line Bot provides Audrey Tang's Calendar to PDIS member. We can type 'au cal today', chat bot will return Tang's schedule. Bot also support other format. Like 'yesterday, next Monday, 5/20'",
       "Bot can send push notification, it sends message from other services. Like a reservation system send appointment information to PDIS staff.",
       "<img  src='/assets/image/project/beacon.jpg'>",
@@ -15,15 +15,15 @@
   },
   {
     "title": "EWS-Calendar",
-    "image": "/assets/image/project/ews.png",
+    "image": "/assets/image/project/ews.jpg",
     "p": [
       "EWS-Calendar sync Microsoft Exchange Data to Google. It also generated api server for our <a target='_blank' href='https://au.pdis.tw'>Reservation system</a> and <a target='_blank' href='http://silofficehour.pdis.tw'>Calendar</a>",
     ],
     "detail":[
-      "<img src='/assets/image/project/ews1.png'></img>",
+      "<img src='/assets/image/project/ews1.jpg'></img>",
       "EWS-Calendar sync our Microsoft Exchange Server Calendar to Google Calendar. For <a target='_blank' href='https://au.pdis.tw'>Reservation system</a> and <a target='_blank' href='http://silofficehour.pdis.tw'>Calendar</a>, we need to get real time Calendar data.
       It extracted recent Events in Outlook Calendar to two json files. Public one generated for other api. Private one only provide PDIS Line Bot to access.",
-      "<img src='/assets/image/project/ews2.png' style='width:100%;max-width:500px'></img>"
+      "<img src='/assets/image/project/ews2.jpg' style='width:100%;max-width:500px'></img>"
     ]
   },
   {
@@ -34,20 +34,31 @@
       "A open-source plug-in to display subtitle on OBS Studio",
     ],
     "detail":[
-      "<img src='/assets/image/project/ews1.png'></img><img src='/assets/image/project/ews2.png'></img>",
+      "<img src='/assets/image/project/ews1.jpg'></img><img src='/assets/image/project/ews2.jpg'></img>",
       "EWS-Calendar sync our Microsoft Exchange Server Calendar to Google Calendar. For <a target='_blank' href='https://au.pdis.tw'>Reservation system</a> and <a target='_blank' href='http://silofficehour.pdis.tw'>Calendar</a>, we need to get real time Calendar data.
       It extracted recent Events in Outlook Calendar to two json files. Public one generated for other api. Private one only provide PDIS Line Bot to access."
     ]
   },
   {
     "title": "Airbox",
-    "image": "/assets/image/project/airbox1.png",
+    "image": "/assets/image/project/airbox1.jpg",
     "p": [
       "A open-source pm 2.5 sensor",
       "Serverless, using ELK to store and Visualize data."
     ],
     "detail":[
-      "<img src='/assets/image/project/airbox2.png'>",
+      "<img src='/assets/image/project/airbox2.jpg'>",
+    ]
+  },
+  {
+    "title": "HomeKit Plug-in",
+    "image": "/assets/image/project/homekit.jpg",
+    "p": [
+      "A open-source HomeKit Plug-in for YeeLight Blue 2(BLE) lightbub",
+      "Binding with Node.js Homekit"
+    ],
+    "detail":[
+      "<iframe frameborder='0' allow='autoplay; encrypted-media' title='YouTube video player' width='640' height='400' src='https://www.youtube.com/embed/4USDlJZbe20'></iframe>"
     ]
   }
 
