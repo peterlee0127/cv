@@ -2,7 +2,12 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content = "width = device-width, initial-scale = 1.0, minimum-scale = 1, maximum-scale = 1, user-scalable = no" />
   <meta name="description" content="Peter Lee website">
-  <title>Peter Lee</title>
+  <title>Peter Lee</title>   <meta property="og:title" content="{{ page.title | default: site.title }}" >
+  <meta property="og:url" content="cv.peterlee0127.com">
+  <meta property="og:image" content="/assets/image/profile.jpg">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="Peter Lee">
+  <link rel="icon" href="/assets/image/favicon.ico" type="image/x-icon">
   <!-- Apple Device-->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Peter Lee">
@@ -15,4 +20,7 @@
   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> -->
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
   <link rel="stylesheet" href="../assets/css/bundle.css">
+  {% if jekyll.environment == 'production' %}
+    {% include google-analytics.html %}
+  {% endif %}
 </header>
