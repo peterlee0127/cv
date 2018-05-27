@@ -8,13 +8,13 @@
         "A Lambda Architecture at DC/OS, using Spark Streaming, Kafka, Hadoop HDFS."
       ],
       "detail":[
-          
+
       "<img  src='/assets/image/publication/aina01.jpg'>",
       "<img  src='/assets/image/publication/aina02.jpg'>",
       "<img  src='/assets/image/publication/aina03.jpg'>",
       ],
       "link":"http://ieeexplore.ieee.org/abstract/document/7921013/",
-      "image":"./assets/image/education/aina.png"
+      "image":"./assets/image/education/aina.jpg"
     },
     {
       "title":"Stock market analysis from Twitter and news based on streaming big data infrastructure",
@@ -24,7 +24,7 @@
         "Real-time trend analysis by twitter, using Spark Streaming, Kafka, and Visualize on Web."
       ],
       "link":"http://ieeexplore.ieee.org/document/8256469/",
-      "image":"./assets/image/education/icast.png"
+      "image":"./assets/image/education/icast.jpg"
     },
     {
       "title":"Real-time Trend Analysis of Streaming Twitter and News Based on Big Data Infrastructure",
@@ -34,7 +34,7 @@
         "SC2017-13 2017-08-18 (SWIM, SC)"
       ],
       "link":"http://www.ieice.org/ken/paper/201708253bw6/",
-      "image":"./assets/image/education/twitter.png"
+      "image":"./assets/image/education/twitter.jpg"
     }
   ]
   ,"education":[

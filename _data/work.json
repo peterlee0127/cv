@@ -19,9 +19,17 @@
           We use new technology to improve public participation and open government.
           We want to increase citizen participation, so we set up a video streaming during meeting.
           Citizen can join meeting and share their experiment anywhrere.
-          They only need to submit a question to sli.do(a real-time comment system).<a target='_blank' href='https://youtu.be/VbwKBK24T_g?t=4842'><i class='fab fa-youtube'></i></a>
-          ","I am a member of <a href='https://github.com/pdis/' target='_blank'><i class='fab fa-github'> code team</i></a> and
-          <a href='https://www.youtube.com/channel/UCExDf4hkbSU-pmJcyT_sDtg/videos' target='_blank'><i class='fab fa-youtube'>video team.</i></a>
+          They only need to submit a question to sli.do(a real-time comment system).
+          <a target='_blank' href='https://youtu.be/VbwKBK24T_g?t=4842'>
+            <svg class='icon' style='width:1em;height:1em'><use xlink:href='/assets/font/fontawesome.svg#youtube'></use></svg>
+          </a>
+          ",
+          "I am a member of <a href='https://github.com/pdis/' target='_blank'>
+           <svg class='icon' style='width:1em;height:1em'><use xlink:href='/assets/font/fontawesome.svg#github'></use></svg>
+            Code Team</a> and
+          <a href='https://www.youtube.com/channel/UCExDf4hkbSU-pmJcyT_sDtg/videos' target='_blank'>
+          <svg class='icon' style='width:1em;height:1em'><use xlink:href='/assets/font/fontawesome.svg#youtube'></use></svg> Video team
+          </a>
            I developed many tools, like PDIS Line Bot, A tool to synchronize Google and Outlook data. I also maintain our server, Sandstorm, Rocket.Chat and other services. In this year,
            I also serve for Alternative Military Service. I learned a lot skills and how to collaborate with different people."
       ],
