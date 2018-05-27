@@ -21,8 +21,8 @@ module.exports = [{
                   {
                     loader: 'css-loader',
                     options: {
-                      minimize: false,
-                      sourceMap: true
+                      minimize: true,
+                      sourceMap: false
                     }
                   }
               ]
@@ -31,7 +31,13 @@ module.exports = [{
               test: /\.scss$/,
               use: extractPlugin.extract({
                 use: [
-                    'css-loader',
+                  {
+                    loader: 'css-loader',
+                    options: {
+                      minimize: true,
+                      sourceMap: false
+                    }
+                  },
                     'sass-loader'
                 ]
           })
@@ -70,12 +76,12 @@ module.exports.push({
      child_process: 'empty'
  },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin(function(){}),
      new webpack.ProvidePlugin({
          'window.jQuery'    : 'jquery',
          'window.$'         : 'jquery',
          'jQuery'           : 'jquery',
          '$'                : 'jquery'
      }),
+    new webpack.optimize.UglifyJsPlugin(function(){}),
   ]
 });
