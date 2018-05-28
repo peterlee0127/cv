@@ -1,4 +1,4 @@
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
+// const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const path = require('path');
 const webpack = require('webpack');
 const nodeModulesPath = path.resolve(__dirname, 'node_modules');

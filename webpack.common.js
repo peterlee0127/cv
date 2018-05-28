@@ -3,8 +3,6 @@ const webpack = require('webpack');
 const nodeModulesPath = path.resolve(__dirname, 'node_modules');
 
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const devMode = process.env.NODE_ENV !== 'production'
 
 module.exports = {};
