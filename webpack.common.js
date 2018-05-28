@@ -4,35 +4,55 @@ const nodeModulesPath = path.resolve(__dirname, 'node_modules');
 
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const devMode = process.env.NODE_ENV !== 'production'
 
 module.exports = {};
 let scssConfig = {
-  entry: ['./assets/src/js/index.js'],
+  entry:
+    {
+      // style:"./assets/src/css/index.scss",
+    bundle: './assets/src/js/index.js'
+  }
+  ,
   output: {
     path: path.resolve(__dirname, "./assets/dist"),
-    filename: "bundle.js",
+    filename: '[name].js',
+    // filename: 'bundle.js',
     publicPath: "./assets/dist"
+  },
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        styles: {
+          name: 'styles',
+          test: /\.css$/,
+          chunks: 'all',
+          enforce: true
+        }
+      }
+    }
   },
   module: {
       rules: [
         {
-            test: /\.s?[ac]ss$/,
-            use: [
-              devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
-              'css-loader',
-              'sass-loader',
-            ],
+            test: /\.js$/,
+            loader: 'babel-loader',
+            query: {
+              presets: ['es2015']
+            },
+            exclude: [nodeModulesPath]
         },
-            {
-                test: /\.js$/,
-                loader: 'babel-loader',
-                query: {
-                  presets: ['es2015']
-                },
-                exclude: [nodeModulesPath]
-            }
+        {
+            test: /\.s?[ac]ss$/,
+            use:
+             [  'style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
+            // [
+            //   devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
+            //   'css-loader',
+            //   'sass-loader',
+            // ],
+        },
         ]
   },
   node: {
@@ -51,11 +71,10 @@ let scssConfig = {
         '$'                : 'jquery'
     }),
     new MiniCssExtractPlugin({
-        // Options similar to the same options in webpackOptions.output
-        // both options are optional
         filename: devMode ? '[name].css' : '[name].[hash].css',
         chunkFilename: devMode ? '[id].css' : '[id].[hash].css',
-      })
+      }),
+      // new ExtractTextPlugin({filename: 'bundle.css'})
  ]
 };
 module.exports = scssConfig;
