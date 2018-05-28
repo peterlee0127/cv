@@ -1,5 +1,7 @@
 'use strict'
 
+import './../css/index.scss';
+
 import 'jquery';
 import 'materialize-css';
 import Typed from 'typed.js';
