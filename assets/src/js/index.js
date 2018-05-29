@@ -47,7 +47,7 @@ $(document).ready(function(){
           let videos = $('.youtube-video');
           // videos.forEach(item =>{
           console.log(videos[0]);
-            videos[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+            // videos[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
           // });
         }
     }
