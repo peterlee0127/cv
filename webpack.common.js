@@ -8,15 +8,11 @@ const devMode = process.env.NODE_ENV !== 'production'
 module.exports = {};
 let scssConfig = {
   entry:
-    {
-      // style:"./assets/src/css/index.scss",
-    bundle: './assets/src/js/index.js'
-  }
+    {   bundle: './assets/src/js/index.js'  }
   ,
   output: {
     path: path.resolve(__dirname, "./assets/dist"),
     filename: '[name].js',
-    // filename: 'bundle.js',
     publicPath: "./assets/dist"
   },
   optimization: {
@@ -77,40 +73,4 @@ let scssConfig = {
 };
 module.exports = scssConfig;
 
-/*
-let jsConfig = {
-  // entry: ["./assets/pre/js/index.js"],
-  // output: {
-  //   filename: "./assets/js/bundle.js"
-  // },
-  module: {
-        rules: [
-        {
-            test: /\.js$/,
-            loader: 'babel-loader',
-            query: {
-              presets: ['es2015']
-            },
-            exclude: [nodeModulesPath],
-        }
-    ]
-  },
-  node: {
-     fs: 'empty',
-     dgram: 'empty',
-     fs: 'empty',
-     net: 'empty',
-     tls: 'empty',
-     child_process: 'empty'
- },
-  plugins: [
-     new webpack.ProvidePlugin({
-         'window.jQuery'    : 'jquery',
-         'window.$'         : 'jquery',
-         'jQuery'           : 'jquery',
-         '$'                : 'jquery'
-     })
-  ]
-};
-// module.exports.push(jsConfig);
-*/
+

@@ -58,7 +58,8 @@
       "Binding with Node.js Homekit"
     ],
     "detail":[
-      "<iframe frameborder='0' allow='autoplay; encrypted-media' title='YouTube video player' width='100%' height='400' src='https://www.youtube.com/embed/4USDlJZbe20'></iframe>"
+      "<iframe class='youtube-video' frameborder='0' allow='autoplay; encrypted-media' title='YouTube video player' width='100%' height='400' src='https://www.youtube.com/embed/4USDlJZbe20?enablejsapi=1&version=3&'></iframe>",
+      "In this sample, I build a plug-in for HomeKit Bridge. Then, I use Siri to control my light."
     ]
   }
 
