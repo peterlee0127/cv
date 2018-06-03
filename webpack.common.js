@@ -41,11 +41,6 @@ let scssConfig = {
             test: /\.s?[ac]ss$/,
             use:
              [  'style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
-            // [
-            //   devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
-            //   'css-loader',
-            //   'sass-loader',
-            // ],
         },
         ]
   },
@@ -68,7 +63,6 @@ let scssConfig = {
         filename: devMode ? '[name].css' : '[name].[hash].css',
         chunkFilename: devMode ? '[id].css' : '[id].[hash].css',
       }),
-      // new ExtractTextPlugin({filename: 'bundle.css'})
  ]
 };
 module.exports = scssConfig;

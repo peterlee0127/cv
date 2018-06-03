@@ -30,7 +30,7 @@
           <a href='https://www.youtube.com/channel/UCExDf4hkbSU-pmJcyT_sDtg/videos' target='_blank'>
           <svg class='icon' style='width:1em;height:1em'><use xlink:href='/assets/font/fontawesome.svg#youtube'></use></svg> Video team
           </a>
-           I developed many tools, like PDIS Line Bot, A tool to synchronize Google and Outlook data. I also maintain our server, Sandstorm, Rocket.Chat and other services. In this year,
+           I developed many tools, PDIS Line Bot, EWS-Outlook, A tool to synchronize data betwen Google and Outlook data. I also maintain our server, Sandstorm, Rocket.Chat and other services. In this year,
            I also serve for Alternative Military Service. I learned a lot skills and how to collaborate with different people."
       ],
       "more":""
@@ -42,8 +42,8 @@
       "time":"2013 Jul -> 2014 Sep",
       "position":"iOS Engineer (Intern)",
       "p":[
-          "Nexdoor is a famous App company in 2013, we build iOS/Android/Web for customer. In 2014, most of employee join new company 91 app.
-          I was a iOS Engineer Intern when I was an undergraduate student in 2013."
+          "Nexdoor is a famous App company in 2013, we build iOS/Android/Web for enterprise. I was a iOS Engineer Intern when I was an undergraduate student.
+          I developed some interesing project, like Geofenece App, LBS Service framework and customize UI. In 2014, most of employee join new company 91 app."
       ],
       "more":""
     }

@@ -5,11 +5,13 @@
       "p":[
         "Advanced Information Networking and Applications (AINA)",
         "2017 IEEE 31st International Conference",
-        "A Lambda Architecture at DC/OS, using Spark Streaming, Kafka, Hadoop HDFS."
+        "A Lambda Architecture at DC/OS, using Spark, Spark Streaming, Kafka, Hadoop HDFS."
       ],
       "detail":[
-      "<img  src='/assets/image/publication/aina01.jpg'>",
-      "<img  src='/assets/image/publication/aina02.jpg'>",
+      "<img  src='/assets/image/publication/aina01.jpg'>
+      <p>My Implementation of Lambda Architecture. To design a minimize implement, I use Mesos to allocate service in limit number of computer. By Mesos container isolation, we can run many diffent services in same computer.</p>",
+      "<img  src='/assets/image/publication/aina02.jpg'>
+      <p></p>",
       "<img  src='/assets/image/publication/aina03.jpg'>",
       "<img  src='/assets/image/publication/aina04.jpg'>",
       "<img  src='/assets/image/publication/aina05.jpg'>",
@@ -23,7 +25,7 @@
       "p":[
         "Awareness Science and Technology (iCAST)",
         "2017 IEEE 8th International Conference",
-        "Real-time trend analysis by twitter, using Spark Streaming, Kafka, and Visualize on Web."
+        "Real-time trend analysis by twitter, using Spark, Spark Streaming, Kafka, Classification Data and Visualize on Web."
       ],
       "link":"http://ieeexplore.ieee.org/document/8256469/",
       "image":"./assets/image/education/icast.jpg"

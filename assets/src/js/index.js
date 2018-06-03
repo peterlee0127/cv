@@ -65,7 +65,7 @@ $(document).ready(function(){
 
 var options = {
   strings: ["Data Engineer","DevOps Engineer"],
-  typeSpeed: 60,
+  typeSpeed: 50,
   loop:true,
   showCursor:false,
   fadeOut: true,
