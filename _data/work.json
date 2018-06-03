@@ -1,10 +1,16 @@
 {
   "skills": [
     {
-      "p":["Spark","Mesos","Elasticsearch","Hadoop","Kafka","Python2","Scala","TensorFlow","Jenkins","Docker"]
+      "title":"Data",
+      "p":["Spark","Mesos","Elasticsearch","Hadoop","Kafka","Python"]
     },
     {
-      "p":["Node.js","Mongodb","JavaScript","iOS(Objective-C and Swift)"]
+      "title":"Backend/Web",
+      "p":["Node.js","Mongodb","WebSocket","Jquery","Webpack","Sass"]
+    },
+    {
+      "title":"General",
+      "p":["Git","Vim","Shell","Jenkins","Docker","iOS(Objective-C and Swift)"]
     }
   ]
   ,"work":[
