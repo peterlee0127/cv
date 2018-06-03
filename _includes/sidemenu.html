@@ -5,7 +5,7 @@
 {% for menu in site.data.menu.menus %}
       {% if menu.divider %}
           <li><div class="divider"></div></li>
-      {% elsif menu.icon %}
+      {% elsif menu.icon and menu.link != "" %}
           <li><a class="menu-link waves-effect waves-dark" href="{% if menu.target ==null %}#{% endif %}{{menu.link}}" {{menu.target}}><i class="material-icons">{{menu.icon}}</i>{{menu.text}}</a></li>
       {% endif %}
 {% endfor %}

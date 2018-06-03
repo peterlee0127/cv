@@ -41,8 +41,8 @@
     {
       "divider": "true" },
     {
-      "text": "Blog",
-      "link": "https://blog.peterlee0127.com",
+      "text": "Blog(in Dev)",
+      "link": "",
       "target": "target='_blank'",
       "icon":"web"
     }
