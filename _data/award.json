@@ -21,7 +21,7 @@
     "title": "Rocket.Chat Contributor",
     "image": "/assets/image/rocketchat.png",
     "p": [
-      "Rocket.Chat for Sandstorm Contributor"
+      "Update and patch Rocket.Chat for Sandstorm. Due to there is no official build since 2017. I started to fix some issues. Like a push notification can't pass Sandstorm's container. "
 
     ]
   }
