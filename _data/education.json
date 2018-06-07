@@ -8,14 +8,16 @@
         "A Lambda Architecture at DC/OS, using Spark, Spark Streaming, Kafka, Hadoop HDFS."
       ],
       "detail":[
-      "<img  src='/assets/image/publication/aina01.jpg'>
-      <p>My Implementation of Lambda Architecture. To design a minimize implement, I use Mesos to allocate service in limit number of computer. By Mesos container isolation, we can run many diffent services in same computer.</p>",
-      "<img  src='/assets/image/publication/aina02.jpg'>
-      <p></p>",
+      "<img  src='/assets/image/publication/aina01.jpg'>",
+      "We use Apache Mesos to manage the cluster automatically instead of manually setting up the cluster, which can allocate cluster resources dynamically and scale up or down easily. Deploying Lambda architecture on Mesos has the advantage of resource sharing and fault tolerance.",
+      "<img  src='/assets/image/publication/aina02.jpg'>",
+      "This is my implementing of Lambda Architecture using these Frameworks.",
       "<img  src='/assets/image/publication/aina03.jpg'>",
       "<img  src='/assets/image/publication/aina04.jpg'>",
       "<img  src='/assets/image/publication/aina05.jpg'>",
+      "I also created an iOS App for recommender system. User rate and comment to the store, these data will save in our server. ",
       "<img  src='/assets/image/publication/aina06.jpg'>",
+      "Part of Experiment."
       ],
       "link":"http://ieeexplore.ieee.org/abstract/document/7921013/",
       "image":"./assets/image/education/aina.jpg"
@@ -26,6 +28,16 @@
         "Awareness Science and Technology (iCAST)",
         "2017 IEEE 8th International Conference",
         "Real-time trend analysis by twitter, using Spark, Spark Streaming, Kafka, Classification Data and Visualize on Web."
+      ],
+      "detail":[
+        "<img  src='/assets/image/publication/icast01.jpg'>",
+        "<img  src='/assets/image/publication/icast02.jpg'>",
+        "<img  src='/assets/image/publication/icast03.jpg'>",
+        "<img  src='/assets/image/publication/icast04.jpg'>",
+        "<img  src='/assets/image/publication/icast05.jpg'>",
+        "<img  src='/assets/image/publication/icast06.jpg'>",
+        "<img  src='/assets/image/publication/icast07.jpg'>",
+        "<img  src='/assets/image/publication/icast08.jpg'>",
       ],
       "link":"http://ieeexplore.ieee.org/document/8256469/",
       "image":"./assets/image/education/icast.jpg"
