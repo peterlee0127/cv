@@ -1,12 +1,12 @@
 <div class="profile-image" >
   <img src={{ site.data.menu.img }}>
-  <p>{{site.data.menu.name}}</p>
+  <h5>{{site.data.menu.name}}</h5>
 </div>
 {% for menu in site.data.menu.menus %}
       {% if menu.divider %}
           <li><div class="divider"></div></li>
       {% elsif menu.icon and menu.link != "" %}
-          <li><a class="menu-link waves-effect waves-dark" href="{% if menu.target ==null %}#{% endif %}{{menu.link}}" {{menu.target}}><i class="material-icons">{{menu.icon}}</i>{{menu.text}}</a></li>
+          <li><a style='font-size:16px' class="menu-link waves-effect waves-dark" href="{% if menu.target ==null %}#{% endif %}{{menu.link}}" {{menu.target}}><i class="material-icons">{{menu.icon}}</i>{{menu.text}}</a></li>
       {% endif %}
 {% endfor %}
 <br>
