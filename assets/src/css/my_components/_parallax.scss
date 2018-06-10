@@ -1,7 +1,13 @@
 .parallax-container{
   // min-height: 300px;
   max-height: 400px;
+  .container-fixed{
+    z-index: 2;
+  }
+
   .parallax {
+    z-index: 1;
+
     img {
       width:100%
     }
