@@ -36,6 +36,12 @@
   }
 }
 
+.index-0 {
+  background-color:white;
+}
+.index-1 {
+  background-color:#fafafa;
+}
 
 .text-on-picture {
   text-align: center;
@@ -127,6 +133,9 @@ nav {
       position: relative;
       background: rgba(0, 0, 0, 0.9);
   }
+  .parallax {
+     background-attachment: scroll;
+ }
 }
 
 
