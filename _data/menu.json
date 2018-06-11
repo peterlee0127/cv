@@ -51,6 +51,12 @@
       "link": "",
       "target": "target='_blank'",
       "icon":"web"
+    },
+    {
+      "text": "Resume",
+      "link": "/assets/peterlee.pdf",
+      "target": "target='_blank'",
+      "icon":""
     }
   ],
   "footer-icons": [
