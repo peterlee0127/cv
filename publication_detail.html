@@ -5,7 +5,7 @@
   <div class="modal-content">
     <h5>{{publication.title}}</h5>
     {% for p in publication.detail %}
-      <p class="light center flow-text">{{p}}</p>
+      <p class="light center flow-text">{{ p | markdownify }}</p>
     {% endfor %}
   </div>
   <div class="modal-footer">
