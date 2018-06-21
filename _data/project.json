@@ -3,15 +3,10 @@
     "title": "PDIS Line Bot",
     "image": "/assets/image/project/pdis-bot.jpg",
     "p": [
-      "PDIS Line Bot provides Audrey Tang's Calendar to PDIS member, it also sends push message from our other services. Bot also linked with Line Beacon, it sends greeting message to us when we entering PDIS office."
+      "PDIS Line Bot provides Audrey Tang's Calendar to PDIS member, it also sends push message from our other services.
+      Bot also linked with Line Beacon, it sends greeting message to us when we entering PDIS office."
     ],
-    "detail":[
-      "<img src='/assets/image/project/bot.jpg'>",
-      "PDIS Line Bot provides Audrey Tang's Calendar to PDIS member. We can type 'au cal today', chatbot will return Tang's schedule. Bot also support another format. Like 'yesterday, next Monday, 5/20'",
-      "The Bot can send a push notification, it sends a message from other services. Like a reservation system sends appointment information to PDIS staff.",
-      "<img  src='/assets/image/project/beacon.jpg'>",
-      "This bot also linked with Line Beacon(I got this in Line Dev Day 2016). The Bot will send a greeting message to us when we entering PDIS office."
-    ]
+    "url":"/project/pdisbot",
   },
   {
     "title": "EWS-Calendar",
@@ -19,12 +14,7 @@
     "p": [
       "EWS-Calendar sync Microsoft Exchange Data to Google. It also generated API server for our <a target='_blank' href='https://au.pdis.tw'>Reservation system</a> and <a target='_blank' href='http://silofficehour.pdis.tw'>Calendar</a>",
     ],
-    "detail":[
-      "<img src='/assets/image/project/ews1.jpg'></img>",
-      "EWS-Calendar syncs our Microsoft Exchange Server Calendar to Google Calendar. For <a target='_blank' href='https://au.pdis.tw'>Reservation system</a> and <a target='_blank' href='http://silofficehour.pdis.tw'>Calendar</a>, we need to get real-time Calendar data.
-      It extracted recent Events in Outlook Calendar to two JSON files. Public one generated for other API. Private one only provides PDIS Line Bot to access.",
-      "<img src='/assets/image/project/ews2.jpg' style='width:100%;max-width:500px'></img>"
-    ]
+    "url":"/project/ewscalendar",
   },
   {
     "title": "RealTimeSubtitle",
@@ -33,20 +23,18 @@
     "p": [
       "A open-source plug-in to display subtitle on OBS Studio",
     ],
-    "detail":[
-      ""
-    ]
   },
   {
     "title": "Airbox",
     "image": "/assets/image/project/airbox1.jpg",
     "p": [
       "A open-source pm 2.5 sensor",
-      "Serverless, using ELK to store and Visualize data."
+      "Serverless, using ELK to store and Visualize data.",
+      "<a href='https://github.com/peterlee0127/AirBox.git' target='_blank'>Github</a>"
     ],
+    "url":"/project/airbox",
     "detail":[
-      "<img src='/assets/image/project/airbox2.jpg'>",
-      "<img src='/assets/image/project/airbox3.jpg'>"
+      "airbox.markdown"
     ]
   },
   {
@@ -56,6 +44,7 @@
       "An open-source HomeKit Plug-in for YeeLight Blue 2(BLE) light bulb",
       "Binding with Node.js Homekit"
     ],
+    "url":"/project/homekit",
     "detail":[
       "In this sample, I build a plug-in for HomeKit Bridge. Then, I use Siri to control my light.",
       "<div class='video-container'>

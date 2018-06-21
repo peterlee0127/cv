@@ -16,15 +16,14 @@
 title: Peter Lee
 email: peterlee0127@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Peter Lee website
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://cv.peterlee0127.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: peterlee0127
 github_username:  peterlee0127
 source_code: https://github.com/peterlee0127
 
+permalink: /:categories/:title/
 # Build settings
 markdown: kramdown
 theme: minima

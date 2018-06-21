@@ -16,7 +16,8 @@
           {% if project.github %}
             <a class="waves-effect waves-light" target='_blank' href="{{project.github}}">Github</a>
           {% else %}
-            <a class="waves-effect waves-light modal-trigger" id="modal-project-{{forloop.index}}" data-source="/project_detail" href="#project-{{forloop.index}}">More</a>
+            <a class="waves-effect waves-light modal-trigger" id="modal-project-{{forloop.index}}" data-source="{{project.url}}" href="#project-{{forloop.index}}">More</a>
+            <!-- <a class="waves-effect waves-light modal-trigger" id="modal-project-{{forloop.index}}" data-source="/project_detail" href="#project-{{forloop.index}}">More</a> -->
           {% endif %}
         </div>
       </div>

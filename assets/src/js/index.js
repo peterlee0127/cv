@@ -54,7 +54,7 @@ $(document).ready(function(){
     let url =  $(this).attr("data-source");
     let id  = $(this).attr("id");
     id = id.replace("modal-","");
-    url = url+" #"+id;
+    // url = url+" #"+id;
     if(trigger.attr('loaded')!=true){
 
       $("#"+id).delay( 300 ).load(url, ()=>{
@@ -64,7 +64,7 @@ $(document).ready(function(){
   });
 
 var options = {
-  strings: ["Data Engineer","DevOps Engineer"],
+  strings: ["Data Engineer"],
   typeSpeed: 50,
   loop:true,
   showCursor:false,
