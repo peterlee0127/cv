@@ -6,7 +6,7 @@
       "PDIS Line Bot provides Audrey Tang's Calendar to PDIS member, it also sends push message from our other services.
       Bot also linked with Line Beacon, it sends greeting message to us when we entering PDIS office."
     ],
-    "url":"/project/pdisbot",
+    "url":"project/pdisbot",
   },
   {
     "title": "EWS-Calendar",
