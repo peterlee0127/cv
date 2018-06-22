@@ -23,7 +23,7 @@ twitter_username: peterlee0127
 github_username:  peterlee0127
 source_code: https://github.com/peterlee0127
 
-permalink: /:categories/:title/
+permalink: /:title
 # Build settings
 markdown: kramdown
 theme: minima

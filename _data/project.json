@@ -6,7 +6,7 @@
       "PDIS Line Bot provides Audrey Tang's Calendar to PDIS member, it also sends push message from our other services.
       Bot also linked with Line Beacon, it sends greeting message to us when we entering PDIS office."
     ],
-    "url":"project/pdisbot",
+    "url":"pdisbot",
   },
   {
     "title": "EWS-Calendar",
@@ -14,7 +14,7 @@
     "p": [
       "EWS-Calendar sync Microsoft Exchange Data to Google. It also generated API server for our <a target='_blank' href='https://au.pdis.tw'>Reservation system</a> and <a target='_blank' href='http://silofficehour.pdis.tw'>Calendar</a>",
     ],
-    "url":"/project/ewscalendar",
+    "url":"ewscalendar",
   },
   {
     "title": "RealTimeSubtitle",
@@ -32,7 +32,7 @@
       "Serverless, using ELK to store and Visualize data.",
       "<a href='https://github.com/peterlee0127/AirBox.git' target='_blank'>Github</a>"
     ],
-    "url":"/project/airbox",
+    "url":"airbox",
   },
   {
     "title": "HomeKit Plug-in",
@@ -41,7 +41,7 @@
       "An open-source HomeKit Plug-in for YeeLight Blue 2(BLE) light bulb",
       "Binding with Node.js Homekit"
     ],
-    "url":"/project/homekit",
+    "url":"homekit",
   }
 
 ]
