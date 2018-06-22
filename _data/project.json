@@ -33,9 +33,6 @@
       "<a href='https://github.com/peterlee0127/AirBox.git' target='_blank'>Github</a>"
     ],
     "url":"/project/airbox",
-    "detail":[
-      "airbox.markdown"
-    ]
   },
   {
     "title": "HomeKit Plug-in",
@@ -45,13 +42,6 @@
       "Binding with Node.js Homekit"
     ],
     "url":"/project/homekit",
-    "detail":[
-      "In this sample, I build a plug-in for HomeKit Bridge. Then, I use Siri to control my light.",
-      "<div class='video-container'>
-      <iframe class='youtube-videox' frameborder='0' title='YouTube video player' src='https://www.youtube.com/embed/4USDlJZbe20?enablejsapi=1&version=3&'></iframe>
-      </div>"
-
-    ]
   }
 
 ]

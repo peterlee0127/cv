@@ -14,8 +14,8 @@
            </div>
            <div class="card-action">
            <a class='waves-effect waves-light btn modal-trigger' target='_blank' href="{{publication.link}}">Fulltext</a>
-              {% if publication.detail %}
-             <a class="waves-effect waves-light btn modal-trigger" id="modal-publication-{{forloop.index}}" data-source="/publication_detail"  href="#publication-{{forloop.index}}">preview</a>
+              {% if publication.url %}
+             <a class="waves-effect waves-light btn modal-trigger" id="modal-publication-{{forloop.index}}" data-source="{{publication.url}}"  href="#publication-{{forloop.index}}">preview</a>
              {% endif %}
            </div>
          </div>

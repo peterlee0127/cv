@@ -7,6 +7,7 @@
         "2017 IEEE 31st International Conference",
         "A Lambda Architecture at DC/OS, using Spark, Spark Streaming, Kafka, Hadoop HDFS."
       ],
+      "url":"/publication/aina",
       "detail":[
       "<img  src='/assets/image/publication/aina01.jpg'>",
       "We use Apache Mesos to manage the cluster automatically instead of manually setting up the cluster, which can allocate cluster resources dynamically and scale up or down easily. Deploying Lambda architecture on Mesos has the advantage of resource sharing and fault tolerance.",
@@ -29,6 +30,7 @@
         "2017 IEEE 8th International Conference",
         "Real-time trend analysis by twitter, using Spark, Spark Streaming, Kafka, Classification Data and Visualize on Web."
       ],
+      "url":"/publication/icast",
       "detail":[
         "<img  src='/assets/image/publication/icast01.jpg'>",
         "<img  src='/assets/image/publication/icast02.jpg'>",
