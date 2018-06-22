@@ -1,18 +1,18 @@
 [
   {
-    "title": "Nvidia Jetson Community Developer",
+    "title": "NVIDIA Jetson Community Developer",
     "image": "/assets/image/jetson.jpg",
     "materialboxed":true,
     "p": [
-      "2018 April - Outstanding-jetson-developer-community-contributions, Porting TensorFlow for Nvidia Jetson. Thanks for Nvidia send a free Nvidia GTX 1080Ti for me.",
-      "<a target='_blank' href='https://devtalk.nvidia.com/default/topic/1032843/announcements/recognition-for-outstanding-jetson-developer-community-contributions/'>Nvidia Developer Forum</a>"
+      "2018 April - Outstanding-jetson-developer-community-contributions, Porting TensorFlow for NVIDIA Jetson. Thanks for NVIDIA send a free GTX 1080Ti for me.",
+      "<a target='_blank' href='https://devtalk.nvidia.com/default/topic/1032843/announcements/recognition-for-outstanding-jetson-developer-community-contributions/'>NVIDIA Developer Forum</a>"
     ]
   },
   {
     "title": "TensorFlow Contributor",
     "image": "/assets/image/tensorflow.png",
     "p": [
-      "Porting TensorFlow to Nvidia Jetson",
+      "Porting TensorFlow to NVIDIA Jetson",
       "Repository <a target='_blank' href='https://github.com/peterlee0127/tensorflow-nvJetson'>tensorflow-nvJetson</a>",
       "TensorFlow #20025, #19075, #17394",
     ]
