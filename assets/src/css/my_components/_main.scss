@@ -54,17 +54,7 @@
   right: 0px;
   top: 10%;
   max-height: 90%;
-  overflow: scroll;
 
-}
-
-.text-on-picture::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-}
-/* optional: show position indicator in red */
-.text-on-picture::-webkit-scrollbar-thumb {
-    background: #FF0000;
 }
 
 .award{
