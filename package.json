@@ -6,8 +6,8 @@
   "dependencies": {
     "jquery": "^3.3.1",
     "livephotoskit": "^1.5.4",
-    "materialize-css": "^1.0.0-rc.1",
-    "typed.js": "^2.0.7"
+    "materialize-css": "^1.0.0-rc.2",
+    "typed.js": "^2.0.8"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -17,16 +17,16 @@
     "extract-loader": "^2.0.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.11",
-    "mini-css-extract-plugin": "^0.4.0",
+    "mini-css-extract-plugin": "^0.4.1",
     "node-sass": "^4.9.0",
-    "optimize-css-assets-webpack-plugin": "^4.0.2",
+    "optimize-css-assets-webpack-plugin": "^4.0.3",
     "postcss-loader": "^2.1.5",
-    "sass-loader": "^7.0.1",
+    "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
-    "webpack": "^4",
-    "webpack-cli": "^2.1.4",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^2.1.5",
     "webpack-dev-server": "^2.11.2",
-    "webpack-merge": "^4.1.2"
+    "webpack-merge": "^4.1.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
