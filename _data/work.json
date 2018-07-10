@@ -26,19 +26,13 @@
           Audrey is Ministry of Digital Affairs in Taiwan. She leads the PDIS team to help our government.
           We incubate and facilitate public digital innovation for government.
           ",
-          "I am a member of <a href='https://github.com/pdis/' target='_blank'>
-           <svg class='icon' style='width:1em;height:1em'><use xlink:href='/assets/font/fontawesome.svg#github'></use></svg>
-            Code Team</a> and
-          <a href='https://www.youtube.com/channel/UCExDf4hkbSU-pmJcyT_sDtg/videos' target='_blank'>
-          <svg class='icon' style='width:1em;height:1em'><use xlink:href='/assets/font/fontawesome.svg#youtube'></use></svg> Video team.
-          </a>
-          My work is helping PDIS daily job, like internal tools or external website.
-          One of my work is maintaining the RockChat.Chat continues to run in Sandstorm.
-          To let the push notification pass Sandstorm gateway, I added powerbox request and fix package dependence.
-          Another project like PDIS Line Bot is a Line chatbot. This bot support to query Tang's calendar data.
-          Our member can get data just type some text.
-          The data is stored in Microsoft Outlook server, I also developed a tool to query data from the server.
-          This program sync data to generate API for other services. These programs also open source in our Github.
+          "1:As a software developer: I use Line BOT API to connect our internal systems to make an easy-to-use app to help our colleagues saving their time. I also designed API interfaces to allow other internal systems to hook up with our bot system.Up to now, it already bridged across our meeting reserve system and electronic bulletin board system.",
+
+"2: About productive and quality: I designed a software that can display real-time subtitle during streaming. To met the schedule, I took only one week to make it from idea to prototype. This system now works perfectly in all of our video conferences.",
+
+"3: As a quick learner and contributor: I involved in many open source projects. Like Sandstorm(A open source private cloud with the container), Rocket.Chat(A open source chat app which like Slack). We have fixed many issues and add lots of features, and giving back to the community.",
+
+"4: Eager to learn everything: when I have free time, I like to think about how to make the system more efficient. I still finding more possibility to improve the current system. When I joined the video streaming team, I would like to let some part of the system can automatically work. Let the computer can label the people with their name in real-time and display the information on the subtitle. On the road of development, I fixed various issues and bugs of Tensorflow. NVIDIA give me an award as the outstanding community developer in this April.
           "
       ],
       "more":""
