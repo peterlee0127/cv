@@ -13,4 +13,4 @@ It extracted recent Events in Outlook Calendar to two JSON files. Public one gen
 
 <img src="/assets/image/project/board.jpg" style="width:100%;max-width:500px">
 
-The calendar in the at Social Innovation Lab
+The calendar in the Social Innovation Lab
