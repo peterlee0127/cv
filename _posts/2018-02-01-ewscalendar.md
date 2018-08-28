@@ -10,3 +10,7 @@ EWS-Calendar syncs our Microsoft Exchange Server Calendar to Google Calendar. Fo
 It extracted recent Events in Outlook Calendar to two JSON files. Public one generated for other API. Private one only provides PDIS Line Bot to access.
 
 <img src="/assets/image/project/ews2.jpg" style="width:100%;max-width:500px">
+
+<img src="/assets/image/project/board.jpg" style="width:100%;max-width:500px">
+
+### The calendar in the at Social Innovation Lab
