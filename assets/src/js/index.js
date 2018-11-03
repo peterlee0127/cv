@@ -4,7 +4,7 @@ import './../css/index.scss';
 
 import 'jquery';
 import 'materialize-css';
-import Typed from 'typed.js';
+// import Typed from 'typed.js';
 // import * as LivePhotosKit from 'livephotoskit';
 
 const rwdClass = [".award .card-content",".project .card-content",".publication .card-content"];
@@ -45,7 +45,7 @@ $(document).ready(function(){
       $("iframe").each(function() {
         var src= $(this).attr('src');
         $(this).attr('src',src);
-});
+      });
     }
   });
 
@@ -70,7 +70,7 @@ var options = {
   showCursor:false,
   fadeOut: true,
 }
-var typed = new Typed(".typed-about", options);
+// var typed = new Typed(".typed-about", options);
 
 checkAnimation();
   $(window).scroll(function(){
