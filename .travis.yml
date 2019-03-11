@@ -3,7 +3,7 @@ node_js:
   - node
 
 before_install:
-- rvm install 2.4.1
+- rvm install 2.6.1
 
 before_script:
 - npm install
