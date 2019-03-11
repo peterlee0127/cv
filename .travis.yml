@@ -2,7 +2,22 @@ language: ruby
 rvm:
   - 2.4.1
 
+env:
+- TRAVIS_NODE_VERSION="7"
+
+cache:
+  yarn: true
+  directories:
+    - $HOME/.yarn-cache
+
+before_install:
+  - source ~/.nvm/nvm.sh && nvm install $TRAVIS_NODE_VERSION && nvm use $TRAVIS_NODE_VERSION
+  - export PATH=$HOME/.yarn/bin:$PATH && travis_retry curl -o- -L https://yarnpkg.com/install.sh | bash
+
 before_script:
+  - cd _assets
+  - yarn install
+  - cd ../
  - chmod +x ./build # or do this locally and commit
 
 # Assume bundler is being used, therefore
