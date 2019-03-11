@@ -1,19 +1,9 @@
-language: ruby
-rvm:
-  - 2.4.1
-
-env:
-- TRAVIS_NODE_VERSION="7"
-
-cache:
-  yarn: true
-  directories:
-    - $HOME/.yarn-cache
+language: node_js
+node_js:
+  - 0.12.2
 
 before_install:
-# - source ~/.nvm/nvm.sh 
-- nvm install $TRAVIS_NODE_VERSION && nvm use $TRAVIS_NODE_VERSION
-- export PATH=$HOME/.yarn/bin:$PATH && travis_retry curl -o- -L https://yarnpkg.com/install.sh | bash
+- rvm install 2.4.1
 
 before_script:
 - npm install
