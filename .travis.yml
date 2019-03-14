@@ -26,9 +26,7 @@ deploy:
   local_dir: _site
   keep_history: true
   on:
-  branches:    
-    only:     
-      - gh-pages 
+    branche: gh-pages 
 
 env:
   global:
