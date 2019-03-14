@@ -25,8 +25,7 @@ deploy:
   github_token: "$GITHUB_TOKEN"
   local_dir: _site
   keep_history: true
-  on:
-    branche: gh-pages 
+  on: gh-pages 
 
 env:
   global:
