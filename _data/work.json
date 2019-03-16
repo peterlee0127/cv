@@ -22,7 +22,7 @@
       "position":"Data Engineer",
       "web":"<a href='https://www.vpon.com' target='_blank'>Vpon</a>",
       "p":[
-          "In Vpon, I am a Data Engineer.",
+          "In Vpon, I am a Data Engineer in Data team.",
           "1: Data migration: I help the team to transfer exist project from AWS to GCP. Moving our Gitlab to GCP",
           "2: GCP Infra solution: Before I use GCP, I use self-hosted private cloud(Apache Mesos). In Vpon, I use Google Cloud Platform. Especilly, GKE(Google Kubernetes Engine), BigQuery, Cloud Function, GCE,Istio......",
           "3: Gitlab CI/CD: Design the CI/CD pipeline for our project. Our pipeline can Build Docker Image and Do Unit Test automatically. And these image will deploy on our GKE cluster",
