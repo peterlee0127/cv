@@ -25,8 +25,10 @@ deploy:
   github_token: "$GITHUB_TOKEN"
   local_dir: _site
   keep_history: true
-  on: gh-pages 
-
+  target_branch: gh-pages  # branch contains blog content
+  on:
+    branch: master
+    
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
