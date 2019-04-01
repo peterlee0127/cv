@@ -4,7 +4,7 @@
     "image": "/assets/image/jetson.jpg",
     "materialboxed":true,
     "p": [
-      "2018 April - Outstanding-jetson-developer-community-contributions, Porting TensorFlow for NVIDIA Jetson. Thanks for NVIDIA send a free GTX 1080Ti for me.",
+      "2018 April - Outstanding-jetson-developer-community-contributions, Porting TensorFlow for NVIDIA Jetson.",
       "<a target='_blank' href='https://devtalk.nvidia.com/default/topic/1032843/announcements/recognition-for-outstanding-jetson-developer-community-contributions/'>NVIDIA Developer Forum</a>"
     ]
   },
@@ -15,13 +15,6 @@
       "Porting TensorFlow to NVIDIA Jetson",
       "Repository <a target='_blank' href='https://github.com/peterlee0127/tensorflow-nvJetson'>tensorflow-nvJetson</a>",
       "TensorFlow #20025, #19075, #17394",
-    ]
-  },
-  {
-    "title": "Rocket.Chat Contributor",
-    "image": "/assets/image/rocketchat.png",
-    "p": [
-      "Update and patch Rocket.Chat for Sandstorm. Due to there is no official build since 2017. I started to fix some issues. Like a push notification can't pass Sandstorm's container and auth issues."
     ]
   }
 ]
