@@ -14,7 +14,7 @@
     "p": [
       "Porting TensorFlow to NVIDIA Jetson",
       "Repository <a target='_blank' href='https://github.com/peterlee0127/tensorflow-nvJetson'>tensorflow-nvJetson</a>",
-      "TensorFlow #20025, #19075, #17394",
+      "TensorFlow #26985, #20025, #19075, #17394",
     ]
   }
 ]
