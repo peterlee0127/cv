@@ -97,6 +97,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  eventmachine
   html-proofer
   jekyll (~> 4.0.0)
   jekyll-feed (~> 0.6)
