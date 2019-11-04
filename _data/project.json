@@ -1,5 +1,14 @@
 [
   {
+    "title": "PDIS Translate",
+    "image": "https://github.com/peterlee0127/Translator/raw/master/02.png",
+    "p": [
+      "Bot for getting files and receipt for Gengo translate platform.",
+      ""
+    ],
+    "github":"https://github.com/peterlee0127/Translator",
+  },
+  {
     "title": "PDIS Line Bot",
     "image": "/assets/image/project/pdis-bot.jpg",
     "p": [
