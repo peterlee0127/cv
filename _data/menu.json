@@ -45,12 +45,16 @@
       "icon":"school"
     },
     {
-      "divider": "true" },
+      "divider": "true" 
+    },
     {
-      "text": "Blog(in Dev)",
-      "link": "",
+      "text": "Blog",
+      "link": "https://blog.peterlee0127.com",
       "target": "target='_blank'",
       "icon":"web"
+    },
+    {
+      "divider": "true" 
     },
     {
       "text": "Resume",
