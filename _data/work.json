@@ -26,7 +26,8 @@
           "1: Data migration: I help the team to transfer exist project from AWS to GCP. Moving our Gitlab to GCP",
           "2: Infra solution: Before I joined Vpon, I use self-hosted private cloud(Besed on Apache Mesos). In Vpon, I learn to use Google Cloud Platform. Especilly, GKE(Google Kubernetes Engine), BigQuery, Cloud Function, GCE and Istio on Kubernetes",
           "3: Gitlab CI/CD: Design the CI/CD pipeline for our project. Our pipeline can Build Docker Image and Do Unit Test automatically. And these image will deploy on our GKE cluster",
-          "4: ETL pipeline: Our daily cronjob on Jenkins, Kubernetes."
+          "4: ETL pipeline: Our daily cronjob on Jenkins, Kubernetes.",
+          "5: Elastic Stack: About processing 1 million record data every day. We validate data in real-time at large scale."
       ]
     },
     {
