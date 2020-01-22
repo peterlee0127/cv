@@ -9,6 +9,12 @@
       "icon":"account_circle"
     },
     {
+      "text": "Work",
+      "link": "work",
+      "include":"work.html",
+      "icon":"work"
+    },
+    {
       "text": "Publications",
       "link": "publications",
       "include":"publications.html",
@@ -19,12 +25,6 @@
       "link": "projects",
       "include":"project.html",
       "icon":"assignment"
-    },
-    {
-      "text": "Work",
-      "link": "work",
-      "include":"work.html",
-      "icon":"work"
     },
     {
       "text": "Awards",
