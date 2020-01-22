@@ -2,15 +2,15 @@
   "skills": [
     {
       "title":"Data",
-      "p":["Spark","Kubernetes","Elasticsearch","Hadoop","Kafka","Google Cloud platform"]
+      "p":[ "Kubernetes","Elasticsearch","Spark","Kafka","Google Cloud platform"]
     },
     {
       "title":"Backend/Web",
-      "p":["Node.js","Mongodb","WebSocket","Jquery","Webpack","Sass"]
+      "p":["Node.js","Mongodb","Webpack","Sass"]
     },
     {
       "title":"General",
-      "p":["Git","Shell","Jenkins","Docker","iOS(Swift)","Python"]
+      "p":["Python","Git","Shell","Jenkins","Docker","iOS(Swift)"]
     }
   ]
   ,"work":[
