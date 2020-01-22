@@ -22,7 +22,7 @@
       "position":"Data Engineer (Architect)",
       "web":"<a href='https://www.vpon.com' target='_blank'>Vpon</a>",
       "p":[
-          "1: Data migration: I help data team to transfer exist project from AWS to GCP. For example: Moving our Gitlab from AWS to GCP. Also we transfer data from Hive/S3 to GCP",
+          "1: Data migration: I help data team to transfer exist project from AWS to GCP. For example: Migrate ETL pipeline from AWS to GCP. Moving our Gitlab from AWS to GCP (Gitlab CI/CD). Transfer data from Hive and S3 to GCP",
           "2: Infra solution: Before I joined Vpon, I use self-hosted private cloud(Besed on Apache Mesos). In Vpon, I learn to use Google Cloud Platform. Especilly, GKE(Google Kubernetes Engine), BigQuery, Cloud Function, GCE and Istio on Kubernetes",
           "3: Gitlab CI/CD: Design the CI/CD pipeline for our project. Our pipeline can Build Docker Image and Do Unit Test automatically. And these image will deploy on our Kubernetes cluster",
           "4: ETL pipeline: Our daily cronjob on Jenkins, Kubernetes, Cloud function. I deployed most of my ETL on kubernetes.",
