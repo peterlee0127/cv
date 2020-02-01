@@ -63,14 +63,16 @@ $(document).ready(function(){
     }
   });
 
-var options = {
-  strings: ["Data Engineer"],
-  typeSpeed: 50,
-  loop:true,
-  showCursor:false,
-  fadeOut: true,
+function showTypedText() {
+  var options = {
+    strings: ["Data Architect"],
+    typeSpeed: 50,
+    loop:true,
+    showCursor:false,
+    fadeOut: true,
+  }
+  var typed = new Typed(".typed-about", options);
 }
-// var typed = new Typed(".typed-about", options);
 
 checkAnimation();
   $(window).scroll(function(){
