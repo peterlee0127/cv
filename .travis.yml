@@ -6,12 +6,12 @@ before_install:
 - rvm install 2.6.1
 
 before_script:
-- npm install
+- gem install bundler:2.0.1
 - chmod +x ./build.sh # or do this locally and commit
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: npm run build && ./build.sh
+script: yarn run build && ./build.sh
 
 # branch whitelist, only for GitHub Pages
 #branches:
