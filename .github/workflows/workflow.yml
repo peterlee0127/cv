@@ -18,7 +18,7 @@ jobs:
     - name: Install rvm
       run: sudo apt-get install software-properties-common -y && sudo apt-add-repository -y ppa:rael-gc/rvm  && sudo apt-get update && sudo apt-get install rvm 
     - name: add rvm
-      run: echo 'source "/etc/profile.d/rvm.sh"' >>  ~/.bashrc && rvm install 2.6.1 && gem install bundler
+      run: curl -sSL https://get.rvm.io | bash -s stable --ruby && rvm install 2.6.1 && gem install bundler
     - name: Set build script
       run: chmod +x ./build.sh
     - name: Build code
