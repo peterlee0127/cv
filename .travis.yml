@@ -4,15 +4,17 @@ node_js:
 
 before_install:
 - rvm install 2.6.1
+- curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+- echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+- sudo apt update && sudo apt install yarn
 
 before_script:
-- gem install bundler:2.0.1
+- yarn install
 - chmod +x ./build.sh # or do this locally and commit
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: yarn run build && ./build.sh
-
+script: ./build.sh
 # branch whitelist, only for GitHub Pages
 #branches:
 #  only:
