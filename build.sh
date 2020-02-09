@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-yarn install
+yarn run build
 bundle install
 JEKYLL_ENV=production bundle exec jekyll build
 #bundle exec htmlproofer ./_site --disable-external
-yarn run build

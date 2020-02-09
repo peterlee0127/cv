@@ -12,3 +12,4 @@ assets/css/bundle.css.map
 assets/js/bundle.js
 assets/dist/*
 .jekyll-cache/*
+*.lock
