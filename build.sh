@@ -5,3 +5,4 @@ yarn install
 bundle install
 JEKYLL_ENV=production bundle exec jekyll build
 #bundle exec htmlproofer ./_site --disable-external
+yarn run build
