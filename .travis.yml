@@ -9,6 +9,7 @@ before_install:
 - sudo apt update && sudo apt install yarn
 
 before_script:
+- gem install bundler:2.0.1
 - yarn install
 - chmod +x ./build.sh # or do this locally and commit
 
