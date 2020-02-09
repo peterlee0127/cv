@@ -36,8 +36,14 @@ function setHeight(element) {
 $(document).ready(function(){
   rwd();
   $('.materialboxed').materialbox();
+  if(navigator.userAgent.indexOf("Chrome") != -1 ) {
+    let options = {
+      scrollOffset: 0
+    }
+    $('.scrollspy').scrollSpy(options);
+  }
   $('.sidenav').sidenav();
-  $('.scrollspy').scrollSpy();
+
   $('.collapsible').collapsible();
   $('.modal').modal({
     dismissible: true,
