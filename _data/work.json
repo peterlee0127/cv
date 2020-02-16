@@ -22,10 +22,11 @@
       "position":"Data Engineer (Architect)",
       "web":"<a href='https://www.vpon.com' target='_blank'>Vpon</a>",
       "p":[
-          "1: Data migration: I help data team to transfer exist project from AWS to GCP. For example: Migrate ETL pipeline from AWS to GCP. Moving our Gitlab from AWS to GCP (Gitlab CI/CD). Transfer data from Hive and S3 to GCP",
-          "2: Infrastructure: Before I joined Vpon, I use self-hosted private cloud(Besed on Apache Mesos). In Vpon, I learn to use Google Cloud Platform. Especilly, GKE(Google Kubernetes Engine), BigQuery, Cloud Function, GCE and Istio on Kubernetes",
+          "In data team: I design new system infra with new stack. Like Kubernetes with Istio and Serverless.",
+          "1: Data migration: I help data team to transfer exist project from AWS to GCP. Example: Migrate ETL pipeline from AWS to GCP. Moving our Gitlab from AWS to GCP (Gitlab CI/CD). Transfer data from Hive and S3 to GCP",
+          "2: Infrastructure: Before I joined Vpon, I use self-hosted private cloud(Besed on Apache Mesos). In Vpon, I learn to use Google Cloud Platform. Especilly, GKE(Google Kubernetes Engine), BigQuery, Cloud Function, GCE and Kubernetes with Istio",
           "3: CI/CD: Design the CI/CD pipeline for our project. Our pipeline can Build Docker Image and Do Unit Test automatically. And these image will deploy on our Kubernetes cluster",
-          "4: ETL pipeline: Our daily cronjob on Jenkins, Kubernetes and Cloud function. I deployed most of my ETL on kubernetes with monitor.",
+          "4: ETL pipeline: Our daily cronjob on Jenkins, Kubernetes and Cloud function. I deployed most of my ETL on Kubernetes.",
           "5: Elastic Stack: About processing 1 million record data every day. It can validate data and watch our report in real-time."
       ]
     },
