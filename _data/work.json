@@ -2,7 +2,7 @@
   "skills": [
     {
       "title":"Data",
-      "p":[ "Kubernetes","Elasticsearch","Spark","Kafka","Google Cloud platform"]
+      "p":[ "Kubernetes","Elasticsearch","Spark","Kafka", "Airflow"]
     },
     {
       "title":"Backend/Web",
@@ -10,7 +10,7 @@
     },
     {
       "title":"General",
-      "p":["Python","Git","Shell","Jenkins","Docker","iOS(Swift)"]
+      "p":["Python","Git", "Google Cloud platform", "Jenkins","Docker","iOS(Swift)"]
     }
   ]
   ,"work":[
