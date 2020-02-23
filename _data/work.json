@@ -22,7 +22,7 @@
       "position":"Data Engineer (Architect)",
       "web":"<a href='https://www.vpon.com' target='_blank'>Vpon</a>",
       "p":[
-          "In data team: I design new system infra with a new stack. I also help our member to solve their daily problems. Like Kubernetes with Istio and Serverless.",
+          "In data team: I design new system infra with a new stack. I also help our member to solve their daily problems.",
           "1: Data migration: I help the data team to transfer existing projects from AWS to GCP. Example: Migrate the ETL pipeline from AWS to GCP. Moving our Gitlab from AWS to GCP (Gitlab CI/CD). Transfer data from Hive and S3 to GCP",
           "2: Infrastructure: We use Google Cloud Platform and Amazon Web Service. I designed the architecture of our system. Like the Gitlab CI/CD, ETL flow, Data processing pipeline. For example GKE(Google Kubernetes Engine) with Istio, BigQuery, Cloud Function, and GCE.",
           "3: CI/CD: Design CI/CD pipeline for our project. Our pipeline Build Docker Image, do Unit Test, then deploy to Container Registry. And these image will deploy on our Kubernetes cluster",
