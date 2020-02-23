@@ -2,6 +2,7 @@
  <h4>Selected Projects</h4>
    <div class="row">
    {% for project in site.data.project %}
+   {% if project.disable != "true" %}
      <div class="col s12 m6 l4">
       <div class="project card">
         <div class="card-image" style="background-image: url({{project.image}}); background-size: contain; background-position: center; background-repeat: no-repeat;">
@@ -12,7 +13,7 @@
             <p class="light" style='text-align:left;'>{{p}}</p>
           {% endfor %}
         </div>
-        <div class="card-action">
+        <div class="card-action"> 
           {% if project.github %}
             <a class="waves-effect waves-light" target='_blank' href="{{project.github}}">Github</a>
           {% else %}
@@ -22,6 +23,7 @@
         </div>
       </div>
   </div>
+  {% endif %}
   {% endfor %}
   </div>
 

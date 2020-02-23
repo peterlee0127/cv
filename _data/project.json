@@ -16,6 +16,7 @@
       Bot also linked with Line Beacon, it sends greeting message to us when we entering PDIS office."
     ],
     "url":"pdisbot",
+    "disable":"true"
   },
   {
     "title": "EWS-Calendar",
@@ -24,6 +25,7 @@
       "EWS-Calendar sync Microsoft Exchange Data to Google. It also generated API server for our <a target='_blank' href='https://au.pdis.tw'>Reservation system</a> and <a target='_blank' href='http://silofficehour.pdis.tw'>Calendar</a>",
     ],
     "url":"ewscalendar",
+    "disable":"true"
   },
   {
     "title": "RealTimeSubtitle",
@@ -51,6 +53,7 @@
       "Binding with Node.js Homekit"
     ],
     "url":"homekit",
+    "disable":"true"
   }
 
 ]
