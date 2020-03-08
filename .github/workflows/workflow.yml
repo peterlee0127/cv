@@ -22,4 +22,4 @@ jobs:
     - name: Set build script
       run: chmod +x ./build.sh
     - name: Build code
-      run: ./build.sh
+      run:  source /home/runner/.rvm/scripts/rvm && ./build.sh
