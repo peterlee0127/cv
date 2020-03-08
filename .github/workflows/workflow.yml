@@ -16,9 +16,9 @@ jobs:
     - name: Install Dependencies
       run: npm install
     - name: Install rvm
-      run: sudo apt-get install software-properties-common -y && sudo apt-add-repository -y ppa:rael-gc/rvm  && sudo apt-get update && sudo apt-get install rvm 
+      run: gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB 
     - name: add rvm
-      run:  rvmsudo && sudo rvm install 2.6.1 && sudo gem install bundler
+      run:  curl -sSL https://get.rvm.io | bash -s stable
     - name: Set build script
       run: chmod +x ./build.sh
     - name: Build code
