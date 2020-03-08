@@ -28,7 +28,7 @@
           "3: CI/CD: Design CI/CD pipeline for our project. Our pipeline Build Docker Image, do Unit Test, then deploy to Container Registry. And these image will deploy on our Kubernetes cluster",
           "4: Data tagging service: A high customize tagging service, it processes our data with many kinds of the tag. It provides a view of people interests, language, age, gender and so on",
           "5: ETL pipeline: Our daily cronjob to process many kinds of data. Like the data exchange with our partners. I deployed jobs on Apache Airflow.",
-          "6: Elastic Stack:  Processing 1 million record data every day. It can validate data and watch our report in real-time."
+          "6: Elastic Stack: Processing millions record data every day. It can validate data and watch our report in real-time."
       ]
     },
     {
@@ -46,7 +46,6 @@
           "1: As a software developer: I use Line BOT API to connect our internal systems to make an easy-to-use app to help our colleagues saving their time. I also designed API interfaces to allow other internal systems to hook up with our bot system.Up to now, it already bridged across our meeting reserve system and electronic bulletin board system.",
           "2: About productive and quality: I designed a software that can display real-time subtitle during streaming. To meet the schedule, I took only one week to make it from idea to prototype. This system now works perfectly in all of our video conferences.",
           "3: As a quick learner and contributor: I involved in many open source projects. Like Sandstorm(A open source private cloud with the container), Rocket.Chat(A open source chat app which like Slack). We have fixed many issues and add lots of features, and giving back to the community.",
-
           "4: Eager to learn everything: when I have free time, I like to think about how to make the system more efficient. I still find more possibility to improve the current system. Like the subtitle display system, I would like to let some part of the system can automatically work. Let the computer can label the people with their name in real-time and display the information on the subtitle. On the road of development, I fixed various issues and bugs of Tensorflow. NVIDIA give me an award as the outstanding community developer in this April."
       ],
       "more":""
