@@ -23,3 +23,16 @@ jobs:
       run: chmod +x ./build.sh
     - name: Build code
       run:  source /home/runner/.rvm/scripts/rvm && ./build.sh
+    - name: Commit files
+      run: |
+        cd $PUBLISH_DIR
+        git init
+        git config --local user.name $USER_NAME
+        git config --local user.email $USER_EMAIL
+        git status
+        git remote add origin https://$DEPLOY_KEY@github.com/$GITHUB_REPOSITORY.git
+        git checkout -b gh-pages
+        git add --all
+        git commit -m "deploy to Github pages"
+        git push origin gh-pages -f
+        echo 🤘 deploy gh-pages complete.
