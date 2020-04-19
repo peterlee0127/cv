@@ -4,9 +4,12 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
+    env:
+      DEPLOY_KEY   : ${{secrets.DEPLOY_KEY}}
+      USER_NAME   : peterlee 
+      USER_EMAIL  : peterlee0127@gmail.com
+      PUBLISH_DIR : ./dist
     steps:
     - uses: actions/checkout@v1
     - name: Setup Node
