@@ -22,13 +22,12 @@
       "position":"Data Engineer (Architect)",
       "web":"<a href='https://www.vpon.com' target='_blank'>Vpon</a>",
       "p":[
-          "In data team: I design new system infra with a new stack. I also help our member to solve their daily problems.",
-          "1: Data migration: I help the data team to transfer existing projects from AWS to GCP. Example: Migrate the ETL pipeline from AWS to GCP. Moving our Gitlab from AWS to GCP (Gitlab CI/CD). Transfer data from Hive and S3 to GCP",
-          "2: Infrastructure: We use Google Cloud Platform and Amazon Web Service. I designed the architecture of our system. Like the Gitlab CI/CD, ETL flow, Data processing pipeline. For example GKE(Google Kubernetes Engine) with Istio, BigQuery, Cloud Function, and GCE.",
-          "3: CI/CD: Design CI/CD pipeline for our project. Our pipeline Build Docker Image, do Unit Test, then deploy to Container Registry. And these image will deploy on our Kubernetes cluster",
-          "4: Data tagging service: A high customize tagging service, it processes our data with many kinds of the tag. It provides a view of people interests, language, age, gender and so on",
-          "5: ETL pipeline: Our daily cronjob to process many kinds of data. Like the data exchange with our partners. I deployed jobs on Apache Airflow.",
-          "6: Elastic Stack: Processing millions record data every day. It can validate data and watch our report in real-time."
+          "1: Data migration: Transfer existing projects and migrate the ETL pipeline from AWS to GCP. Set up a Gitlab server in GCP. Transfer data from Hive and S3 to GCP. Implement ETL pipeline for effective and efficient data migration.",
+          "2: Infrastructure: Design the archtectures for Gitlab CI/CD, ETL flow, and data processing pipeline using Google Cloud Platform and Amazon Web Service such as Google Kubernetes Engine with Istio, BigQuery, Cloud Function, and GCE.",
+          "3: CI/CD: Design the complete CI/CD pipeline including building Docker images, conducing unit tests, deploying to Container Registry, and deploying images on the Kubernetes cluster.",
+          "4: Build up a platform for highly customized tagging services. The platfrom gives each individual ID different kinds of tags such as personal interests, language, age, and gender and reports the tagging rate of each tag.",
+          "5: ETL pipeline: Design and deploy ETL pipelines on Apache Airflow, Cloud Functions and Kubernetes  for daily cronjobs of data processing on the platform, data exchange with our partners.",
+          "6: Elastic Stack: Process millions of data records and validate data every day. The report can be observed in real time."
       ]
     },
     {
