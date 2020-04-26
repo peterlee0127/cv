@@ -22,12 +22,24 @@
       "position":"Data Engineer (Architect)",
       "web":"<a href='https://www.vpon.com' target='_blank'>Vpon</a>",
       "p":[
-          "1: Data migration: Transfer existing projects and migrate the ETL pipeline from AWS to GCP. Set up a Gitlab server in GCP. Transfer data from Hive and S3 to GCP. Implement ETL pipeline for effective and efficient data migration.",
-          "2: Infrastructure: Design the archtectures for Gitlab CI/CD, ETL flow, and data processing pipeline using Google Cloud Platform and Amazon Web Service such as Google Kubernetes Engine with Istio, BigQuery, Cloud Function, and GCE.",
-          "3: CI/CD: Design the complete CI/CD pipeline including building Docker images, conducing unit tests, deploying to Container Registry, and deploying images on the Kubernetes cluster.",
-          "4: Build up a platform for highly customized tagging services. The platfrom gives each individual ID different kinds of tags such as personal interests, language, age, and gender and reports the tagging rate of each tag.",
-          "5: ETL pipeline: Design and deploy ETL pipelines on Apache Airflow, Cloud Functions and Kubernetes  for daily cronjobs of data processing on the platform, data exchange with our partners.",
-          "6: Elastic Stack: Process millions of data records and validate data every day. The report can be observed in real time."
+          "In data team, I am responsible for building up data infrastructures and designing pipelines. I have huge passion for learning new knowledge and sharing with members. In addition, I am expert in optimizing the performance of a system by introducing new technology.",
+          "<h5>Data Collection and Exchange:</h5>",
+          "1. Design different algorithms for automatic data exchange with business partners.",
+          "2. Design the backend system for data collection of DMP SDK. The system reduces the time to update data from a day to an hour and achieves a cost reduction of 40% for ETL machines.",
+          "3. Deploy DMP Elastic Stack to validate and visualize data from each new client in real time.",
+          "<h5>Data Architecture</h5>",
+          "1. Introduce the Kubernetes Engine to automate the process of deployment and monitoring, significantly reducing the cost by 75% and the personnel expenses by 20 hours.",
+          "2. Provide advices about architecture design as well as deployment of Kubernetes with Istio, Cloud Function, Airflow, and GCE.",
+          "3. Develop internal bot notification system to provide instant error notifications of ETL states and Health Check Monitor.",
+          "<h5>Data Application</h5>",
+          "1. Build up a platform for highly customized tagging services. The platform gives each individual ID different kinds of tags such as personal interests, language, age, and gender and reports the tagging rate of each tag.",
+          "2. Optimize the pipeline of data update to directly generate files and reports  and achieve a personnel expense reduction from 2 weeks to less than 1 hours.",
+          "3. Replace previous VM/EMR environment for ETL with Apache Airflow and Kubernetes CronJob to make ETL pipeline more flexible and cost-effective.",
+          "<h5>Continuous Integration and Deployment</h5>",
+          "1. Design the complete CI/CD pipeline including building Docker images, deploying to Container Registry, 2-hours deploying images on the Kubernetes cluster, and deploying images on application environment after conducting unit tests.",
+          "2. Build up Jenkins on the GKE and design related architectures to autmatically run ETL pipelines each day.",
+          "<h5>Data Migration</h5>",
+          "Migrate existing projects and the ETL pipeline from AWS to GCP. Transfer data from Hive and S3 to GCP. Set up a Gitlab server in GCP. Build up ETL pipelines for effective and efficient data migration, which is very important for team members to access the latest data on GCP."
       ]
     },
     {
