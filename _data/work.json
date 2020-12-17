@@ -29,7 +29,7 @@
           "3. Deploy DMP Elastic Stack to validate and visualize data from each new client in real time.",
           "<h5>Data Architecture</h5>",
           "1. Introduce the Kubernetes Engine to automate the process of deployment and monitoring, significantly reducing the cost by 75% and the personnel expenses by 20 hours.",
-          "2. Provide advices about architecture design as well as deployment of Kubernetes with Istio, Cloud Function, Airflow, and GCE.",
+          "2. Provide advices about architecture design as well as deployment of Kubernetes with Istio, Cloud Function, Apache Airflow, and Compute Engine.",
           "3. Develop internal bot notification system to provide instant error notifications of ETL states and Health Check Monitor.",
           "<h5>Data Application</h5>",
           "1. Build up a platform for highly customized tagging services. The platform gives each individual ID different kinds of tags such as personal interests, language, age, and gender and reports the tagging rate of each tag.",
