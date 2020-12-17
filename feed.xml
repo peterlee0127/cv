@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-12-17T04:19:13+00:00</updated><id>/feed.xml</id><title type="html">Peter Lee</title><subtitle>Peter Lee website</subtitle><entry><title type="html">ania</title><link href="/aina" rel="alternate" type="text/html" title="ania" /><published>2018-04-30T12:37:41+00:00</published><updated>2018-04-30T12:37:41+00:00</updated><id>/aina</id><content type="html" xml:base="/aina">&lt;h5 id=&quot;implementation-of-lambda-architecture-a-restaurant-recommender-system-over-apache-mesos&quot;&gt;Implementation of Lambda Architecture: A Restaurant Recommender System over Apache Mesos&lt;/h5&gt;
+&lt;h6 id=&quot;advanced-information-networking-and-applications-aina&quot;&gt;Advanced Information Networking and Applications (AINA)&lt;/h6&gt;
+&lt;h6 id=&quot;2017-ieee-31st-international-conference&quot;&gt;2017 IEEE 31st International Conference&lt;/h6&gt;
+&lt;h6 id=&quot;a-lambda-architecture-at-dcos-using-spark-spark-streaming-kafka-hadoop-hdfs&quot;&gt;A Lambda Architecture at DC/OS, using Spark, Spark Streaming, Kafka, Hadoop HDFS.&lt;/h6&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image/publication/aina01.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We use Apache Mesos to manage the cluster automatically instead of manually setting up the cluster, which can allocate cluster resources dynamically and scale up or down easily. Deploying Lambda architecture on Mesos has the advantage of resource sharing and fault tolerance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image/publication/aina02.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is my implementing of Lambda Architecture using these Frameworks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image/publication/aina03.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/image/publication/aina04.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/image/publication/aina05.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I also created an iOS App for recommender system. User rate and comment to the store, these data will save in our server.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image/publication/aina06.jpg&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="publication" /><summary type="html">Implementation of Lambda Architecture: A Restaurant Recommender System over Apache Mesos Advanced Information Networking and Applications (AINA) 2017 IEEE 31st International Conference A Lambda Architecture at DC/OS, using Spark, Spark Streaming, Kafka, Hadoop HDFS.</summary></entry><entry><title type="html">airbox</title><link href="/airbox" rel="alternate" type="text/html" title="airbox" /><published>2018-04-30T12:37:41+00:00</published><updated>2018-04-30T12:37:41+00:00</updated><id>/airbox</id><content type="html" xml:base="/airbox">&lt;h4 id=&quot;airbox&quot;&gt;Airbox&lt;/h4&gt;
+
+&lt;p&gt;An open-source pm2.5 sensor and website&lt;br /&gt;
+Feature:&lt;br /&gt;
+A low cost IoT WiFi/BLE based Airbox with pm1.0, pm2.5, pm10, Temperature and Humidity.&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;sensor&quot;&gt;Sensor&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pm2.5 Sensor(UART): &lt;a href=&quot;http://www.plantower.com/list/?6_1.html&quot;&gt;PMSA003&lt;/a&gt;. 25 USD&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Temperature/Humidity(optional): &lt;a href=&quot;https://www.adafruit.com/product/386&quot;&gt;DHT11&lt;/a&gt; 5 USD or &lt;a href=&quot;https://www.adafruit.com/product/385&quot;&gt;DHT22&lt;/a&gt; 10 USD&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Display(optional): &lt;a href=&quot;http://wiki.seeed.cc/Grove-OLED_Display_0.96inch/&quot;&gt;Seed OLED Display&lt;/a&gt; 15 USD&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;http-api&quot;&gt;HTTP API&lt;/h4&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ curl http://192.168.10.96
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;main-board&quot;&gt;Main Board&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;rededbear.cc&quot;&gt;RedBear Duo&lt;/a&gt; for WiFi/BLE.  25 USD.
+Or any kind of development board.&lt;/p&gt;
+
+&lt;h4 id=&quot;easily-to-display-on-kibana&quot;&gt;Easily to display on Kibana&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/image/project/airbox2.jpg&quot; style=&quot;width:100%;max-width:500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image/project/airbox3.jpg&quot; style=&quot;width:100%;max-width:500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image/project/airbox4.jpg&quot; style=&quot;width:100%;max-width:500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It also provides real-time air quality&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">Airbox</summary></entry><entry><title type="html">EWS-Calendar</title><link href="/ewscalendar" rel="alternate" type="text/html" title="EWS-Calendar" /><published>2018-04-30T12:37:41+00:00</published><updated>2018-04-30T12:37:41+00:00</updated><id>/ewscalendar</id><content type="html" xml:base="/ewscalendar">&lt;h4 id=&quot;ews-calendar&quot;&gt;EWS-Calendar&lt;/h4&gt;
+
+&lt;p&gt;EWS-Calendar syncs our Microsoft Exchange Server Calendar to Google Calendar. For &lt;a target=&quot;_blank&quot; href=&quot;https://au.pdis.tw&quot;&gt;Reservation system&lt;/a&gt; and &lt;a target=&quot;_blank&quot; href=&quot;http://silofficehour.pdis.tw&quot;&gt;Calendar&lt;/a&gt;, we need to get real-time Calendar data.
+It extracted recent Events in Outlook Calendar to two JSON files. Public one generated for other API. Private one only provides PDIS Line Bot to access.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image/project/ews2.jpg&quot; style=&quot;width:100%;max-width:500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image/project/board.jpg&quot; style=&quot;width:100%;max-width:500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The calendar in the Social Innovation Lab&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">EWS-Calendar</summary></entry><entry><title type="html">HomeKit Plugin</title><link href="/homekit" rel="alternate" type="text/html" title="HomeKit Plugin" /><published>2018-04-30T12:37:41+00:00</published><updated>2018-04-30T12:37:41+00:00</updated><id>/homekit</id><content type="html" xml:base="/homekit">&lt;h4 id=&quot;homekit-plugin&quot;&gt;HomeKit Plugin&lt;/h4&gt;
+
+&lt;p&gt;In this sample, I build a plug-in for HomeKit Bridge. Then, I use Siri to control my light.&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe class=&quot;youtube-videox&quot; frameborder=&quot;0&quot; title=&quot;YouTube video player&quot; src=&quot;https://www.youtube.com/embed/4USDlJZbe20?enablejsapi=1&amp;amp;version=3&amp;amp;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><summary type="html">HomeKit Plugin</summary></entry><entry><title type="html">icast</title><link href="/icast" rel="alternate" type="text/html" title="icast" /><published>2018-04-30T12:37:41+00:00</published><updated>2018-04-30T12:37:41+00:00</updated><id>/icast</id><content type="html" xml:base="/icast">&lt;h5 id=&quot;stock-market-analysis-from-twitter-and-news-based-on-streaming-big-data-infrastructure&quot;&gt;Stock market analysis from Twitter and news based on streaming big data infrastructure&lt;/h5&gt;
+&lt;h6 id=&quot;awareness-science-and-technology-icast&quot;&gt;Awareness Science and Technology (iCAST)&lt;/h6&gt;
+&lt;h6 id=&quot;2017-ieee-8th-international-conference&quot;&gt;2017 IEEE 8th International Conference&lt;/h6&gt;
+&lt;h6 id=&quot;real-time-trend-analysis-by-twitter-using-spark-spark-streaming-kafka-classification-data-and-visualize-on-web&quot;&gt;Real-time trend analysis by twitter, using Spark, Spark Streaming, Kafka, Classification Data and Visualize on Web.&lt;/h6&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image/publication/icast01.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/image/publication/icast02.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/image/publication/icast03.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/image/publication/icast04.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/image/publication/icast05.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/image/publication/icast06.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/image/publication/icast07.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/image/publication/icast08.jpg&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="publication" /><summary type="html">Stock market analysis from Twitter and news based on streaming big data infrastructure Awareness Science and Technology (iCAST) 2017 IEEE 8th International Conference Real-time trend analysis by twitter, using Spark, Spark Streaming, Kafka, Classification Data and Visualize on Web.</summary></entry><entry><title type="html">pdisbot</title><link href="/pdisbot" rel="alternate" type="text/html" title="pdisbot" /><published>2018-04-30T12:37:41+00:00</published><updated>2018-04-30T12:37:41+00:00</updated><id>/pdisbot</id><content type="html" xml:base="/pdisbot">&lt;h4 id=&quot;pdis-bot&quot;&gt;PDIS Bot&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image/project/bot.jpg&quot; style=&quot;width:100%;max-width:400px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;PDIS Line Bot provides Audrey Tang’s Calendar to PDIS member. We can type ‘au cal today’, chatbot will return Tang’s schedule.
+Bot also support another format. Like ‘yesterday, next Monday, 5/20’
+The Bot can send a push notification, it sends a message from other services.
+Like a reservation system sends appointment information to PDIS staff.”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image/project/beacon.jpg&quot; style=&quot;width:100%;max-width:500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This bot also linked with Line Beacon(I got this in Line Dev Day 2016). The Bot will send a greeting message to us when we entering PDIS office.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image/project/airbox4.jpg&quot; style=&quot;width:100%;max-width:500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It also provides real-time air data and a screenshot of Kibana in 24 hours.&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">PDIS Bot</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/welcome-to-jekyll" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-04-30T12:37:41+00:00</published><updated>2018-04-30T12:37:41+00:00</updated><id>/welcome-to-jekyll</id><content type="html" xml:base="/welcome-to-jekyll">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
